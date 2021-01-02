@@ -59,7 +59,7 @@ class Line:
                     if line.LineColor != _FindLine: continue;
 
                     inter_node = line.head;
-                    while inter_node.nextStation is not None:
+                    while inter_node is not None:
                         if inter_node.StationLabel == _FindStation:
                             new_node.interchange = inter_node;
                             inter_node.interchange = new_node;
@@ -135,13 +135,37 @@ def findPaths(start, end):
         return paths;
 
     # At different line
-    pass;
+    path = [];
+    interchanges = [];
+    pptr = start;
+    nptr = start.nextStation;
+    pflag = nflag = 1;
+
+    # Find all Interchange Stations at the current Line
+    while pflag or nflag:
+        if pflag:       # Find previous Station
+            if pptr.interchange: interchanges.append(pptr);
+            if pptr.prevStation: pptr = pptr.prevStation;
+            else: pflag = 0;
+
+        if nflag:       # Find next Statio
+            if nptr.interchange: interchanges.append(nptr);
+            if nptr.nextStation: nptr = nptr.nextStation;
+            else: nflag = 0;
 
 
 
-if __name__ == '__main__':``
-    file = "./apidoc/MRT_tw_API.json";  # File path for Linux
-    # file = "../apidoc/MRT_tw_API.json"; # File path for Windows
+    for _ in interchanges:
+        _.toStr();
+
+    return paths;
+
+
+
+
+if __name__ == '__main__':
+    file = "./API/MRT_tw_API.json";  # File path for Linux
+    # file = "../API/MRT_tw_API.json"; # File path for Windows
     with open(file, 'r') as f:
         data = json.load(f);
         constructRoute(data);
@@ -150,19 +174,19 @@ if __name__ == '__main__':``
         line.toStr();
 
         sptr = line.head;
-        while sptr.nextStation is not None:
+        while sptr is not None:
             sptr.toStr();
             sptr = sptr.nextStation;
 
         print();
 
-    # start = getStation(label = 'G12');
-    start = getStation(label = 'BL10');
+    start = getStation(label = 'G12');
+    # start = getStation(label = 'BL10');
     end = getStation(label = 'BL14');
 
     # p = findPaths(start, end);
     p = findPaths(end, start);
-    print(p)
-    for i in p:
-        for j in i:
-            print(j.StationLabel)
+    # print(p)
+    # for i in p:
+    #     for j in i:
+    #         print(j.toStr());

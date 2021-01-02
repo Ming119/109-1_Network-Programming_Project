@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Line>
+        <LineNo>O</LineNo>
+        <LineID>O</LineID>
+        <LineName>
+            <Zh_tw>中和新蘆線</Zh_tw>
+            <En>Zhonghe-Xinlu Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#f5a818</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+    <Line>
+        <LineNo>BR</LineNo>
+        <LineID>BR</LineID>
+        <LineName>
+            <Zh_tw>文湖線</Zh_tw>
+            <En>Wenhu Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#b57a25</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+    <Line>
+        <LineNo>G</LineNo>
+        <LineID>G</LineID>
+        <LineName>
+            <Zh_tw>松山新店線</Zh_tw>
+            <En>Songshan-Xindian Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#107547</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+    <Line>
+        <LineNo>BL</LineNo>
+        <LineID>BL</LineID>
+        <LineName>
+            <Zh_tw>板南線</Zh_tw>
+            <En>Bannan Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#0a59ae</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+    <Line>
+        <LineNo>Y</LineNo>
+        <LineID>Y</LineID>
+        <LineName>
+            <Zh_tw>環狀線</Zh_tw>
+            <En>Circular Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#fedb00</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+    <Line>
+        <LineNo>R</LineNo>
+        <LineID>R</LineID>
+        <LineName>
+            <Zh_tw>淡水信義線</Zh_tw>
+            <En>Tamsui-Xinyi Line</En>
+        </LineName><LineSectionName/>
+        <LineColor>#d90023</LineColor>
+        <IsBranch>false</IsBranch>
+        <SrcUpdateTime>2020-01-31T14:00:00+08:00</SrcUpdateTime>
+        <UpdateTime>2020-05-20T12:00:00+08:00</UpdateTime>
+        <VersionID>2</VersionID>
+    </Line>
+</ArrayOfLine>

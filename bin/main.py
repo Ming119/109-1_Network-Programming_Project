@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import route
 # import api
 
-API_path = './apidoc/MRT_tw_API' # default
+API_path = './API/MRT_tw_API' # default
 
 # def A_Star(departure, destination):
 #     closeSet = 0;
