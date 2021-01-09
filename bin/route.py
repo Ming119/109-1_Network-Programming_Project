@@ -3,89 +3,146 @@
 # This file runs in Python 3
 #
 
-import json
+import json, csv
+import collections
+import heapq
 
-# Extended Doubly Linked List
-class Station:
-    def __init__(self, id, name, label):
-        self.StationId = id;
-        self.StationName = name;
-        self.StationLabel = label;
-        self.prevStation = None;
-        self.nextStation = None;
-        self.interchange = None;    # For Branch Line or Interchage Station
-
-    # For Testing
-    def toStr(self):
-        print("*** %s - %s ***" %(self.StationLabel, self.StationName), end = "");
-        if self.interchange is not None:
-            print(" Link to %s - %s" %(self.interchange.StationLabel, self.interchange.StationName));
-        else: print()
-
-class Line:
-    def __init__(self, id, name, color):
-        self.LineId = id;
-        self.LineName = name;
-        self.LineColor = color;
-        self.head = None;
-        self.tail = None;
-
-    def insert(self, data):
-        new_node = Station(data['SID'], data['StationName'], data['StationLabel']);     #StationId, StationName
-
-        # First Node
-        if self.head is None: self.head = self.tail = new_node;
-
-        # Others
-        else:
-            # Branch Line
-            if data['StationLabel'][-1].isalpha():
-                new_node.interchange = self.tail;
-                self.tail.interchange = new_node;
-
-            # Same Line
-            else:
-                new_node.prevStation = self.tail;
-                self.tail.nextStation = new_node;
-                self.tail = new_node;
-
-            # Interchange Station
-            _StationLabel = data['StationLabelForRoadmap'].split(' ');
-            if len(_StationLabel) == 2:
-                _FindStation = _StationLabel[0] if _StationLabel[1] == data['StationLabel'] else _StationLabel[1];
-                _FindLine = _FindStation[0:2] if _FindStation[1].isalpha() else _FindStation[0];
-
-                for line in existing_line:
-                    if line.LineColor != _FindLine: continue;
-
-                    inter_node = line.head;
-                    while inter_node is not None:
-                        if inter_node.StationLabel == _FindStation:
-                            new_node.interchange = inter_node;
-                            inter_node.interchange = new_node;
-                            break;
-                        inter_node = inter_node.nextStation;
+# Class: Node
+class Node:
+    def __init__(self, lid, sid, lName, sName, field, label):
+        self.lid = lid
+        self.sid = sid;
+        self.lName = lName
+        self.sName = sName;
+        self.field = field;
+        self.label = label;
+        self.interchange = None;
 
     # For Testing
     def toStr(self):
-        print("*** %s - %s ***" %(self.LineId, self.LineName));
+        print("*****\nlid: %s - field: %s - lName: %s\nsid: %s - label: %s - sName: %s\ninterchange: %s\n*****" %(self.lid, self.field, self.lName, self.sid, self.label, self.sName, self.interchange), end = "");
 
 
 
+# Class: Graph
+# Weighted DAG
+class Graph:
+    def __init__(self):
+        self.graph = collections.defaultdict(list);
+
+    def insertEdge(self, node, neighbour, cost):
+        # {node:[(cost,neighbour), ...]}
+        self.graph[node].append((cost, neighbour));
+
+    # Find the Shortest Path
+    def shortestPath(self, _from, _dest):
+        # create a priority queue and hash set to store visited nodes
+        queue = [(0, _from, [])];    # Priority Queue
+        visited = set();
+        heapq.heapify(queue);
+
+        # BFS Traversal
+        while queue:
+            (cost, node, path) = heapq.heappop(queue);
+
+            # visit the node if the node is non-visited
+            if node not in visited:
+                visited.add(node);
+                path = path + [node];
+
+                # Hit the dest
+                if node == _dest: return (cost, path);
+
+                # visit neighbours
+                for c, neighbour in graph[node]:
+                    if neightbour not in visited:
+                        heapq.heappush(queue, (cost+c, neighbour, path));
+
+        # Path Not Found
+        return int("inf");
+
+    # For Testing
+    def toStr(self):
+        for e in self.graph:
+            print(e);
 
 
-# Construct Route from JSON
-# Input a JSON format data
-# Return a list with class "Line"
-existing_line = [];
-def constructRoute(data):
-    for line in data:
-        new_line = Line(line['LineID'], line['LineName'], line['LineField']);
-        for station in line['LineStations']:
-            new_line.insert(station);
+# Function: arrangeData()
+def arrangeData():
+    all_stations = {};
 
-        existing_line.append(new_line);
-    return existing_line
+    with open('./API/MRT_tw_API.json', 'r') as f:
+        routeData = json.load(f);
+
+        for line in routeData:
+            lid = line['LineID'];
+            field = line['LineField'];
+            lName = line['LineName'];
+
+            if (field not in all_stations): all_stations.update({field: []});
+
+            stations = line['LineStations'];
+            for station in stations:
+                sid = station['SID'];
+                label = station['StationLabel'];
+                sName = station['StationName'];
+
+                node = Node(lid, sid, lName, sName, field, label);
+                all_stations[field].append(node);
+
+                # Interchange Station
+                interchange = station['StationLabelForRoadmap'].split(' ');
+                if (len(interchange) > 1):
+                    interLabel = interchange[0] if interchange[1] == label else interchange[1];
+                    interField = interLabel[0] if interLabel[1].isdigit() else interLabel[0:1];
+                    if (interField in all_stations):
+                        for inter in all_stations[interField]:
+                            if inter.label == interLabel:
+                                inter.interchange = node;
+                                node.interchange = inter;
+                                break;
+
+    return all_stations;
+
+
+# Function: constructRoute()
+def constructRoute():
+    stations = arrangeData();
+    graph = Graph();
+
+    travelTime = 0;
+    with open("./API/MRT_Time_API.csv", 'r', encoding='BIG5') as f:
+        timeData = list(csv.reader(f));
+
+        for key, val in stations.items():
+            for index, row in enumerate(timeData):
+
+                # '台北車站' Needs special treatment
+                if (formNode.sName == '台北車站'):
+                    if (row[1][2:] == '台北車站') and (row[2][2:-1] == neighbour.sName) or \
+                        (row[2][2:] == '台北車站') and (row[1][2:-1] == neighbour.sName):
+
+                        travelTime += (int(row[3]) + int(row[5]));
+                        if travelTime: timeData.pop(index);
+                        break;
+
+                elif (neighbour.sName == '台北車站'):
+                    if (row[1][2:] == '台北車站') and (row[2][2:-1] == formNode.sName) or \
+                        (row[2][2:] == '台北車站') and (row[1][2:-1] == formNode.sName):
+
+                        travelTime += (int(row[3]) + int(row[5]));
+                        if travelTime: timeData.pop(index);
+                        break;
+
+                elif (row[1][2:-1] == formNode.sName) and (row[2][2:-1] == neighbour.sName) or \
+                    (row[1][2:-1] == neighbour.sName) and (row[2][2:-1] == formNode.sName):
+                    travelTime += (int(row[3]) + int(row[5]));
+
+                    if travelTime: timeData.pop(index);
+                    break;
+            if travelTime: graph.insertEdge(formNode, neighbour, travelTime);
+
+    return graph;
 
 
 
@@ -108,85 +165,27 @@ def getStation(id = '', label = ''):
     print(" Error: getStation(), cannot find any matchabe station ")
     return None;
 
-
-
-# Find all possible paths form START to END
-# Input two pointer of class "Station"
-# Return a list with all possible paths
-def findPaths(start, end):
-    _StartLine = start.StationLabel[0:2] if start.StationLabel[1].isalpha() else start.StationLabel[0];
-    _EndLine = end.StationLabel[0:2] if end.StationLabel[1].isalpha() else end.StationLabel[0];
-    _StartStation = int(start.StationLabel[len(_StartLine):]);
-    _EndStation = int(end.StationLabel[len(_EndLine):]);
-
-    # At the same line
-    paths = [];
-    if _StartLine == _EndLine:
-        path = [];
-        ptr = start;
-        while True:
-            if ptr is None: break;
-            path.append(ptr);
-            if ptr.StationLabel == end.StationLabel: break
-
-            ptr = ptr.nextStation if _StartStation < _EndStation else ptr.prevStation;
-
-        paths.append(path);
-        return paths;
-
-    # At different line
-    path = [];
-    interchanges = [];
-    pptr = start;
-    nptr = start.nextStation;
-    pflag = nflag = 1;
-
-    # Find all Interchange Stations at the current Line
-    while pflag or nflag:
-        if pflag:       # Find previous Station
-            if pptr.interchange: interchanges.append(pptr);
-            if pptr.prevStation: pptr = pptr.prevStation;
-            else: pflag = 0;
-
-        if nflag:       # Find next Statio
-            if nptr.interchange: interchanges.append(nptr);
-            if nptr.nextStation: nptr = nptr.nextStation;
-            else: nflag = 0;
-
-
-
-    for _ in interchanges:
-        _.toStr();
-
-    return paths;
-
-
-
-
 if __name__ == '__main__':
-    file = "./API/MRT_tw_API.json";  # File path for Linux
-    # file = "../API/MRT_tw_API.json"; # File path for Windows
-    with open(file, 'r') as f:
-        data = json.load(f);
-        constructRoute(data);
+    stations = arrangeData();
 
-    for line in existing_line:
-        line.toStr();
+    graph = constructRoute();
 
-        sptr = line.head;
-        while sptr is not None:
-            sptr.toStr();
-            sptr = sptr.nextStation;
 
-        print();
-
-    start = getStation(label = 'G12');
-    # start = getStation(label = 'BL10');
-    end = getStation(label = 'BL14');
-
-    # p = findPaths(start, end);
-    p = findPaths(end, start);
-    # print(p)
-    # for i in p:
-    #     for j in i:
-    #         print(j.toStr());
+    # for line in existing_line:
+    #     line.toStr();
+    #
+    #     sptr = line.head;
+    #     while sptr is not None:
+    #         sptr.toStr();
+    #         sptr = sptr.nextStation;
+    #
+    #     print();
+    #
+    # start = getStation(label = 'G12');
+    # # start = getStation(label = 'BL10');
+    # end = getStation(label = 'BL14');
+    #
+    # # print(p)
+    # # for i in p:
+    # #     for j in i:
+    # #         print(j.toStr());

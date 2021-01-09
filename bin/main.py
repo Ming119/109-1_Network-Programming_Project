@@ -13,34 +13,6 @@ import route
 
 API_path = './API/MRT_tw_API' # default
 
-# def A_Star(departure, destination):
-#     closeSet = 0;
-#     openSet = {departure}
-
-
-
-
-
-
-# def evaluateTime(path):
-#     url = 'https://data.taipei/api/getDatasetInfo/downloadResource?id=513e97fe-6a98-4a0d-b7dc-11122c8638d4&rid=c32998fa-c9b2-4324-9016-e19fbe0815f1'
-#     urllib.request.urlretrieve(url, 'MRT_Time_API.csv')
-#
-#     with open('MRT_Time_API.csv', 'r') as csvfile:
-#         csv_reader = csv.reader(csvfile)
-#
-#         for row in csv_reader:
-#             # print(row)
-#             pass
-#
-#
-#
-# def findPaths(departure, destination):
-#     if departure['LineID'] == destination['LineID']:
-#         print([departure['StationLabel'][:-2]+str(i).zfill(2) for i in range(int(departure['StationLabel'][-2:]), int(destination['StationLabel'][-2:])+1)])
-#         return [departure['StationLabel'][:-2]+str(i).zfill(2) for i in range(int(departure['StationLabel'][-2:]), int(destination['StationLabel'][-2:])+1)]
-#
-#
 #
 # def getStation(line):
 #     with open(API_path, 'r', encoding = 'utf8') as jsonfile:
@@ -91,35 +63,42 @@ API_path = './API/MRT_tw_API' # default
 #             if (row[0] == departure and row[1] == destination): return row
 #
 
-# if __name__ == '__main__':
-#     print('\n{:^25}'.format('--- 請選擇語言 ---'))
-#     print('--- Please select language ---')
-#
-#     while True:
-#         lang = int(input('1.中文 | 2.English\n'))
-#         if 0 < lang < 3: break
-#
-#         print('\n{:^30}'.format('*** 輸入錯誤，請重新輸入 ***'))
-#         print('*** Input error, please input again ***')
-#
-#     getAPI('tw' if lang == 1 else 'en')
-#
-#     print('\n{:^50}'.format('--- 請選擇出發地捷運路線 ---'))
-#     print('--- Please select the MRT route from the place of departure ---')
-#     departure = getRoute()
-#
-#     print('\n---{:^50}---'.format('--- 請選擇目的地捷運路線 ---'))
-#     print('--- Please select the MRT route from the place of departure ---')
-#     destination = getRoute()
-#
-#     print(departure)
-#     print(destination)
-#
-#     path = findPaths(departure, destination)
-#     # print(path)
-#     # print(evaluateTime(path))
-#
-#
-#     price = getPrice(departure['StationName'], destination['StationName'])
-#     print('[%s] -> [%s]'%(departure['StationName'], destination['StationName']))
-#     print('全票票價：%s\t敬老、愛心票價：%s'%(price[2], price[3]))
+
+# def printout():
+    # print('\n{:^25}'.format('--- 請選擇語言 ---'))
+    #     print('--- Please select language ---')
+    #
+    #     while True:
+    #         lang = int(input('1.中文 | 2.English\n'))
+    #         if 0 < lang < 3: break
+    #
+    #         print('\n{:^30}'.format('*** 輸入錯誤，請重新輸入 ***'))
+    #         print('*** Input error, please input again ***')
+    #
+    #     getAPI('tw' if lang == 1 else 'en')
+    #
+    #     print('\n{:^50}'.format('--- 請選擇出發地捷運路線 ---'))
+    #     print('--- Please select the MRT route from the place of departure ---')
+    #     departure = getRoute()
+    #
+    #     print('\n---{:^50}---'.format('--- 請選擇目的地捷運路線 ---'))
+    #     print('--- Please select the MRT route from the place of departure ---')
+    #     destination = getRoute()
+    #
+    #     print(departure)
+    #     print(destination)
+    #
+    #     path = findPaths(departure, destination)
+    #     # print(path)
+    #     # print(evaluateTime(path))
+    #
+    #
+    #     price = getPrice(departure['StationName'], destination['StationName'])
+    #     print('[%s] -> [%s]'%(departure['StationName'], destination['StationName']))
+    #     print('全票票價：%s\t敬老、愛心票價：%s'%(price[2], price[3]))
+
+
+
+
+if __name__ == '__main__':
+    
