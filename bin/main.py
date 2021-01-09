@@ -1,98 +1,82 @@
-import os
-import os.path
-from os import path
-import time
-import pandas as pd
-import urllib.request
-import xml.etree.ElementTree as ET
-import requests
-from bs4 import BeautifulSoup
-
-import route
-
+# main.py
 #
-def getStation(line):
-    with open(API_path, 'r', encoding = 'utf8') as jsonfile:
-        data = json.load(jsonfile)[int(line)-1]['LineStations']
+# This program runs in Python 3.8
+#
 
-        for i, _ in enumerate(data):
-            print('-%2s\t%s\t%s' %(str(i+1), _['StationLabel'], _['StationName']))
-        print('\n-Q 返回上一頁 Return previous page')
+import csv
 
-        while True:
-            station = input('\n---** 請輸入捷運站編號：')
-            if (station == 'Q'): return getRoute()
-            if 0 < int(station) < len(data)+1:
-                return data[int(station)-1]
-
-            print('---{:^30}---'.format('--- ** 輸入錯誤!!! 請重新輸入!!! ** ---'))
-            print('---** Input error!!! please input again!!! **---')
+import route, api;
 
 
 
-def getRoute():
-    with open(API_path, 'r', encoding = 'utf8') as jsonfile:
-        data = json.load(jsonfile)
+def getStation(stations, lines):
+    print("\n\n\n---** 請輸入捷運路線代號 **---");
+    for i, station in enumerate(stations):
+        print('-%2s\t%s\t%s' %((i+1), station.label, station.sName));
+    print('\n-Q 返回上一頁 Return previous page');
 
-        lines = {}
-        for _ in data:
-            line = _['LineName'].split(' ')
-            lines.update({line[0]: _['LineID']})
-            print('- %s\t%s' %(line[0], line[1]))
+    while True:
+        stationCode = input('\n---** 請輸入捷運站編號：');
+        if (stationCode == 'Q'): return getRoute(lines);
 
-        while True:
-            line = input('\n---** 請輸入捷運路線代號：')
-            if line in lines: return getStation(lines[line])
+        if 0 < int(stationCode) < len(stations)+1:
+            return stations[int(stationCode)-1];
 
-            print('---{:^30}---'.format('---** 輸入錯誤!!! 請重新輸入!!! **---'))
-            print('---** Input error!!! please input again!!! **---')
-
-
-
-def getPrice(departure, destination):
-    url = 'https://data.taipei/api/getDatasetInfo/downloadResource?id=4acb4911-0360-4063-808d-fcee629508b3&rid=893c2f2a-dcfd-407b-b871-394a14105532'
-    urllib.request.urlretrieve(url, './apidoc/MRT_Price_API.csv')
-
-    with open('./apidoc/MRT_Price_API.csv', 'r') as csvfile:
-        csv_reader = csv.reader(csvfile)
-
-        for row in csv_reader:
-            if (row[0] == departure and row[1] == destination): return row
+        print('---{:^30}---'.format('--- ** 輸入錯誤!!! 請重新輸入!!! ** ---'));
+        print('---** Input error!!! please input again!!! **---');
 
 
 
-def printout():
-        print('\n---{:^25}---'.format('---** 請選擇語言 **---'))
-        print('---** Please select language **---')
+def getRoute(lines):
+    for id, field, name in lines:
+        print('- %s\t%s' %(id, name));
 
-
-        getAPI('tw' if lang == 1 else 'en')
-
-        print('\n---{:^50}---'.format('---** 請選擇出發地捷運路線 **---'))
-        print('---** Please select the MRT route from the place of departure **---')
-        departure = getRoute()
-
-        print('\n---{:^50}---'.format('---** 請選擇目的地捷運路線 **---'))
-        print('---** Please select the MRT route from the place of departure **---')
-        destination = getRoute()
-
-        print(departure)
-        print(destination)
-
-        path = findPaths(departure, destination)
-        # print(path)
-        # print(evaluateTime(path))
-
-
-        price = getPrice(departure['StationName'], destination['StationName'])
-        print('[%s] -> [%s]'%(departure['StationName'], destination['StationName']))
-        print('全票票價：$ %s\t \n*敬老、愛心票價：% %s'%(price[2], price[3]))
+    while True:
+        lineCode = input('\n---** 請輸入捷運路線代號：');
+        for id, field, name in lines:
+            if lineCode == id: return getStation(lines[(id, field, name)], lines);
+        else:
+            print('---{:^30}---'.format('---** 輸入錯誤!!! 請重新輸入!!! **---'));
+            print('---** Input error!!! please input again!!! **---');
 
 
 
+def getPrice(start, end):
+    with open('./API/priceAPI.csv', 'r', encoding='BIG5') as f:
+        priceData = csv.reader(f)
+
+        for row in priceData:
+            if (row[0] == start.sName and row[1] == end.sName): return row;
+
+
+
+# main function
 if __name__ == '__main__':
+    print(" ***** 初始化 Initializing ****** ");
+    api.getAllAPI();
+    stations = route.arrangeData();
     graph = route.constructRoute();
+    print(" ***** 初始化完成 Finished ***** ");
 
 
+
+    print('\n---{:^50}---'.format('---** 請選擇出發地捷運路線 **---'))
+    print('---** Please select the MRT route from the place of departure **---')
+    start = getRoute(stations);
+    print('\n出發地：%s - %s' %(start.label, start.sName));
+
+
+    print('\n\n\n---{:^50}---'.format('---** 請選擇目的地捷運路線 **---'))
+    print('---** Please select the MRT route from the place of departure **---')
+    end = getRoute(stations);
+    print('\n目的地：%s - %s' %(end.label, end.sName));
 
     path = route.dijsktra(graph, start, end);
+    price = getPrice(start, end);
+    
+    for i, p in enumerate(path):
+        print("[%s - %s]" %(p[0], p[1]), end = '');
+        if i != len(path)-1: print(" -> ", end = '');
+        else: print();
+
+    print('全票票價：$ %s\t \n*敬老、愛心票價：$ %s' %(price[2], price[3]))

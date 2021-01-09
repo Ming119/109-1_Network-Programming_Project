@@ -1,12 +1,13 @@
 # api.py
 #
-# This file runs in Python 3
+# This program runs in Python 3.8
 #
 
 import time, os
 import json, csv
 import requests
 import urllib.request
+
 
 
 # "https://web.metro.taipei/apis/metrostationapi/menuline"
@@ -63,7 +64,11 @@ def getPriceAPI() -> None:
 
     return path;
 
-
+def getAllAPI() -> None:
+    getRouteAPI()
+    getTravelTimeAPI()
+    getInterchangeTimeAPI()
+    getPriceAPI()
 
 def DEBUG(path):
     print("***** %s *****" %path);

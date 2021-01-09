@@ -1,0 +1,13 @@
+ ***** 初始化 Initializing ****** 
+ ***** 初始化完成 Finished ***** 
+
+---              ---** 請選擇出發地捷運路線 **---              ---
+---** Please select the MRT route from the place of departure **---
+- 1	BR 文湖線
+- 2	R 淡水信義線
+- 3	G 松山新店線
+- 4	O 中和新蘆線
+- 5	BL 板南線
+- 6	Y 環狀線
+
+---** 請輸入捷運路線代號：

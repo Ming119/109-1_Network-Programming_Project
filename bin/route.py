@@ -1,6 +1,6 @@
 # route.py
 #
-# This file runs in Python 3
+# This program runs in Python 3.8
 #
 
 import json, csv
@@ -50,6 +50,8 @@ class Graph:
     def toStr(self):
         for key, val in self.weights.items():
             print("*****\nFrom %s to %s\nTime: %ds\n*****\n" %(key[0], key[1], val));
+        for key, val in self.edges.items():
+            print(key, val);
 
 
 
@@ -57,7 +59,10 @@ class Graph:
 # Find the Shortest Path by the Dijsktra Algorithm
 # Input: a weighted graph (Graph), an initial node (Node), a destination node (Node)
 # Return: the shortest path of from the initial node to the destination node
-def dijsktra(graph, initial, end):
+def dijsktra(graph, start, destination):
+    initial = (start.label, start.sName);
+    end = (destination.label, destination.sName);
+
     # shortest paths is a dict of nodes
     # whose value is a tuple of (previous node, weight)
     shortest_paths = {initial: (None, 0)};
@@ -77,6 +82,8 @@ def dijsktra(graph, initial, end):
                 current_shortest_weight = shortest_paths[next_node][1];
                 if current_shortest_weight > weight:
                     shortest_paths[next_node] = (current_node, weight);
+
+
 
         next_destinations = {node: shortest_paths[node] for node in shortest_paths if node not in visited};
         if not next_destinations:
@@ -112,7 +119,7 @@ def arrangeData():
             field = line['LineField'];
             lName = line['LineName'];
 
-            if (field not in all_stations): all_stations.update({field: []});
+            if ((lid, field, lName) not in all_stations): all_stations.update({(lid, field, lName): []});
 
             stations = line['LineStations'];
             for station in stations:
@@ -121,7 +128,7 @@ def arrangeData():
                 sName = station['StationName'];
 
                 node = Node(lid, sid, lName, sName, field, label);
-                all_stations[field].append(node);
+                all_stations[(lid, field, lName)].append(node);
 
                 # Interchange Station
                 interchange = station['StationLabelForRoadmap'].split(' ');
@@ -160,7 +167,9 @@ def constructRoute():
                         (fromNode.sName in row[2]) and (toNode.sName in row[1]):
 
                         travelTime = (int(row[3]) + int(row[5]));
-                        if travelTime: graph.insertEdge(fromNode.label, toNode.label, travelTime);
+                        # if travelTime: graph.insertEdge(fromNode.label, toNode.label, travelTime);
+                        if travelTime: graph.insertEdge((fromNode.label, fromNode.sName), (toNode.label, toNode.sName), travelTime);
+                        # if travelTime: graph.insertEdge(fromNode, toNode, travelTime);
                         break;
 
             # Interchange
@@ -171,9 +180,13 @@ def constructRoute():
                     for row in timeData:
                         if (fromNode.sName in row[1]):
                             travelTime = int(row[2])*60;
-                            graph.insertEdge(fromNode.label, fromNode.interchange.label, travelTime);
+                            # graph.insertEdge(fromNode.label, fromNode.interchange.label, travelTime);
+                            graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), travelTime);
+                            # graph.insertEdge(fromNode, fromNode.interchange, travelTime);
                             break;
-                        else: graph.insertEdge(fromNode.label, fromNode.interchange.label, 0);
+                        # else: graph.insertEdge(fromNode.label, fromNode.interchange.label, 0);
+                        else: graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), 0);
+                        # else: graph.insertEdge(fromNode, fromNode.interchange, 0);
 
     return graph;
 

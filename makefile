@@ -3,6 +3,9 @@
 run:
 	python3 ./bin/main.py
 
+test_main: mkDEBUG
+	python3 ./bin/main.py < > ./DEBUG/mainDEBUG.txt
+
 test_route: mkDEBUG
 	python3 ./bin/route.py > ./DEBUG/routeDEBUG.txt
 

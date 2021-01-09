@@ -1,4 +1,4 @@
-BR
+('1', 'BR', 'BR 文湖線')
 *****
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 019 - label: BR01 - sName: 動物園
@@ -143,7 +143,7 @@ sid: 031 - label: BR24 - sName: 南港展覽館
 interchange: None
 *****
 
-R
+('2', 'R', 'R 淡水信義線')
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 099 - label: R02 - sName: 象山
@@ -177,13 +177,13 @@ interchange: None
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 134 - label: R07 - sName: 東門
-interchange: <__main__.Node object at 0x7f8f5b476208>
+interchange: None
 *****
 
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 042 - label: R08 - sName: 中正紀念堂
-interchange: <__main__.Node object at 0x7f8f5b473e48>
+interchange: None
 *****
 
 *****
@@ -195,13 +195,13 @@ interchange: None
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 051 - label: R10 - sName: 台北車站
-interchange: <__main__.Node object at 0x7f8f5b476550>
+interchange: None
 *****
 
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 053 - label: R11 - sName: 中山
-interchange: <__main__.Node object at 0x7f8f5b476048>
+interchange: None
 *****
 
 *****
@@ -213,7 +213,7 @@ interchange: None
 *****
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 055 - label: R13 - sName: 民權西路
-interchange: <__main__.Node object at 0x7f8f5b476390>
+interchange: None
 *****
 
 *****
@@ -312,7 +312,7 @@ sid: 071 - label: R28 - sName: 淡水
 interchange: None
 *****
 
-G
+('3', 'G', 'G 松山新店線')
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 033 - label: G01 - sName: 新店
@@ -340,7 +340,7 @@ interchange: None
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 036 - label: G04 - sName: 大坪林
-interchange: <__main__.Node object at 0x7f8f5b476b00>
+interchange: None
 *****
 
 *****
@@ -370,13 +370,13 @@ interchange: None
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 041 - label: G09 - sName: 古亭
-interchange: <__main__.Node object at 0x7f8f5b476278>
+interchange: None
 *****
 
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 042 - label: G10 - sName: 中正紀念堂
-interchange: <__main__.Node object at 0x7f8f5b4737f0>
+interchange: None
 *****
 
 *****
@@ -388,7 +388,7 @@ interchange: None
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 086 - label: G12 - sName: 西門
-interchange: <__main__.Node object at 0x7f8f5b476978>
+interchange: None
 *****
 
 *****
@@ -400,13 +400,13 @@ interchange: None
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 053 - label: G14 - sName: 中山
-interchange: <__main__.Node object at 0x7f8f5b473898>
+interchange: None
 *****
 
 *****
 lid: 3 - field: G - lName: G 松山新店線
 sid: 132 - label: G15 - sName: 松江南京
-interchange: <__main__.Node object at 0x7f8f5b476320>
+interchange: None
 *****
 
 *****
@@ -433,7 +433,7 @@ sid: 111 - label: G19 - sName: 松山
 interchange: None
 *****
 
-O
+('4', 'O', 'O 中和新蘆線')
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 048 - label: O01 - sName: 南勢角
@@ -443,7 +443,7 @@ interchange: None
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 047 - label: O02 - sName: 景安
-interchange: <__main__.Node object at 0x7f8f5b476d30>
+interchange: None
 *****
 
 *****
@@ -461,25 +461,25 @@ interchange: None
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 041 - label: O05 - sName: 古亭
-interchange: <__main__.Node object at 0x7f8f5b473ef0>
+interchange: None
 *****
 
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 134 - label: O06 - sName: 東門
-interchange: <__main__.Node object at 0x7f8f5b4737b8>
+interchange: None
 *****
 
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 089 - label: O07 - sName: 忠孝新生
-interchange: <__main__.Node object at 0x7f8f5b476a20>
+interchange: None
 *****
 
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 132 - label: O08 - sName: 松江南京
-interchange: <__main__.Node object at 0x7f8f5b473f28>
+interchange: None
 *****
 
 *****
@@ -497,7 +497,7 @@ interchange: None
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 055 - label: O11 - sName: 民權西路
-interchange: <__main__.Node object at 0x7f8f5b473978>
+interchange: None
 *****
 
 *****
@@ -533,7 +533,7 @@ interchange: None
 *****
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 123 - label: O17 - sName: 頭前庄
-interchange: <__main__.Node object at 0x7f8f5b476eb8>
+interchange: None
 *****
 
 *****
@@ -590,7 +590,7 @@ sid: 174 - label: O54 - sName: 蘆洲
 interchange: None
 *****
 
-BL
+('5', 'BL', 'BL 板南線')
 *****
 lid: 5 - field: BL - lName: BL 板南線
 sid: 076 - label: BL01 - sName: 頂埔
@@ -654,13 +654,13 @@ interchange: None
 *****
 lid: 5 - field: BL - lName: BL 板南線
 sid: 086 - label: BL11 - sName: 西門
-interchange: <__main__.Node object at 0x7f8f5b473f98>
+interchange: None
 *****
 
 *****
 lid: 5 - field: BL - lName: BL 板南線
 sid: 051 - label: BL12 - sName: 台北車站
-interchange: <__main__.Node object at 0x7f8f5b4738d0>
+interchange: None
 *****
 
 *****
@@ -672,7 +672,7 @@ interchange: None
 *****
 lid: 5 - field: BL - lName: BL 板南線
 sid: 089 - label: BL14 - sName: 忠孝新生
-interchange: <__main__.Node object at 0x7f8f5b4762b0>
+interchange: None
 *****
 
 *****
@@ -729,11 +729,11 @@ sid: 031 - label: BL23 - sName: 南港展覽館
 interchange: None
 *****
 
-Y
+('6', 'Y', 'Y 環狀線')
 *****
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 036 - label: Y07 - sName: 大坪林
-interchange: <__main__.Node object at 0x7f8f5b473dd8>
+interchange: None
 *****
 
 *****
@@ -757,7 +757,7 @@ interchange: None
 *****
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 047 - label: Y11 - sName: 景安
-interchange: <__main__.Node object at 0x7f8f5b4761d0>
+interchange: None
 *****
 
 *****
@@ -799,7 +799,7 @@ interchange: None
 *****
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 123 - label: Y18 - sName: 頭前庄
-interchange: <__main__.Node object at 0x7f8f5b476518>
+interchange: None
 *****
 
 *****
@@ -814,1509 +814,1398 @@ sid: 213 - label: Y20 - sName: 新北產業園區
 interchange: None
 *****
 
-BR01 BR02 92
-BR02 BR03 72
-BR03 BR04 124
-BR04 BR05 131
-BR05 BR06 149
-BR06 BR07 97
-BR07 BR08 147
-BR08 BR09 99
-BR09 BR10 112
-BR10 BR11 116
-BR11 BR12 91
-BR12 BR13 167
-BR13 BR14 197
-BR14 BR15 128
-BR15 BR16 135
-BR16 BR17 90
-BR17 BR18 97
-BR18 BR19 103
-BR19 BR20 96
-BR20 BR21 146
-BR21 BR22 103
-BR22 BR23 110
-BR23 BR24 78
-R02 R03 122
-R03 R04 120
-R04 R05 127
-R05 R06 99
-R06 R07 106
-R07 R08 205
-R08 R09 121
-R09 R10 102
-R10 R11 96
-R11 R12 90
-R12 R13 94
-R13 R14 114
-R14 R15 138
-R15 R16 121
-R16 R17 120
-R17 R18 105
-R18 R19 89
-R19 R20 127
-R20 R21 98
-R21 R22 119
-R22 R22A 157
-R23 R24 137
-R24 R25 105
-R25 R26 173
-R26 R27 163
-R27 R28 175
-G01 G02 136
-G02 G03 105
-G03 G03A 203
-G04 G05 119
-G05 G06 116
-G06 G07 151
-G07 G08 109
-G08 G09 118
-G09 G10 125
-G10 G11 103
-G11 G12 117
-G12 G13 114
-G13 G14 151
-G14 G15 141
-G15 G16 125
-G16 G17 111
-G17 G18 129
-G18 G19 138
-O01 O02 125
-O02 O03 119
-O03 O04 132
-O04 O05 220
-O05 O06 241
-O06 O07 174
-O07 O08 132
-O08 O09 108
-O09 O10 126
-O10 O11 105
-O11 O12 98
-O12 O13 152
-O13 O14 122
-O14 O15 109
-O15 O16 167
-O16 O17 133
-O17 O18 119
-O18 O19 162
-O19 O20 138
-O20 O21 168
-O50 O51 132
-O51 O52 107
-O52 O53 117
-O53 O54 111
-BL01 BL02 208
-BL02 BL03 121
-BL03 BL04 132
-BL04 BL05 168
-BL05 BL06 130
-BL06 BL07 95
-BL07 BL08 135
-BL08 BL09 105
-BL09 BL10 221
-BL10 BL11 145
-BL11 BL12 162
-BL12 BL13 91
-BL13 BL14 121
-BL14 BL15 130
-BL15 BL16 93
-BL16 BL17 99
-BL17 BL18 105
-BL18 BL19 112
-BL19 BL20 105
-BL20 BL21 132
-BL21 BL22 133
-BL22 BL23 112
-Y07 Y08 168
-Y08 Y09 134
-Y09 Y10 104
-Y10 Y11 119
-Y11 Y12 219
-Y12 Y13 129
-Y13 Y14 97
-Y14 Y15 136
-Y15 Y16 193
-Y16 Y17 216
-Y17 Y18 178
-Y18 Y19 118
-Y19 Y20 135
 *****
-From BR01 to BR02
+From <__main__.Node object at 0x7f61422f1ba8> to <__main__.Node object at 0x7f61422f1be0>
 Time: 92s
 *****
 
 *****
-From BR02 to BR01
+From <__main__.Node object at 0x7f61422f1be0> to <__main__.Node object at 0x7f61422f1ba8>
 Time: 92s
 *****
 
 *****
-From BR02 to BR03
+From <__main__.Node object at 0x7f61422f1be0> to <__main__.Node object at 0x7f61422f1c18>
 Time: 72s
 *****
 
 *****
-From BR03 to BR02
+From <__main__.Node object at 0x7f61422f1c18> to <__main__.Node object at 0x7f61422f1be0>
 Time: 72s
 *****
 
 *****
-From BR03 to BR04
+From <__main__.Node object at 0x7f61422f1c18> to <__main__.Node object at 0x7f61422f1c50>
 Time: 124s
 *****
 
 *****
-From BR04 to BR03
+From <__main__.Node object at 0x7f61422f1c50> to <__main__.Node object at 0x7f61422f1c18>
 Time: 124s
 *****
 
 *****
-From BR04 to BR05
+From <__main__.Node object at 0x7f61422f1c50> to <__main__.Node object at 0x7f61422f1c88>
 Time: 131s
 *****
 
 *****
-From BR05 to BR04
+From <__main__.Node object at 0x7f61422f1c88> to <__main__.Node object at 0x7f61422f1c50>
 Time: 131s
 *****
 
 *****
-From BR05 to BR06
+From <__main__.Node object at 0x7f61422f1c88> to <__main__.Node object at 0x7f61422f1cc0>
 Time: 149s
 *****
 
 *****
-From BR06 to BR05
+From <__main__.Node object at 0x7f61422f1cc0> to <__main__.Node object at 0x7f61422f1c88>
 Time: 149s
 *****
 
 *****
-From BR06 to BR07
+From <__main__.Node object at 0x7f61422f1cc0> to <__main__.Node object at 0x7f61422f1cf8>
 Time: 97s
 *****
 
 *****
-From BR07 to BR06
+From <__main__.Node object at 0x7f61422f1cf8> to <__main__.Node object at 0x7f61422f1cc0>
 Time: 97s
 *****
 
 *****
-From BR07 to BR08
+From <__main__.Node object at 0x7f61422f1cf8> to <__main__.Node object at 0x7f61422f1d30>
 Time: 147s
 *****
 
 *****
-From BR08 to BR07
+From <__main__.Node object at 0x7f61422f1d30> to <__main__.Node object at 0x7f61422f1cf8>
 Time: 147s
 *****
 
 *****
-From BR08 to BR09
+From <__main__.Node object at 0x7f61422f1d30> to <__main__.Node object at 0x7f61422f1d68>
 Time: 99s
 *****
 
 *****
-From BR09 to BR08
+From <__main__.Node object at 0x7f61422f1d68> to <__main__.Node object at 0x7f61422f1d30>
 Time: 99s
 *****
 
 *****
-From BR09 to BR10
+From <__main__.Node object at 0x7f61422f1d68> to <__main__.Node object at 0x7f61422f1e10>
 Time: 112s
 *****
 
 *****
-From BR10 to BR09
+From <__main__.Node object at 0x7f61422f1e10> to <__main__.Node object at 0x7f61422f1d68>
 Time: 112s
 *****
 
 *****
-From BR10 to BR11
+From <__main__.Node object at 0x7f61422f1e10> to <__main__.Node object at 0x7f61422f1da0>
 Time: 116s
 *****
 
 *****
-From BR11 to BR10
+From <__main__.Node object at 0x7f61422f1da0> to <__main__.Node object at 0x7f61422f1e10>
 Time: 116s
 *****
 
 *****
-From BR11 to BR12
+From <__main__.Node object at 0x7f61422f1da0> to <__main__.Node object at 0x7f61422f1e48>
 Time: 91s
 *****
 
 *****
-From BR12 to BR11
+From <__main__.Node object at 0x7f61422f1e48> to <__main__.Node object at 0x7f61422f1da0>
 Time: 91s
 *****
 
 *****
-From BR12 to BR13
+From <__main__.Node object at 0x7f61422f1e48> to <__main__.Node object at 0x7f61422f1eb8>
 Time: 167s
 *****
 
 *****
-From BR13 to BR12
+From <__main__.Node object at 0x7f61422f1eb8> to <__main__.Node object at 0x7f61422f1e48>
 Time: 167s
 *****
 
 *****
-From BR13 to BR14
+From <__main__.Node object at 0x7f61422f1eb8> to <__main__.Node object at 0x7f61422f1e80>
 Time: 197s
 *****
 
 *****
-From BR14 to BR13
+From <__main__.Node object at 0x7f61422f1e80> to <__main__.Node object at 0x7f61422f1eb8>
 Time: 197s
 *****
 
 *****
-From BR14 to BR15
+From <__main__.Node object at 0x7f61422f1e80> to <__main__.Node object at 0x7f61422f1ef0>
 Time: 128s
 *****
 
 *****
-From BR15 to BR14
+From <__main__.Node object at 0x7f61422f1ef0> to <__main__.Node object at 0x7f61422f1e80>
 Time: 128s
 *****
 
 *****
-From BR15 to BR16
+From <__main__.Node object at 0x7f61422f1ef0> to <__main__.Node object at 0x7f61422f1f28>
 Time: 135s
 *****
 
 *****
-From BR16 to BR15
+From <__main__.Node object at 0x7f61422f1f28> to <__main__.Node object at 0x7f61422f1ef0>
 Time: 135s
 *****
 
 *****
-From BR16 to BR17
+From <__main__.Node object at 0x7f61422f1f28> to <__main__.Node object at 0x7f61422f1f60>
 Time: 90s
 *****
 
 *****
-From BR17 to BR16
+From <__main__.Node object at 0x7f61422f1f60> to <__main__.Node object at 0x7f61422f1f28>
 Time: 90s
 *****
 
 *****
-From BR17 to BR18
+From <__main__.Node object at 0x7f61422f1f60> to <__main__.Node object at 0x7f61422f1f98>
 Time: 97s
 *****
 
 *****
-From BR18 to BR17
+From <__main__.Node object at 0x7f61422f1f98> to <__main__.Node object at 0x7f61422f1f60>
 Time: 97s
 *****
 
 *****
-From BR18 to BR19
+From <__main__.Node object at 0x7f61422f1f98> to <__main__.Node object at 0x7f61422f1fd0>
 Time: 103s
 *****
 
 *****
-From BR19 to BR18
+From <__main__.Node object at 0x7f61422f1fd0> to <__main__.Node object at 0x7f61422f1f98>
 Time: 103s
 *****
 
 *****
-From BR19 to BR20
+From <__main__.Node object at 0x7f61422f1fd0> to <__main__.Node object at 0x7f61422f4048>
 Time: 96s
 *****
 
 *****
-From BR20 to BR19
+From <__main__.Node object at 0x7f61422f4048> to <__main__.Node object at 0x7f61422f1fd0>
 Time: 96s
 *****
 
 *****
-From BR20 to BR21
+From <__main__.Node object at 0x7f61422f4048> to <__main__.Node object at 0x7f61422f4080>
 Time: 146s
 *****
 
 *****
-From BR21 to BR20
+From <__main__.Node object at 0x7f61422f4080> to <__main__.Node object at 0x7f61422f4048>
 Time: 146s
 *****
 
 *****
-From BR21 to BR22
+From <__main__.Node object at 0x7f61422f4080> to <__main__.Node object at 0x7f61422f40b8>
 Time: 103s
 *****
 
 *****
-From BR22 to BR21
+From <__main__.Node object at 0x7f61422f40b8> to <__main__.Node object at 0x7f61422f4080>
 Time: 103s
 *****
 
 *****
-From BR22 to BR23
+From <__main__.Node object at 0x7f61422f40b8> to <__main__.Node object at 0x7f61422f40f0>
 Time: 110s
 *****
 
 *****
-From BR23 to BR22
+From <__main__.Node object at 0x7f61422f40f0> to <__main__.Node object at 0x7f61422f40b8>
 Time: 110s
 *****
 
 *****
-From BR23 to BR24
+From <__main__.Node object at 0x7f61422f40f0> to <__main__.Node object at 0x7f61422f4128>
 Time: 78s
 *****
 
 *****
-From BR24 to BR23
+From <__main__.Node object at 0x7f61422f4128> to <__main__.Node object at 0x7f61422f40f0>
 Time: 78s
 *****
 
 *****
-From R02 to R03
+From <__main__.Node object at 0x7f61422f1dd8> to <__main__.Node object at 0x7f61422f4198>
 Time: 122s
 *****
 
 *****
-From R03 to R02
+From <__main__.Node object at 0x7f61422f4198> to <__main__.Node object at 0x7f61422f1dd8>
 Time: 122s
 *****
 
 *****
-From R03 to R04
+From <__main__.Node object at 0x7f61422f4198> to <__main__.Node object at 0x7f61422f41d0>
 Time: 120s
 *****
 
 *****
-From R04 to R03
+From <__main__.Node object at 0x7f61422f41d0> to <__main__.Node object at 0x7f61422f4198>
 Time: 120s
 *****
 
 *****
-From R04 to R05
+From <__main__.Node object at 0x7f61422f41d0> to <__main__.Node object at 0x7f61422f4208>
 Time: 127s
 *****
 
 *****
-From R05 to R04
+From <__main__.Node object at 0x7f61422f4208> to <__main__.Node object at 0x7f61422f41d0>
 Time: 127s
 *****
 
 *****
-From R05 to R06
+From <__main__.Node object at 0x7f61422f4208> to <__main__.Node object at 0x7f61422f4160>
 Time: 99s
 *****
 
 *****
-From R06 to R05
+From <__main__.Node object at 0x7f61422f4160> to <__main__.Node object at 0x7f61422f4208>
 Time: 99s
 *****
 
 *****
-From R06 to R07
+From <__main__.Node object at 0x7f61422f4160> to <__main__.Node object at 0x7f61422f4240>
 Time: 106s
 *****
 
 *****
-From R07 to R06
+From <__main__.Node object at 0x7f61422f4240> to <__main__.Node object at 0x7f61422f4160>
 Time: 106s
 *****
 
 *****
-From R07 to R08
+From <__main__.Node object at 0x7f61422f4240> to <__main__.Node object at 0x7f61422f4278>
 Time: 205s
 *****
 
 *****
-From R08 to R07
+From <__main__.Node object at 0x7f61422f4278> to <__main__.Node object at 0x7f61422f4240>
 Time: 205s
 *****
 
 *****
-From R07 to O06
-Time: 120s
-*****
-
-*****
-From O06 to R07
-Time: 120s
-*****
-
-*****
-From R08 to R09
+From <__main__.Node object at 0x7f61422f4278> to <__main__.Node object at 0x7f61422f42e8>
 Time: 121s
 *****
 
 *****
-From R09 to R08
+From <__main__.Node object at 0x7f61422f42e8> to <__main__.Node object at 0x7f61422f4278>
 Time: 121s
 *****
 
 *****
-From R08 to G10
-Time: 120s
-*****
-
-*****
-From G10 to R08
-Time: 120s
-*****
-
-*****
-From R09 to R10
+From <__main__.Node object at 0x7f61422f42e8> to <__main__.Node object at 0x7f61422f4358>
 Time: 102s
 *****
 
 *****
-From R10 to R09
+From <__main__.Node object at 0x7f61422f4358> to <__main__.Node object at 0x7f61422f42e8>
 Time: 102s
 *****
 
 *****
-From R10 to R11
+From <__main__.Node object at 0x7f61422f4358> to <__main__.Node object at 0x7f61422f4320>
 Time: 96s
 *****
 
 *****
-From R11 to R10
+From <__main__.Node object at 0x7f61422f4320> to <__main__.Node object at 0x7f61422f4358>
 Time: 96s
 *****
 
 *****
-From R10 to BL12
-Time: 240s
-*****
-
-*****
-From BL12 to R10
-Time: 240s
-*****
-
-*****
-From R11 to R12
+From <__main__.Node object at 0x7f61422f4320> to <__main__.Node object at 0x7f61422f42b0>
 Time: 90s
 *****
 
 *****
-From R12 to R11
+From <__main__.Node object at 0x7f61422f42b0> to <__main__.Node object at 0x7f61422f4320>
 Time: 90s
 *****
 
 *****
-From R11 to G14
-Time: 180s
-*****
-
-*****
-From G14 to R11
-Time: 180s
-*****
-
-*****
-From R12 to R13
+From <__main__.Node object at 0x7f61422f42b0> to <__main__.Node object at 0x7f61422f4400>
 Time: 94s
 *****
 
 *****
-From R13 to R12
+From <__main__.Node object at 0x7f61422f4400> to <__main__.Node object at 0x7f61422f42b0>
 Time: 94s
 *****
 
 *****
-From R13 to R14
+From <__main__.Node object at 0x7f61422f4400> to <__main__.Node object at 0x7f61422f43c8>
 Time: 114s
 *****
 
 *****
-From R14 to R13
+From <__main__.Node object at 0x7f61422f43c8> to <__main__.Node object at 0x7f61422f4400>
 Time: 114s
 *****
 
 *****
-From R13 to O11
-Time: 180s
-*****
-
-*****
-From O11 to R13
-Time: 180s
-*****
-
-*****
-From R14 to R15
+From <__main__.Node object at 0x7f61422f43c8> to <__main__.Node object at 0x7f61422f4438>
 Time: 138s
 *****
 
 *****
-From R15 to R14
+From <__main__.Node object at 0x7f61422f4438> to <__main__.Node object at 0x7f61422f43c8>
 Time: 138s
 *****
 
 *****
-From R15 to R16
+From <__main__.Node object at 0x7f61422f4438> to <__main__.Node object at 0x7f61422f4470>
 Time: 121s
 *****
 
 *****
-From R16 to R15
+From <__main__.Node object at 0x7f61422f4470> to <__main__.Node object at 0x7f61422f4438>
 Time: 121s
 *****
 
 *****
-From R16 to R17
+From <__main__.Node object at 0x7f61422f4470> to <__main__.Node object at 0x7f61422f44a8>
 Time: 120s
 *****
 
 *****
-From R17 to R16
+From <__main__.Node object at 0x7f61422f44a8> to <__main__.Node object at 0x7f61422f4470>
 Time: 120s
 *****
 
 *****
-From R17 to R18
+From <__main__.Node object at 0x7f61422f44a8> to <__main__.Node object at 0x7f61422f44e0>
 Time: 105s
 *****
 
 *****
-From R18 to R17
+From <__main__.Node object at 0x7f61422f44e0> to <__main__.Node object at 0x7f61422f44a8>
 Time: 105s
 *****
 
 *****
-From R18 to R19
+From <__main__.Node object at 0x7f61422f44e0> to <__main__.Node object at 0x7f61422f4518>
 Time: 89s
 *****
 
 *****
-From R19 to R18
+From <__main__.Node object at 0x7f61422f4518> to <__main__.Node object at 0x7f61422f44e0>
 Time: 89s
 *****
 
 *****
-From R19 to R20
+From <__main__.Node object at 0x7f61422f4518> to <__main__.Node object at 0x7f61422f4550>
 Time: 127s
 *****
 
 *****
-From R20 to R19
+From <__main__.Node object at 0x7f61422f4550> to <__main__.Node object at 0x7f61422f4518>
 Time: 127s
 *****
 
 *****
-From R20 to R21
+From <__main__.Node object at 0x7f61422f4550> to <__main__.Node object at 0x7f61422f4588>
 Time: 98s
 *****
 
 *****
-From R21 to R20
+From <__main__.Node object at 0x7f61422f4588> to <__main__.Node object at 0x7f61422f4550>
 Time: 98s
 *****
 
 *****
-From R21 to R22
+From <__main__.Node object at 0x7f61422f4588> to <__main__.Node object at 0x7f61422f45c0>
 Time: 119s
 *****
 
 *****
-From R22 to R21
+From <__main__.Node object at 0x7f61422f45c0> to <__main__.Node object at 0x7f61422f4588>
 Time: 119s
 *****
 
 *****
-From R22 to R22A
+From <__main__.Node object at 0x7f61422f45c0> to <__main__.Node object at 0x7f61422f45f8>
 Time: 157s
 *****
 
 *****
-From R22A to R22
+From <__main__.Node object at 0x7f61422f45f8> to <__main__.Node object at 0x7f61422f45c0>
 Time: 157s
 *****
 
 *****
-From R23 to R24
+From <__main__.Node object at 0x7f61422f4630> to <__main__.Node object at 0x7f61422f4668>
 Time: 137s
 *****
 
 *****
-From R24 to R23
+From <__main__.Node object at 0x7f61422f4668> to <__main__.Node object at 0x7f61422f4630>
 Time: 137s
 *****
 
 *****
-From R24 to R25
+From <__main__.Node object at 0x7f61422f4668> to <__main__.Node object at 0x7f61422f46a0>
 Time: 105s
 *****
 
 *****
-From R25 to R24
+From <__main__.Node object at 0x7f61422f46a0> to <__main__.Node object at 0x7f61422f4668>
 Time: 105s
 *****
 
 *****
-From R25 to R26
+From <__main__.Node object at 0x7f61422f46a0> to <__main__.Node object at 0x7f61422f46d8>
 Time: 173s
 *****
 
 *****
-From R26 to R25
+From <__main__.Node object at 0x7f61422f46d8> to <__main__.Node object at 0x7f61422f46a0>
 Time: 173s
 *****
 
 *****
-From R26 to R27
+From <__main__.Node object at 0x7f61422f46d8> to <__main__.Node object at 0x7f61422f4710>
 Time: 163s
 *****
 
 *****
-From R27 to R26
+From <__main__.Node object at 0x7f61422f4710> to <__main__.Node object at 0x7f61422f46d8>
 Time: 163s
 *****
 
 *****
-From R27 to R28
+From <__main__.Node object at 0x7f61422f4710> to <__main__.Node object at 0x7f61422f4748>
 Time: 175s
 *****
 
 *****
-From R28 to R27
+From <__main__.Node object at 0x7f61422f4748> to <__main__.Node object at 0x7f61422f4710>
 Time: 175s
 *****
 
 *****
-From G01 to G02
+From <__main__.Node object at 0x7f61422f4780> to <__main__.Node object at 0x7f61422f47b8>
 Time: 136s
 *****
 
 *****
-From G02 to G01
+From <__main__.Node object at 0x7f61422f47b8> to <__main__.Node object at 0x7f61422f4780>
 Time: 136s
 *****
 
 *****
-From G02 to G03
+From <__main__.Node object at 0x7f61422f47b8> to <__main__.Node object at 0x7f61422f47f0>
 Time: 105s
 *****
 
 *****
-From G03 to G02
+From <__main__.Node object at 0x7f61422f47f0> to <__main__.Node object at 0x7f61422f47b8>
 Time: 105s
 *****
 
 *****
-From G03 to G03A
+From <__main__.Node object at 0x7f61422f47f0> to <__main__.Node object at 0x7f61422f4828>
 Time: 203s
 *****
 
 *****
-From G03A to G03
+From <__main__.Node object at 0x7f61422f4828> to <__main__.Node object at 0x7f61422f47f0>
 Time: 203s
 *****
 
 *****
-From G04 to G05
+From <__main__.Node object at 0x7f61422f4860> to <__main__.Node object at 0x7f61422f4390>
 Time: 119s
 *****
 
 *****
-From G05 to G04
+From <__main__.Node object at 0x7f61422f4390> to <__main__.Node object at 0x7f61422f4860>
 Time: 119s
 *****
 
 *****
-From G04 to Y07
-Time: 0s
-*****
-
-*****
-From Y07 to G04
-Time: 0s
-*****
-
-*****
-From G05 to G06
+From <__main__.Node object at 0x7f61422f4390> to <__main__.Node object at 0x7f61422f4898>
 Time: 116s
 *****
 
 *****
-From G06 to G05
+From <__main__.Node object at 0x7f61422f4898> to <__main__.Node object at 0x7f61422f4390>
 Time: 116s
 *****
 
 *****
-From G06 to G07
+From <__main__.Node object at 0x7f61422f4898> to <__main__.Node object at 0x7f61422f4908>
 Time: 151s
 *****
 
 *****
-From G07 to G06
+From <__main__.Node object at 0x7f61422f4908> to <__main__.Node object at 0x7f61422f4898>
 Time: 151s
 *****
 
 *****
-From G07 to G08
+From <__main__.Node object at 0x7f61422f4908> to <__main__.Node object at 0x7f61422f4940>
 Time: 109s
 *****
 
 *****
-From G08 to G07
+From <__main__.Node object at 0x7f61422f4940> to <__main__.Node object at 0x7f61422f4908>
 Time: 109s
 *****
 
 *****
-From G08 to G09
+From <__main__.Node object at 0x7f61422f4940> to <__main__.Node object at 0x7f61422f4978>
 Time: 118s
 *****
 
 *****
-From G09 to G08
+From <__main__.Node object at 0x7f61422f4978> to <__main__.Node object at 0x7f61422f4940>
 Time: 118s
 *****
 
 *****
-From G09 to G10
+From <__main__.Node object at 0x7f61422f4978> to <__main__.Node object at 0x7f61422f48d0>
 Time: 125s
 *****
 
 *****
-From G10 to G09
+From <__main__.Node object at 0x7f61422f48d0> to <__main__.Node object at 0x7f61422f4978>
 Time: 125s
 *****
 
 *****
-From G09 to O05
-Time: 120s
-*****
-
-*****
-From O05 to G09
-Time: 120s
-*****
-
-*****
-From G10 to G11
+From <__main__.Node object at 0x7f61422f48d0> to <__main__.Node object at 0x7f61422f49e8>
 Time: 103s
 *****
 
 *****
-From G11 to G10
+From <__main__.Node object at 0x7f61422f49e8> to <__main__.Node object at 0x7f61422f48d0>
 Time: 103s
 *****
 
 *****
-From G11 to G12
+From <__main__.Node object at 0x7f61422f49e8> to <__main__.Node object at 0x7f61422f4a20>
 Time: 117s
 *****
 
 *****
-From G12 to G11
+From <__main__.Node object at 0x7f61422f4a20> to <__main__.Node object at 0x7f61422f49e8>
 Time: 117s
 *****
 
 *****
-From G12 to G13
+From <__main__.Node object at 0x7f61422f4a20> to <__main__.Node object at 0x7f61422f4a58>
 Time: 114s
 *****
 
 *****
-From G13 to G12
+From <__main__.Node object at 0x7f61422f4a58> to <__main__.Node object at 0x7f61422f4a20>
 Time: 114s
 *****
 
 *****
-From G12 to BL11
-Time: 120s
-*****
-
-*****
-From BL11 to G12
-Time: 120s
-*****
-
-*****
-From G13 to G14
+From <__main__.Node object at 0x7f61422f4a58> to <__main__.Node object at 0x7f61422f4a90>
 Time: 151s
 *****
 
 *****
-From G14 to G13
+From <__main__.Node object at 0x7f61422f4a90> to <__main__.Node object at 0x7f61422f4a58>
 Time: 151s
 *****
 
 *****
-From G14 to G15
+From <__main__.Node object at 0x7f61422f4a90> to <__main__.Node object at 0x7f61422f49b0>
 Time: 141s
 *****
 
 *****
-From G15 to G14
+From <__main__.Node object at 0x7f61422f49b0> to <__main__.Node object at 0x7f61422f4a90>
 Time: 141s
 *****
 
 *****
-From G15 to G16
+From <__main__.Node object at 0x7f61422f49b0> to <__main__.Node object at 0x7f61422f4b00>
 Time: 125s
 *****
 
 *****
-From G16 to G15
+From <__main__.Node object at 0x7f61422f4b00> to <__main__.Node object at 0x7f61422f49b0>
 Time: 125s
 *****
 
 *****
-From G15 to O08
-Time: 120s
-*****
-
-*****
-From O08 to G15
-Time: 120s
-*****
-
-*****
-From G16 to G17
+From <__main__.Node object at 0x7f61422f4b00> to <__main__.Node object at 0x7f61422f4b70>
 Time: 111s
 *****
 
 *****
-From G17 to G16
+From <__main__.Node object at 0x7f61422f4b70> to <__main__.Node object at 0x7f61422f4b00>
 Time: 111s
 *****
 
 *****
-From G17 to G18
+From <__main__.Node object at 0x7f61422f4b70> to <__main__.Node object at 0x7f61422f4ac8>
 Time: 129s
 *****
 
 *****
-From G18 to G17
+From <__main__.Node object at 0x7f61422f4ac8> to <__main__.Node object at 0x7f61422f4b70>
 Time: 129s
 *****
 
 *****
-From G18 to G19
+From <__main__.Node object at 0x7f61422f4ac8> to <__main__.Node object at 0x7f61422f4b38>
 Time: 138s
 *****
 
 *****
-From G19 to G18
+From <__main__.Node object at 0x7f61422f4b38> to <__main__.Node object at 0x7f61422f4ac8>
 Time: 138s
 *****
 
 *****
-From O01 to O02
+From <__main__.Node object at 0x7f61422f4be0> to <__main__.Node object at 0x7f61422f4c18>
 Time: 125s
 *****
 
 *****
-From O02 to O01
+From <__main__.Node object at 0x7f61422f4c18> to <__main__.Node object at 0x7f61422f4be0>
 Time: 125s
 *****
 
 *****
-From O02 to O03
+From <__main__.Node object at 0x7f61422f4c18> to <__main__.Node object at 0x7f61422f4ba8>
 Time: 119s
 *****
 
 *****
-From O03 to O02
+From <__main__.Node object at 0x7f61422f4ba8> to <__main__.Node object at 0x7f61422f4c18>
 Time: 119s
 *****
 
 *****
-From O02 to Y11
-Time: 360s
-*****
-
-*****
-From Y11 to O02
-Time: 360s
-*****
-
-*****
-From O03 to O04
+From <__main__.Node object at 0x7f61422f4ba8> to <__main__.Node object at 0x7f61422f4c88>
 Time: 132s
 *****
 
 *****
-From O04 to O03
+From <__main__.Node object at 0x7f61422f4c88> to <__main__.Node object at 0x7f61422f4ba8>
 Time: 132s
 *****
 
 *****
-From O04 to O05
+From <__main__.Node object at 0x7f61422f4c88> to <__main__.Node object at 0x7f61422f4cc0>
 Time: 220s
 *****
 
 *****
-From O05 to O04
+From <__main__.Node object at 0x7f61422f4cc0> to <__main__.Node object at 0x7f61422f4c88>
 Time: 220s
 *****
 
 *****
-From O05 to O06
+From <__main__.Node object at 0x7f61422f4cc0> to <__main__.Node object at 0x7f61422f4c50>
 Time: 241s
 *****
 
 *****
-From O06 to O05
+From <__main__.Node object at 0x7f61422f4c50> to <__main__.Node object at 0x7f61422f4cc0>
 Time: 241s
 *****
 
 *****
-From O06 to O07
+From <__main__.Node object at 0x7f61422f4c50> to <__main__.Node object at 0x7f61422f4cf8>
 Time: 174s
 *****
 
 *****
-From O07 to O06
+From <__main__.Node object at 0x7f61422f4cf8> to <__main__.Node object at 0x7f61422f4c50>
 Time: 174s
 *****
 
 *****
-From O07 to O08
+From <__main__.Node object at 0x7f61422f4cf8> to <__main__.Node object at 0x7f61422f4d68>
 Time: 132s
 *****
 
 *****
-From O08 to O07
+From <__main__.Node object at 0x7f61422f4d68> to <__main__.Node object at 0x7f61422f4cf8>
 Time: 132s
 *****
 
 *****
-From O07 to BL14
-Time: 120s
-*****
-
-*****
-From BL14 to O07
-Time: 120s
-*****
-
-*****
-From O08 to O09
+From <__main__.Node object at 0x7f61422f4d68> to <__main__.Node object at 0x7f61422f4d30>
 Time: 108s
 *****
 
 *****
-From O09 to O08
+From <__main__.Node object at 0x7f61422f4d30> to <__main__.Node object at 0x7f61422f4d68>
 Time: 108s
 *****
 
 *****
-From O09 to O10
+From <__main__.Node object at 0x7f61422f4d30> to <__main__.Node object at 0x7f61422f4e10>
 Time: 126s
 *****
 
 *****
-From O10 to O09
+From <__main__.Node object at 0x7f61422f4e10> to <__main__.Node object at 0x7f61422f4d30>
 Time: 126s
 *****
 
 *****
-From O10 to O11
+From <__main__.Node object at 0x7f61422f4e10> to <__main__.Node object at 0x7f61422f4dd8>
 Time: 105s
 *****
 
 *****
-From O11 to O10
+From <__main__.Node object at 0x7f61422f4dd8> to <__main__.Node object at 0x7f61422f4e10>
 Time: 105s
 *****
 
 *****
-From O11 to O12
+From <__main__.Node object at 0x7f61422f4dd8> to <__main__.Node object at 0x7f61422f4da0>
 Time: 98s
 *****
 
 *****
-From O12 to O11
+From <__main__.Node object at 0x7f61422f4da0> to <__main__.Node object at 0x7f61422f4dd8>
 Time: 98s
 *****
 
 *****
-From O12 to O13
+From <__main__.Node object at 0x7f61422f4da0> to <__main__.Node object at 0x7f61422f4e48>
 Time: 152s
 *****
 
 *****
-From O13 to O12
+From <__main__.Node object at 0x7f61422f4e48> to <__main__.Node object at 0x7f61422f4da0>
 Time: 152s
 *****
 
 *****
-From O13 to O14
+From <__main__.Node object at 0x7f61422f4e48> to <__main__.Node object at 0x7f61422f4eb8>
 Time: 122s
 *****
 
 *****
-From O14 to O13
+From <__main__.Node object at 0x7f61422f4eb8> to <__main__.Node object at 0x7f61422f4e48>
 Time: 122s
 *****
 
 *****
-From O14 to O15
+From <__main__.Node object at 0x7f61422f4eb8> to <__main__.Node object at 0x7f61422f4ef0>
 Time: 109s
 *****
 
 *****
-From O15 to O14
+From <__main__.Node object at 0x7f61422f4ef0> to <__main__.Node object at 0x7f61422f4eb8>
 Time: 109s
 *****
 
 *****
-From O15 to O16
+From <__main__.Node object at 0x7f61422f4ef0> to <__main__.Node object at 0x7f61422f4f28>
 Time: 167s
 *****
 
 *****
-From O16 to O15
+From <__main__.Node object at 0x7f61422f4f28> to <__main__.Node object at 0x7f61422f4ef0>
 Time: 167s
 *****
 
 *****
-From O16 to O17
+From <__main__.Node object at 0x7f61422f4f28> to <__main__.Node object at 0x7f61422f4f60>
 Time: 133s
 *****
 
 *****
-From O17 to O16
+From <__main__.Node object at 0x7f61422f4f60> to <__main__.Node object at 0x7f61422f4f28>
 Time: 133s
 *****
 
 *****
-From O17 to O18
+From <__main__.Node object at 0x7f61422f4f60> to <__main__.Node object at 0x7f61422f4e80>
 Time: 119s
 *****
 
 *****
-From O18 to O17
+From <__main__.Node object at 0x7f61422f4e80> to <__main__.Node object at 0x7f61422f4f60>
 Time: 119s
 *****
 
 *****
-From O17 to Y18
-Time: 360s
-*****
-
-*****
-From Y18 to O17
-Time: 360s
-*****
-
-*****
-From O18 to O19
+From <__main__.Node object at 0x7f61422f4e80> to <__main__.Node object at 0x7f61422f4fd0>
 Time: 162s
 *****
 
 *****
-From O19 to O18
+From <__main__.Node object at 0x7f61422f4fd0> to <__main__.Node object at 0x7f61422f4e80>
 Time: 162s
 *****
 
 *****
-From O19 to O20
+From <__main__.Node object at 0x7f61422f4fd0> to <__main__.Node object at 0x7f61422f8048>
 Time: 138s
 *****
 
 *****
-From O20 to O19
+From <__main__.Node object at 0x7f61422f8048> to <__main__.Node object at 0x7f61422f4fd0>
 Time: 138s
 *****
 
 *****
-From O20 to O21
+From <__main__.Node object at 0x7f61422f8048> to <__main__.Node object at 0x7f61422f8080>
 Time: 168s
 *****
 
 *****
-From O21 to O20
+From <__main__.Node object at 0x7f61422f8080> to <__main__.Node object at 0x7f61422f8048>
 Time: 168s
 *****
 
 *****
-From O50 to O51
+From <__main__.Node object at 0x7f61422f80b8> to <__main__.Node object at 0x7f61422f80f0>
 Time: 132s
 *****
 
 *****
-From O51 to O50
+From <__main__.Node object at 0x7f61422f80f0> to <__main__.Node object at 0x7f61422f80b8>
 Time: 132s
 *****
 
 *****
-From O51 to O52
+From <__main__.Node object at 0x7f61422f80f0> to <__main__.Node object at 0x7f61422f8128>
 Time: 107s
 *****
 
 *****
-From O52 to O51
+From <__main__.Node object at 0x7f61422f8128> to <__main__.Node object at 0x7f61422f80f0>
 Time: 107s
 *****
 
 *****
-From O52 to O53
+From <__main__.Node object at 0x7f61422f8128> to <__main__.Node object at 0x7f61422f8160>
 Time: 117s
 *****
 
 *****
-From O53 to O52
+From <__main__.Node object at 0x7f61422f8160> to <__main__.Node object at 0x7f61422f8128>
 Time: 117s
 *****
 
 *****
-From O53 to O54
+From <__main__.Node object at 0x7f61422f8160> to <__main__.Node object at 0x7f61422f8198>
 Time: 111s
 *****
 
 *****
-From O54 to O53
+From <__main__.Node object at 0x7f61422f8198> to <__main__.Node object at 0x7f61422f8160>
 Time: 111s
 *****
 
 *****
-From BL01 to BL02
+From <__main__.Node object at 0x7f61422f81d0> to <__main__.Node object at 0x7f61422f8208>
 Time: 208s
 *****
 
 *****
-From BL02 to BL01
+From <__main__.Node object at 0x7f61422f8208> to <__main__.Node object at 0x7f61422f81d0>
 Time: 208s
 *****
 
 *****
-From BL02 to BL03
+From <__main__.Node object at 0x7f61422f8208> to <__main__.Node object at 0x7f61422f8240>
 Time: 121s
 *****
 
 *****
-From BL03 to BL02
+From <__main__.Node object at 0x7f61422f8240> to <__main__.Node object at 0x7f61422f8208>
 Time: 121s
 *****
 
 *****
-From BL03 to BL04
+From <__main__.Node object at 0x7f61422f8240> to <__main__.Node object at 0x7f61422f8278>
 Time: 132s
 *****
 
 *****
-From BL04 to BL03
+From <__main__.Node object at 0x7f61422f8278> to <__main__.Node object at 0x7f61422f8240>
 Time: 132s
 *****
 
 *****
-From BL04 to BL05
+From <__main__.Node object at 0x7f61422f8278> to <__main__.Node object at 0x7f61422f82b0>
 Time: 168s
 *****
 
 *****
-From BL05 to BL04
+From <__main__.Node object at 0x7f61422f82b0> to <__main__.Node object at 0x7f61422f8278>
 Time: 168s
 *****
 
 *****
-From BL05 to BL06
+From <__main__.Node object at 0x7f61422f82b0> to <__main__.Node object at 0x7f61422f82e8>
 Time: 130s
 *****
 
 *****
-From BL06 to BL05
+From <__main__.Node object at 0x7f61422f82e8> to <__main__.Node object at 0x7f61422f82b0>
 Time: 130s
 *****
 
 *****
-From BL06 to BL07
+From <__main__.Node object at 0x7f61422f82e8> to <__main__.Node object at 0x7f61422f8320>
 Time: 95s
 *****
 
 *****
-From BL07 to BL06
+From <__main__.Node object at 0x7f61422f8320> to <__main__.Node object at 0x7f61422f82e8>
 Time: 95s
 *****
 
 *****
-From BL07 to BL08
+From <__main__.Node object at 0x7f61422f8320> to <__main__.Node object at 0x7f61422f8358>
 Time: 135s
 *****
 
 *****
-From BL08 to BL07
+From <__main__.Node object at 0x7f61422f8358> to <__main__.Node object at 0x7f61422f8320>
 Time: 135s
 *****
 
 *****
-From BL08 to BL09
+From <__main__.Node object at 0x7f61422f8358> to <__main__.Node object at 0x7f61422f8390>
 Time: 105s
 *****
 
 *****
-From BL09 to BL08
+From <__main__.Node object at 0x7f61422f8390> to <__main__.Node object at 0x7f61422f8358>
 Time: 105s
 *****
 
 *****
-From BL09 to BL10
+From <__main__.Node object at 0x7f61422f8390> to <__main__.Node object at 0x7f61422f83c8>
 Time: 221s
 *****
 
 *****
-From BL10 to BL09
+From <__main__.Node object at 0x7f61422f83c8> to <__main__.Node object at 0x7f61422f8390>
 Time: 221s
 *****
 
 *****
-From BL10 to BL11
+From <__main__.Node object at 0x7f61422f83c8> to <__main__.Node object at 0x7f61422f8400>
 Time: 145s
 *****
 
 *****
-From BL11 to BL10
+From <__main__.Node object at 0x7f61422f8400> to <__main__.Node object at 0x7f61422f83c8>
 Time: 145s
 *****
 
 *****
-From BL11 to BL12
+From <__main__.Node object at 0x7f61422f8400> to <__main__.Node object at 0x7f61422f4f98>
 Time: 162s
 *****
 
 *****
-From BL12 to BL11
+From <__main__.Node object at 0x7f61422f4f98> to <__main__.Node object at 0x7f61422f8400>
 Time: 162s
 *****
 
 *****
-From BL12 to BL13
+From <__main__.Node object at 0x7f61422f4f98> to <__main__.Node object at 0x7f61422f8470>
 Time: 91s
 *****
 
 *****
-From BL13 to BL12
+From <__main__.Node object at 0x7f61422f8470> to <__main__.Node object at 0x7f61422f4f98>
 Time: 91s
 *****
 
 *****
-From BL13 to BL14
+From <__main__.Node object at 0x7f61422f8470> to <__main__.Node object at 0x7f61422f84a8>
 Time: 121s
 *****
 
 *****
-From BL14 to BL13
+From <__main__.Node object at 0x7f61422f84a8> to <__main__.Node object at 0x7f61422f8470>
 Time: 121s
 *****
 
 *****
-From BL14 to BL15
+From <__main__.Node object at 0x7f61422f84a8> to <__main__.Node object at 0x7f61422f84e0>
 Time: 130s
 *****
 
 *****
-From BL15 to BL14
+From <__main__.Node object at 0x7f61422f84e0> to <__main__.Node object at 0x7f61422f84a8>
 Time: 130s
 *****
 
 *****
-From BL15 to BL16
+From <__main__.Node object at 0x7f61422f84e0> to <__main__.Node object at 0x7f61422f8518>
 Time: 93s
 *****
 
 *****
-From BL16 to BL15
+From <__main__.Node object at 0x7f61422f8518> to <__main__.Node object at 0x7f61422f84e0>
 Time: 93s
 *****
 
 *****
-From BL16 to BL17
+From <__main__.Node object at 0x7f61422f8518> to <__main__.Node object at 0x7f61422f8550>
 Time: 99s
 *****
 
 *****
-From BL17 to BL16
+From <__main__.Node object at 0x7f61422f8550> to <__main__.Node object at 0x7f61422f8518>
 Time: 99s
 *****
 
 *****
-From BL17 to BL18
+From <__main__.Node object at 0x7f61422f8550> to <__main__.Node object at 0x7f61422f8438>
 Time: 105s
 *****
 
 *****
-From BL18 to BL17
+From <__main__.Node object at 0x7f61422f8438> to <__main__.Node object at 0x7f61422f8550>
 Time: 105s
 *****
 
 *****
-From BL18 to BL19
+From <__main__.Node object at 0x7f61422f8438> to <__main__.Node object at 0x7f61422f85c0>
 Time: 112s
 *****
 
 *****
-From BL19 to BL18
+From <__main__.Node object at 0x7f61422f85c0> to <__main__.Node object at 0x7f61422f8438>
 Time: 112s
 *****
 
 *****
-From BL19 to BL20
+From <__main__.Node object at 0x7f61422f85c0> to <__main__.Node object at 0x7f61422f85f8>
 Time: 105s
 *****
 
 *****
-From BL20 to BL19
+From <__main__.Node object at 0x7f61422f85f8> to <__main__.Node object at 0x7f61422f85c0>
 Time: 105s
 *****
 
 *****
-From BL20 to BL21
+From <__main__.Node object at 0x7f61422f85f8> to <__main__.Node object at 0x7f61422f8630>
 Time: 132s
 *****
 
 *****
-From BL21 to BL20
+From <__main__.Node object at 0x7f61422f8630> to <__main__.Node object at 0x7f61422f85f8>
 Time: 132s
 *****
 
 *****
-From BL21 to BL22
+From <__main__.Node object at 0x7f61422f8630> to <__main__.Node object at 0x7f61422f8668>
 Time: 133s
 *****
 
 *****
-From BL22 to BL21
+From <__main__.Node object at 0x7f61422f8668> to <__main__.Node object at 0x7f61422f8630>
 Time: 133s
 *****
 
 *****
-From BL22 to BL23
+From <__main__.Node object at 0x7f61422f8668> to <__main__.Node object at 0x7f61422f86a0>
 Time: 112s
 *****
 
 *****
-From BL23 to BL22
+From <__main__.Node object at 0x7f61422f86a0> to <__main__.Node object at 0x7f61422f8668>
 Time: 112s
 *****
 
 *****
-From Y07 to Y08
+From <__main__.Node object at 0x7f61422f8588> to <__main__.Node object at 0x7f61422f8710>
 Time: 168s
 *****
 
 *****
-From Y08 to Y07
+From <__main__.Node object at 0x7f61422f8710> to <__main__.Node object at 0x7f61422f8588>
 Time: 168s
 *****
 
 *****
-From Y08 to Y09
+From <__main__.Node object at 0x7f61422f8710> to <__main__.Node object at 0x7f61422f8780>
 Time: 134s
 *****
 
 *****
-From Y09 to Y08
+From <__main__.Node object at 0x7f61422f8780> to <__main__.Node object at 0x7f61422f8710>
 Time: 134s
 *****
 
 *****
-From Y09 to Y10
+From <__main__.Node object at 0x7f61422f8780> to <__main__.Node object at 0x7f61422f86d8>
 Time: 104s
 *****
 
 *****
-From Y10 to Y09
+From <__main__.Node object at 0x7f61422f86d8> to <__main__.Node object at 0x7f61422f8780>
 Time: 104s
 *****
 
 *****
-From Y10 to Y11
+From <__main__.Node object at 0x7f61422f86d8> to <__main__.Node object at 0x7f61422f87b8>
 Time: 119s
 *****
 
 *****
-From Y11 to Y10
+From <__main__.Node object at 0x7f61422f87b8> to <__main__.Node object at 0x7f61422f86d8>
 Time: 119s
 *****
 
 *****
-From Y11 to Y12
+From <__main__.Node object at 0x7f61422f87b8> to <__main__.Node object at 0x7f61422f8748>
 Time: 219s
 *****
 
 *****
-From Y12 to Y11
+From <__main__.Node object at 0x7f61422f8748> to <__main__.Node object at 0x7f61422f87b8>
 Time: 219s
 *****
 
 *****
-From Y12 to Y13
+From <__main__.Node object at 0x7f61422f8748> to <__main__.Node object at 0x7f61422f87f0>
 Time: 129s
 *****
 
 *****
-From Y13 to Y12
+From <__main__.Node object at 0x7f61422f87f0> to <__main__.Node object at 0x7f61422f8748>
 Time: 129s
 *****
 
 *****
-From Y13 to Y14
+From <__main__.Node object at 0x7f61422f87f0> to <__main__.Node object at 0x7f61422f8860>
 Time: 97s
 *****
 
 *****
-From Y14 to Y13
+From <__main__.Node object at 0x7f61422f8860> to <__main__.Node object at 0x7f61422f87f0>
 Time: 97s
 *****
 
 *****
-From Y14 to Y15
+From <__main__.Node object at 0x7f61422f8860> to <__main__.Node object at 0x7f61422f8898>
 Time: 136s
 *****
 
 *****
-From Y15 to Y14
+From <__main__.Node object at 0x7f61422f8898> to <__main__.Node object at 0x7f61422f8860>
 Time: 136s
 *****
 
 *****
-From Y15 to Y16
+From <__main__.Node object at 0x7f61422f8898> to <__main__.Node object at 0x7f61422f88d0>
 Time: 193s
 *****
 
 *****
-From Y16 to Y15
+From <__main__.Node object at 0x7f61422f88d0> to <__main__.Node object at 0x7f61422f8898>
 Time: 193s
 *****
 
 *****
-From Y16 to Y17
+From <__main__.Node object at 0x7f61422f88d0> to <__main__.Node object at 0x7f61422f8908>
 Time: 216s
 *****
 
 *****
-From Y17 to Y16
+From <__main__.Node object at 0x7f61422f8908> to <__main__.Node object at 0x7f61422f88d0>
 Time: 216s
 *****
 
 *****
-From Y17 to Y18
+From <__main__.Node object at 0x7f61422f8908> to <__main__.Node object at 0x7f61422f8940>
 Time: 178s
 *****
 
 *****
-From Y18 to Y17
+From <__main__.Node object at 0x7f61422f8940> to <__main__.Node object at 0x7f61422f8908>
 Time: 178s
 *****
 
 *****
-From Y18 to Y19
+From <__main__.Node object at 0x7f61422f8940> to <__main__.Node object at 0x7f61422f8828>
 Time: 118s
 *****
 
 *****
-From Y19 to Y18
+From <__main__.Node object at 0x7f61422f8828> to <__main__.Node object at 0x7f61422f8940>
 Time: 118s
 *****
 
 *****
-From Y19 to Y20
+From <__main__.Node object at 0x7f61422f8828> to <__main__.Node object at 0x7f61422f8978>
 Time: 135s
 *****
 
 *****
-From Y20 to Y19
+From <__main__.Node object at 0x7f61422f8978> to <__main__.Node object at 0x7f61422f8828>
 Time: 135s
 *****
 
+<__main__.Node object at 0x7f61422f1ba8> [<__main__.Node object at 0x7f61422f1be0>]
+<__main__.Node object at 0x7f61422f1be0> [<__main__.Node object at 0x7f61422f1ba8>, <__main__.Node object at 0x7f61422f1c18>]
+<__main__.Node object at 0x7f61422f1c18> [<__main__.Node object at 0x7f61422f1be0>, <__main__.Node object at 0x7f61422f1c50>]
+<__main__.Node object at 0x7f61422f1c50> [<__main__.Node object at 0x7f61422f1c18>, <__main__.Node object at 0x7f61422f1c88>]
+<__main__.Node object at 0x7f61422f1c88> [<__main__.Node object at 0x7f61422f1c50>, <__main__.Node object at 0x7f61422f1cc0>]
+<__main__.Node object at 0x7f61422f1cc0> [<__main__.Node object at 0x7f61422f1c88>, <__main__.Node object at 0x7f61422f1cf8>]
+<__main__.Node object at 0x7f61422f1cf8> [<__main__.Node object at 0x7f61422f1cc0>, <__main__.Node object at 0x7f61422f1d30>]
+<__main__.Node object at 0x7f61422f1d30> [<__main__.Node object at 0x7f61422f1cf8>, <__main__.Node object at 0x7f61422f1d68>]
+<__main__.Node object at 0x7f61422f1d68> [<__main__.Node object at 0x7f61422f1d30>, <__main__.Node object at 0x7f61422f1e10>]
+<__main__.Node object at 0x7f61422f1e10> [<__main__.Node object at 0x7f61422f1d68>, <__main__.Node object at 0x7f61422f1da0>]
+<__main__.Node object at 0x7f61422f1da0> [<__main__.Node object at 0x7f61422f1e10>, <__main__.Node object at 0x7f61422f1e48>]
+<__main__.Node object at 0x7f61422f1e48> [<__main__.Node object at 0x7f61422f1da0>, <__main__.Node object at 0x7f61422f1eb8>]
+<__main__.Node object at 0x7f61422f1eb8> [<__main__.Node object at 0x7f61422f1e48>, <__main__.Node object at 0x7f61422f1e80>]
+<__main__.Node object at 0x7f61422f1e80> [<__main__.Node object at 0x7f61422f1eb8>, <__main__.Node object at 0x7f61422f1ef0>]
+<__main__.Node object at 0x7f61422f1ef0> [<__main__.Node object at 0x7f61422f1e80>, <__main__.Node object at 0x7f61422f1f28>]
+<__main__.Node object at 0x7f61422f1f28> [<__main__.Node object at 0x7f61422f1ef0>, <__main__.Node object at 0x7f61422f1f60>]
+<__main__.Node object at 0x7f61422f1f60> [<__main__.Node object at 0x7f61422f1f28>, <__main__.Node object at 0x7f61422f1f98>]
+<__main__.Node object at 0x7f61422f1f98> [<__main__.Node object at 0x7f61422f1f60>, <__main__.Node object at 0x7f61422f1fd0>]
+<__main__.Node object at 0x7f61422f1fd0> [<__main__.Node object at 0x7f61422f1f98>, <__main__.Node object at 0x7f61422f4048>]
+<__main__.Node object at 0x7f61422f4048> [<__main__.Node object at 0x7f61422f1fd0>, <__main__.Node object at 0x7f61422f4080>]
+<__main__.Node object at 0x7f61422f4080> [<__main__.Node object at 0x7f61422f4048>, <__main__.Node object at 0x7f61422f40b8>]
+<__main__.Node object at 0x7f61422f40b8> [<__main__.Node object at 0x7f61422f4080>, <__main__.Node object at 0x7f61422f40f0>]
+<__main__.Node object at 0x7f61422f40f0> [<__main__.Node object at 0x7f61422f40b8>, <__main__.Node object at 0x7f61422f4128>]
+<__main__.Node object at 0x7f61422f4128> [<__main__.Node object at 0x7f61422f40f0>]
+<__main__.Node object at 0x7f61422f1dd8> [<__main__.Node object at 0x7f61422f4198>]
+<__main__.Node object at 0x7f61422f4198> [<__main__.Node object at 0x7f61422f1dd8>, <__main__.Node object at 0x7f61422f41d0>]
+<__main__.Node object at 0x7f61422f41d0> [<__main__.Node object at 0x7f61422f4198>, <__main__.Node object at 0x7f61422f4208>]
+<__main__.Node object at 0x7f61422f4208> [<__main__.Node object at 0x7f61422f41d0>, <__main__.Node object at 0x7f61422f4160>]
+<__main__.Node object at 0x7f61422f4160> [<__main__.Node object at 0x7f61422f4208>, <__main__.Node object at 0x7f61422f4240>]
+<__main__.Node object at 0x7f61422f4240> [<__main__.Node object at 0x7f61422f4160>, <__main__.Node object at 0x7f61422f4278>]
+<__main__.Node object at 0x7f61422f4278> [<__main__.Node object at 0x7f61422f4240>, <__main__.Node object at 0x7f61422f42e8>]
+<__main__.Node object at 0x7f61422f42e8> [<__main__.Node object at 0x7f61422f4278>, <__main__.Node object at 0x7f61422f4358>]
+<__main__.Node object at 0x7f61422f4358> [<__main__.Node object at 0x7f61422f42e8>, <__main__.Node object at 0x7f61422f4320>]
+<__main__.Node object at 0x7f61422f4320> [<__main__.Node object at 0x7f61422f4358>, <__main__.Node object at 0x7f61422f42b0>]
+<__main__.Node object at 0x7f61422f42b0> [<__main__.Node object at 0x7f61422f4320>, <__main__.Node object at 0x7f61422f4400>]
+<__main__.Node object at 0x7f61422f4400> [<__main__.Node object at 0x7f61422f42b0>, <__main__.Node object at 0x7f61422f43c8>]
+<__main__.Node object at 0x7f61422f43c8> [<__main__.Node object at 0x7f61422f4400>, <__main__.Node object at 0x7f61422f4438>]
+<__main__.Node object at 0x7f61422f4438> [<__main__.Node object at 0x7f61422f43c8>, <__main__.Node object at 0x7f61422f4470>]
+<__main__.Node object at 0x7f61422f4470> [<__main__.Node object at 0x7f61422f4438>, <__main__.Node object at 0x7f61422f44a8>]
+<__main__.Node object at 0x7f61422f44a8> [<__main__.Node object at 0x7f61422f4470>, <__main__.Node object at 0x7f61422f44e0>]
+<__main__.Node object at 0x7f61422f44e0> [<__main__.Node object at 0x7f61422f44a8>, <__main__.Node object at 0x7f61422f4518>]
+<__main__.Node object at 0x7f61422f4518> [<__main__.Node object at 0x7f61422f44e0>, <__main__.Node object at 0x7f61422f4550>]
+<__main__.Node object at 0x7f61422f4550> [<__main__.Node object at 0x7f61422f4518>, <__main__.Node object at 0x7f61422f4588>]
+<__main__.Node object at 0x7f61422f4588> [<__main__.Node object at 0x7f61422f4550>, <__main__.Node object at 0x7f61422f45c0>]
+<__main__.Node object at 0x7f61422f45c0> [<__main__.Node object at 0x7f61422f4588>, <__main__.Node object at 0x7f61422f45f8>]
+<__main__.Node object at 0x7f61422f45f8> [<__main__.Node object at 0x7f61422f45c0>]
+<__main__.Node object at 0x7f61422f4630> [<__main__.Node object at 0x7f61422f4668>]
+<__main__.Node object at 0x7f61422f4668> [<__main__.Node object at 0x7f61422f4630>, <__main__.Node object at 0x7f61422f46a0>]
+<__main__.Node object at 0x7f61422f46a0> [<__main__.Node object at 0x7f61422f4668>, <__main__.Node object at 0x7f61422f46d8>]
+<__main__.Node object at 0x7f61422f46d8> [<__main__.Node object at 0x7f61422f46a0>, <__main__.Node object at 0x7f61422f4710>]
+<__main__.Node object at 0x7f61422f4710> [<__main__.Node object at 0x7f61422f46d8>, <__main__.Node object at 0x7f61422f4748>]
+<__main__.Node object at 0x7f61422f4748> [<__main__.Node object at 0x7f61422f4710>]
+<__main__.Node object at 0x7f61422f4780> [<__main__.Node object at 0x7f61422f47b8>]
+<__main__.Node object at 0x7f61422f47b8> [<__main__.Node object at 0x7f61422f4780>, <__main__.Node object at 0x7f61422f47f0>]
+<__main__.Node object at 0x7f61422f47f0> [<__main__.Node object at 0x7f61422f47b8>, <__main__.Node object at 0x7f61422f4828>]
+<__main__.Node object at 0x7f61422f4828> [<__main__.Node object at 0x7f61422f47f0>]
+<__main__.Node object at 0x7f61422f4860> [<__main__.Node object at 0x7f61422f4390>]
+<__main__.Node object at 0x7f61422f4390> [<__main__.Node object at 0x7f61422f4860>, <__main__.Node object at 0x7f61422f4898>]
+<__main__.Node object at 0x7f61422f4898> [<__main__.Node object at 0x7f61422f4390>, <__main__.Node object at 0x7f61422f4908>]
+<__main__.Node object at 0x7f61422f4908> [<__main__.Node object at 0x7f61422f4898>, <__main__.Node object at 0x7f61422f4940>]
+<__main__.Node object at 0x7f61422f4940> [<__main__.Node object at 0x7f61422f4908>, <__main__.Node object at 0x7f61422f4978>]
+<__main__.Node object at 0x7f61422f4978> [<__main__.Node object at 0x7f61422f4940>, <__main__.Node object at 0x7f61422f48d0>]
+<__main__.Node object at 0x7f61422f48d0> [<__main__.Node object at 0x7f61422f4978>, <__main__.Node object at 0x7f61422f49e8>]
+<__main__.Node object at 0x7f61422f49e8> [<__main__.Node object at 0x7f61422f48d0>, <__main__.Node object at 0x7f61422f4a20>]
+<__main__.Node object at 0x7f61422f4a20> [<__main__.Node object at 0x7f61422f49e8>, <__main__.Node object at 0x7f61422f4a58>]
+<__main__.Node object at 0x7f61422f4a58> [<__main__.Node object at 0x7f61422f4a20>, <__main__.Node object at 0x7f61422f4a90>]
+<__main__.Node object at 0x7f61422f4a90> [<__main__.Node object at 0x7f61422f4a58>, <__main__.Node object at 0x7f61422f49b0>]
+<__main__.Node object at 0x7f61422f49b0> [<__main__.Node object at 0x7f61422f4a90>, <__main__.Node object at 0x7f61422f4b00>]
+<__main__.Node object at 0x7f61422f4b00> [<__main__.Node object at 0x7f61422f49b0>, <__main__.Node object at 0x7f61422f4b70>]
+<__main__.Node object at 0x7f61422f4b70> [<__main__.Node object at 0x7f61422f4b00>, <__main__.Node object at 0x7f61422f4ac8>]
+<__main__.Node object at 0x7f61422f4ac8> [<__main__.Node object at 0x7f61422f4b70>, <__main__.Node object at 0x7f61422f4b38>]
+<__main__.Node object at 0x7f61422f4b38> [<__main__.Node object at 0x7f61422f4ac8>]
+<__main__.Node object at 0x7f61422f4be0> [<__main__.Node object at 0x7f61422f4c18>]
+<__main__.Node object at 0x7f61422f4c18> [<__main__.Node object at 0x7f61422f4be0>, <__main__.Node object at 0x7f61422f4ba8>]
+<__main__.Node object at 0x7f61422f4ba8> [<__main__.Node object at 0x7f61422f4c18>, <__main__.Node object at 0x7f61422f4c88>]
+<__main__.Node object at 0x7f61422f4c88> [<__main__.Node object at 0x7f61422f4ba8>, <__main__.Node object at 0x7f61422f4cc0>]
+<__main__.Node object at 0x7f61422f4cc0> [<__main__.Node object at 0x7f61422f4c88>, <__main__.Node object at 0x7f61422f4c50>]
+<__main__.Node object at 0x7f61422f4c50> [<__main__.Node object at 0x7f61422f4cc0>, <__main__.Node object at 0x7f61422f4cf8>]
+<__main__.Node object at 0x7f61422f4cf8> [<__main__.Node object at 0x7f61422f4c50>, <__main__.Node object at 0x7f61422f4d68>]
+<__main__.Node object at 0x7f61422f4d68> [<__main__.Node object at 0x7f61422f4cf8>, <__main__.Node object at 0x7f61422f4d30>]
+<__main__.Node object at 0x7f61422f4d30> [<__main__.Node object at 0x7f61422f4d68>, <__main__.Node object at 0x7f61422f4e10>]
+<__main__.Node object at 0x7f61422f4e10> [<__main__.Node object at 0x7f61422f4d30>, <__main__.Node object at 0x7f61422f4dd8>]
+<__main__.Node object at 0x7f61422f4dd8> [<__main__.Node object at 0x7f61422f4e10>, <__main__.Node object at 0x7f61422f4da0>]
+<__main__.Node object at 0x7f61422f4da0> [<__main__.Node object at 0x7f61422f4dd8>, <__main__.Node object at 0x7f61422f4e48>]
+<__main__.Node object at 0x7f61422f4e48> [<__main__.Node object at 0x7f61422f4da0>, <__main__.Node object at 0x7f61422f4eb8>]
+<__main__.Node object at 0x7f61422f4eb8> [<__main__.Node object at 0x7f61422f4e48>, <__main__.Node object at 0x7f61422f4ef0>]
+<__main__.Node object at 0x7f61422f4ef0> [<__main__.Node object at 0x7f61422f4eb8>, <__main__.Node object at 0x7f61422f4f28>]
+<__main__.Node object at 0x7f61422f4f28> [<__main__.Node object at 0x7f61422f4ef0>, <__main__.Node object at 0x7f61422f4f60>]
+<__main__.Node object at 0x7f61422f4f60> [<__main__.Node object at 0x7f61422f4f28>, <__main__.Node object at 0x7f61422f4e80>]
+<__main__.Node object at 0x7f61422f4e80> [<__main__.Node object at 0x7f61422f4f60>, <__main__.Node object at 0x7f61422f4fd0>]
+<__main__.Node object at 0x7f61422f4fd0> [<__main__.Node object at 0x7f61422f4e80>, <__main__.Node object at 0x7f61422f8048>]
+<__main__.Node object at 0x7f61422f8048> [<__main__.Node object at 0x7f61422f4fd0>, <__main__.Node object at 0x7f61422f8080>]
+<__main__.Node object at 0x7f61422f8080> [<__main__.Node object at 0x7f61422f8048>]
+<__main__.Node object at 0x7f61422f80b8> [<__main__.Node object at 0x7f61422f80f0>]
+<__main__.Node object at 0x7f61422f80f0> [<__main__.Node object at 0x7f61422f80b8>, <__main__.Node object at 0x7f61422f8128>]
+<__main__.Node object at 0x7f61422f8128> [<__main__.Node object at 0x7f61422f80f0>, <__main__.Node object at 0x7f61422f8160>]
+<__main__.Node object at 0x7f61422f8160> [<__main__.Node object at 0x7f61422f8128>, <__main__.Node object at 0x7f61422f8198>]
+<__main__.Node object at 0x7f61422f8198> [<__main__.Node object at 0x7f61422f8160>]
+<__main__.Node object at 0x7f61422f81d0> [<__main__.Node object at 0x7f61422f8208>]
+<__main__.Node object at 0x7f61422f8208> [<__main__.Node object at 0x7f61422f81d0>, <__main__.Node object at 0x7f61422f8240>]
+<__main__.Node object at 0x7f61422f8240> [<__main__.Node object at 0x7f61422f8208>, <__main__.Node object at 0x7f61422f8278>]
+<__main__.Node object at 0x7f61422f8278> [<__main__.Node object at 0x7f61422f8240>, <__main__.Node object at 0x7f61422f82b0>]
+<__main__.Node object at 0x7f61422f82b0> [<__main__.Node object at 0x7f61422f8278>, <__main__.Node object at 0x7f61422f82e8>]
+<__main__.Node object at 0x7f61422f82e8> [<__main__.Node object at 0x7f61422f82b0>, <__main__.Node object at 0x7f61422f8320>]
+<__main__.Node object at 0x7f61422f8320> [<__main__.Node object at 0x7f61422f82e8>, <__main__.Node object at 0x7f61422f8358>]
+<__main__.Node object at 0x7f61422f8358> [<__main__.Node object at 0x7f61422f8320>, <__main__.Node object at 0x7f61422f8390>]
+<__main__.Node object at 0x7f61422f8390> [<__main__.Node object at 0x7f61422f8358>, <__main__.Node object at 0x7f61422f83c8>]
+<__main__.Node object at 0x7f61422f83c8> [<__main__.Node object at 0x7f61422f8390>, <__main__.Node object at 0x7f61422f8400>]
+<__main__.Node object at 0x7f61422f8400> [<__main__.Node object at 0x7f61422f83c8>, <__main__.Node object at 0x7f61422f4f98>]
+<__main__.Node object at 0x7f61422f4f98> [<__main__.Node object at 0x7f61422f8400>, <__main__.Node object at 0x7f61422f8470>]
+<__main__.Node object at 0x7f61422f8470> [<__main__.Node object at 0x7f61422f4f98>, <__main__.Node object at 0x7f61422f84a8>]
+<__main__.Node object at 0x7f61422f84a8> [<__main__.Node object at 0x7f61422f8470>, <__main__.Node object at 0x7f61422f84e0>]
+<__main__.Node object at 0x7f61422f84e0> [<__main__.Node object at 0x7f61422f84a8>, <__main__.Node object at 0x7f61422f8518>]
+<__main__.Node object at 0x7f61422f8518> [<__main__.Node object at 0x7f61422f84e0>, <__main__.Node object at 0x7f61422f8550>]
+<__main__.Node object at 0x7f61422f8550> [<__main__.Node object at 0x7f61422f8518>, <__main__.Node object at 0x7f61422f8438>]
+<__main__.Node object at 0x7f61422f8438> [<__main__.Node object at 0x7f61422f8550>, <__main__.Node object at 0x7f61422f85c0>]
+<__main__.Node object at 0x7f61422f85c0> [<__main__.Node object at 0x7f61422f8438>, <__main__.Node object at 0x7f61422f85f8>]
+<__main__.Node object at 0x7f61422f85f8> [<__main__.Node object at 0x7f61422f85c0>, <__main__.Node object at 0x7f61422f8630>]
+<__main__.Node object at 0x7f61422f8630> [<__main__.Node object at 0x7f61422f85f8>, <__main__.Node object at 0x7f61422f8668>]
+<__main__.Node object at 0x7f61422f8668> [<__main__.Node object at 0x7f61422f8630>, <__main__.Node object at 0x7f61422f86a0>]
+<__main__.Node object at 0x7f61422f86a0> [<__main__.Node object at 0x7f61422f8668>]
+<__main__.Node object at 0x7f61422f8588> [<__main__.Node object at 0x7f61422f8710>]
+<__main__.Node object at 0x7f61422f8710> [<__main__.Node object at 0x7f61422f8588>, <__main__.Node object at 0x7f61422f8780>]
+<__main__.Node object at 0x7f61422f8780> [<__main__.Node object at 0x7f61422f8710>, <__main__.Node object at 0x7f61422f86d8>]
+<__main__.Node object at 0x7f61422f86d8> [<__main__.Node object at 0x7f61422f8780>, <__main__.Node object at 0x7f61422f87b8>]
+<__main__.Node object at 0x7f61422f87b8> [<__main__.Node object at 0x7f61422f86d8>, <__main__.Node object at 0x7f61422f8748>]
+<__main__.Node object at 0x7f61422f8748> [<__main__.Node object at 0x7f61422f87b8>, <__main__.Node object at 0x7f61422f87f0>]
+<__main__.Node object at 0x7f61422f87f0> [<__main__.Node object at 0x7f61422f8748>, <__main__.Node object at 0x7f61422f8860>]
+<__main__.Node object at 0x7f61422f8860> [<__main__.Node object at 0x7f61422f87f0>, <__main__.Node object at 0x7f61422f8898>]
+<__main__.Node object at 0x7f61422f8898> [<__main__.Node object at 0x7f61422f8860>, <__main__.Node object at 0x7f61422f88d0>]
+<__main__.Node object at 0x7f61422f88d0> [<__main__.Node object at 0x7f61422f8898>, <__main__.Node object at 0x7f61422f8908>]
+<__main__.Node object at 0x7f61422f8908> [<__main__.Node object at 0x7f61422f88d0>, <__main__.Node object at 0x7f61422f8940>]
+<__main__.Node object at 0x7f61422f8940> [<__main__.Node object at 0x7f61422f8908>, <__main__.Node object at 0x7f61422f8828>]
+<__main__.Node object at 0x7f61422f8828> [<__main__.Node object at 0x7f61422f8940>, <__main__.Node object at 0x7f61422f8978>]
+<__main__.Node object at 0x7f61422f8978> [<__main__.Node object at 0x7f61422f8828>]
