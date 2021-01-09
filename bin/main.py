@@ -5,12 +5,14 @@
 
 import csv, json
 import route, api
+import platform
 
 
 
-def getStation(stations, lines):
+def getStation(lineField, lines):
     print("\n\n\n---** 請輸入捷運路線代號 **---");
-    for i, station in enumerate(stations):
+
+    for i, station in enumerate(lines[lineField]):
         print('-%2s\t%s\t%s' %((i+1), station.label, station.sName));
     print('\n-Q 返回上一頁 Return previous page');
 
@@ -18,8 +20,8 @@ def getStation(stations, lines):
         stationCode = input('\n---** 請輸入捷運站編號：');
         if (stationCode == 'Q' or stationCode == 'q'): return getRoute(lines);
 
-        if 0 < int(stationCode) < len(stations)+1:
-            return stations[int(stationCode)-1];
+        if 0 < int(stationCode) < len(lines[lineField])+1:
+            return lines[lineField][int(stationCode)-1];
 
         print('---{:^30}---'.format('--- ** 輸入錯誤!!! 請重新輸入!!! ** ---'));
         print('---** Input error!!! please input again!!! **---');
@@ -27,7 +29,11 @@ def getStation(stations, lines):
 
 
 def getRoute(lines):
-    with open('./API/routeAPI.json', 'r') as f:
+    if platform.system() == "Windows": path = "../API/routeAPI.json";
+    elif platform.system() == "Linux": path = "./API/routeAPI.json";
+    else: path = "";
+
+    with open(path, 'r', encoding = 'utf8') as f:
         routeData = json.load(f);
 
         for line in routeData:
@@ -38,7 +44,7 @@ def getRoute(lines):
             lineCode = input('\n---** 請輸入捷運路線代號：');
             if (lineCode == 'Q' or lineCode == 'q'): exit();
             for line in routeData:
-                if lineCode == line['LineID']: return getStation(lines[line['LineField']], lines);
+                if lineCode == line['LineID']: return getStation(line['LineField'], lines);
             else:
                 print('---{:^30}---'.format('---** 輸入錯誤!!! 請重新輸入!!! **---'));
                 print('---** Input error!!! please input again!!! **---');
@@ -46,11 +52,17 @@ def getRoute(lines):
 
 
 def getPrice(start, end):
-    with open('./API/priceAPI.csv', 'r', encoding='BIG5') as f:
+    if platform.system() == "Windows": path = "../API/priceAPI.csv";
+    elif platform.system() == "Linux": path = "./API/priceAPI.csv";
+    else: path = "";
+
+    with open(path, 'r', encoding='BIG5') as f:
         priceData = csv.reader(f)
 
         for row in priceData:
-            if (row[0] == start.sName and row[1] == end.sName): return row;
+            r1 = row[0][:-1] if '站' in row[0] else row[0];
+            r2 = row[1][:-1] if '站' in row[1] else row[1];
+            if (r1 == start.sName and r2 == end.sName): return row;
 
 
 
@@ -59,7 +71,7 @@ if __name__ == '__main__':
     print(" ***** 初始化 Initializing ****** ");
     api.getAllAPI();
     stations = route.arrangeData();
-    graph = route.constructRoute();
+    graph = route.constructRoute(stations);
     print(" ***** 初始化完成 Finished ***** ");
 
 
@@ -75,7 +87,7 @@ if __name__ == '__main__':
     end = getRoute(stations);
     print('\n目的地：%s - %s' %(end.label, end.sName));
 
-    path = route.dijsktra(graph, start, end);
+    path, time = route.dijsktra(graph, start, end);
 
     price = getPrice(start, end);
 

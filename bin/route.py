@@ -6,6 +6,7 @@
 import json, csv
 import collections
 import heapq
+import platform
 
 
 
@@ -57,10 +58,15 @@ class Graph:
         self.edges = collections.defaultdict(list);
         self.weights = {};
 
+    # Function insertEdge()
     # Insert edge between fromNode and toNode with the weight
+    #
+    # Parameters: fromNode  <tuple>
+    #             toNode    <tuple>
+    #             weight    <int>
     def insertEdge(self, fromNode, toNode, weight):
-        self.edges[fromNode].append(toNode);        # {fromNode: [$(neighbours)...]}
-        self.edges[toNode].append(fromNode);        # {toNode: [$(neighbours)...]}
+        if (toNode not in self.edges[fromNode]): self.edges[fromNode].append(toNode);   # {fromNode: [$(neighbours)...]}
+        if (fromNode not in self.edges[toNode]): self.edges[toNode].append(fromNode);   # {toNode: [$(neighbours)...]}
         self.weights[(fromNode, toNode)] = weight;  # {(fromNode, toNode): weight}
         self.weights[(toNode, fromNode)] = weight;  # {(toNode, fromNode): weight}
 
@@ -78,7 +84,7 @@ class Graph:
 
 
 # Function: dijsktra()
-# Find the shortest path and needed time by the Dijsktra Algorithm
+# Find the shortest path and needed time by the Dijsktra's Algorithm
 #
 # Parameters: graph         <Graph object>
 #             start         <Node object>
@@ -146,7 +152,11 @@ def dijsktra(graph, start, destination):
 def arrangeData():
     all_stations = {};
 
-    with open('./API/routeAPI.json', 'r') as f:
+    if platform.system() == "Windows": path = "../API/routeAPI.json";
+    elif platform.system() == "Linux": path = "./API/routeAPI.json";
+    else: path = "";
+
+    with open(path, 'r', encoding = 'utf-8') as f:
         routeData = json.load(f);
 
         for line in routeData:
@@ -170,7 +180,7 @@ def arrangeData():
                             inter.interchange = node;
                             break;
 
-                else: all_stations[field].append(node);
+                all_stations[field].append(node);
 
                 # Interchange Station
                 interchange = station['StationLabelForRoadmap'].split(' ');
@@ -192,21 +202,44 @@ def arrangeData():
 # Function: constructRoute()
 # Construct a Weighted Graph from the data
 #
-# Parameters: None
+# Parameters: route <dict>
 #
 # Return: a weighted graph
 #         graph -> <Graph object>
 #
-def constructRoute():
-    route = arrangeData();
+def constructRoute(route):
+    # Interchange
+    def interchange(fromNode):
+        if fromNode.interchange:
+
+            if platform.system() == "Windows": path = "../API/interchangeTimeAPI.csv";
+            elif platform.system() == "Linux": path = "./API/interchangeTimeAPI.csv";
+            else: path = "";
+
+            with open(path, 'r', encoding='BIG5') as f:
+                timeData = list(csv.reader(f));
+
+                for row in timeData:
+                    if (fromNode.sName in row[1]):
+                        travelTime = int(row[2])*60;
+                        graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), travelTime);
+                        break;
+                    else: graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), 10);
+
+
+
     graph = Graph();
 
     for field, stations in route.items():
         for i in range(len(stations)-1):
             fromNode = stations[i];
-            toNode = stations[i+1];
+            toNode = stations[i+2] if stations[i+1].label[-1].isalpha() else stations[i+1];
 
-            with open("./API/travelTimeAPI.csv", 'r', encoding='BIG5') as f:
+            if platform.system() == "Windows": path = "../API/travelTimeAPI.csv";
+            elif platform.system() == "Linux": path = "./API/travelTimeAPI.csv";
+            else: path = "";
+
+            with open(path, 'r', encoding='BIG5') as f:
                 timeData = list(csv.reader(f));
 
                 for row in timeData:
@@ -217,17 +250,10 @@ def constructRoute():
                         if travelTime: graph.insertEdge((fromNode.label, fromNode.sName), (toNode.label, toNode.sName), travelTime);
                         break;
 
-            # Interchange
-            if fromNode.interchange:
-                with open("./API/interchangeTimeAPI.csv", 'r', encoding='BIG5') as f:
-                    timeData = list(csv.reader(f));
+            interchange(fromNode);
 
-                    for row in timeData:
-                        if (fromNode.sName in row[1]):
-                            travelTime = int(row[2])*60;
-                            graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), travelTime);
-                            break;
-                        else: graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), 10);
+        fromNode = stations[-1];
+        interchange(fromNode);
 
     return graph;
 
@@ -241,5 +267,5 @@ if __name__ == '__main__':
         for v in val:
             v.toStr();
 
-    graph = constructRoute();
+    graph = constructRoute(stations);
     graph.toStr();
