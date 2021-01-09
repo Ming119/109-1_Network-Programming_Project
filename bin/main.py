@@ -3,9 +3,8 @@
 # This program runs in Python 3.8
 #
 
-import csv
-
-import route, api;
+import csv, json
+import route, api
 
 
 
@@ -17,7 +16,7 @@ def getStation(stations, lines):
 
     while True:
         stationCode = input('\n---** 請輸入捷運站編號：');
-        if (stationCode == 'Q'): return getRoute(lines);
+        if (stationCode == 'Q' or stationCode == 'q'): return getRoute(lines);
 
         if 0 < int(stationCode) < len(stations)+1:
             return stations[int(stationCode)-1];
@@ -28,16 +27,21 @@ def getStation(stations, lines):
 
 
 def getRoute(lines):
-    for id, field, name in lines:
-        print('- %s\t%s' %(id, name));
+    with open('./API/routeAPI.json', 'r') as f:
+        routeData = json.load(f);
 
-    while True:
-        lineCode = input('\n---** 請輸入捷運路線代號：');
-        for id, field, name in lines:
-            if lineCode == id: return getStation(lines[(id, field, name)], lines);
-        else:
-            print('---{:^30}---'.format('---** 輸入錯誤!!! 請重新輸入!!! **---'));
-            print('---** Input error!!! please input again!!! **---');
+        for line in routeData:
+            print('- %s\t%s' %(line['LineID'], line['LineName']));
+        print('\n-Q 退出 Exit');
+
+        while True:
+            lineCode = input('\n---** 請輸入捷運路線代號：');
+            if (lineCode == 'Q' or lineCode == 'q'): exit();
+            for line in routeData:
+                if lineCode == line['LineID']: return getStation(lines[line['LineField']], lines);
+            else:
+                print('---{:^30}---'.format('---** 輸入錯誤!!! 請重新輸入!!! **---'));
+                print('---** Input error!!! please input again!!! **---');
 
 
 
@@ -72,8 +76,9 @@ if __name__ == '__main__':
     print('\n目的地：%s - %s' %(end.label, end.sName));
 
     path = route.dijsktra(graph, start, end);
+
     price = getPrice(start, end);
-    
+
     for i, p in enumerate(path):
         print("[%s - %s]" %(p[0], p[1]), end = '');
         if i != len(path)-1: print(" -> ", end = '');
