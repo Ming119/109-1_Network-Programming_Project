@@ -20,7 +20,7 @@ class Node:
 
     # For Testing
     def toStr(self):
-        print("*****\nlid: %s - field: %s - lName: %s\nsid: %s - label: %s - sName: %s\ninterchange: %s\n*****" %(self.lid, self.field, self.lName, self.sid, self.label, self.sName, self.interchange), end = "");
+        print("*****\nlid: %s - field: %s - lName: %s\nsid: %s - label: %s - sName: %s\ninterchange: %s\n*****\n" %(self.lid, self.field, self.lName, self.sid, self.label, self.sName, self.interchange));
 
 
 
@@ -39,8 +39,9 @@ class Graph:
 
     # For Testing
     def toStr(self):
-        for e in self.graph:
-            print(e);
+        for key, val in self.weights.items():
+            print("*****\nFrom %s to %s\nTime: %ds\n*****\n" %(key[0], key[1], val));
+
 
 
 # Function: dijsktra()
@@ -115,8 +116,8 @@ def arrangeData():
                     if (interField in all_stations):
                         for inter in all_stations[interField]:
                             if inter.label == interLabel:
-                                inter.interchange = node;
                                 node.interchange = inter;
+                                inter.interchange = node;
                                 break;
 
     return all_stations;
@@ -128,67 +129,34 @@ def constructRoute():
     route = arrangeData();
     graph = Graph();
 
-    with open("./API/MRT_Time_API.csv", 'r', encoding='BIG5') as f:
-        timeData = list(csv.reader(f));
+    for field, stations in route.items():
+        for i in range(len(stations)-1):
+            fromNode = stations[i];
+            toNode = stations[i+1];
 
-        for field, stations in field.items():
-            for i in range(len(stations)-1):
-                travelTime = 0;
-                fromNode = statons[i];
-                toNode = stations[i+1];
+            with open("./API/MRT_Time_API.csv", 'r', encoding='BIG5') as f:
+                timeData = list(csv.reader(f));
 
-                for index, row in enumerate(timeData):
+                for row in timeData:
+                    if (fromNode.sName in row[1]) and (toNode.sName in row[2]) or \
+                        (fromNode.sName in row[2]) and (toNode.sName in row[1]):
 
-                    if (row[1][2:-1] == fromNode.sName) and (row[2][2:-1] == toNode.sName) or \
-                        (row[2][2:-1] == fromNode.sName) and (row[1][2:-1] == toNode.sName):
-
-                        travelTime += (int(row[3]) + int(row[5]));
-                        if travelTime: timeData.pop(index);
+                        travelTime = (int(row[3]) + int(row[5]));
+                        print(fromNode.label, toNode.label, travelTime);
+                        if travelTime: graph.insertEdge(fromNode.label, toNode.label, travelTime);
                         break;
 
-                if travelTime: graph.insertEdge(fromNode, toNode, travelTime);
+            # Interchange
+            if fromNode.interchange:
+                with open("./API/MRT_interchangeTime_API.csv", 'r', encoding='BIG5') as f:
+                    timeData = list(csv.reader(f));
 
-                if fromNode.interchange: toNode = fromNode.interchange;
-                if fromNode == "台北車站": 
-
-                for index, row in enumerate(timeData):
-
-                    if (row[1][2:-1] == fromNode.sName) and (row[2][2:-1] == toNode.sName) or \
-                        (row[2][2:-1] == fromNode.sName) and (row[1][2:-1] == toNode.sName):
-
-                        travelTime += (int(row[3]) + int(row[5]));
-                        if travelTime: timeData.pop(index);
-                        break;
-
-
-
-
-
-
-                #     # '台北車站' Needs special treatment
-                #     if (station.sName == '台北車站'):
-                #         if (row[1][2:] == '台北車站') and (row[2][2:-1] == toNode.sName) or \
-                #             (row[2][2:] == '台北車站') and (row[1][2:-1] == toNode.sName):
-                #
-                #             travelTime += (int(row[3]) + int(row[5]));
-                #             if travelTime: timeData.pop(index);
-                #             break;
-                #
-                #     elif (toNode.sName == '台北車站'):
-                #         if (row[1][2:] == '台北車站') and (row[2][2:-1] == formNode.sName) or \
-                #             (row[2][2:] == '台北車站') and (row[1][2:-1] == formNode.sName):
-                #
-                #             travelTime += (int(row[3]) + int(row[5]));
-                #             if travelTime: timeData.pop(index);
-                #             break;
-                #
-                #     elif (row[1][2:-1] == formNode.sName) and (row[2][2:-1] == toNode.sName) or \
-                #         (row[1][2:-1] == toNode.sName) and (row[2][2:-1] == formNode.sName):
-                #         travelTime += (int(row[3]) + int(row[5]));
-                #
-                #         if travelTime: timeData.pop(index);
-                #         break;
-                # if travelTime: graph.insertEdge(formNode, toNode, travelTime);
+                    for row in timeData:
+                        if (fromNode.sName in row[1]):
+                            travelTime = int(row[2])*60;
+                            graph.insertEdge(fromNode.label, fromNode.interchange.label, travelTime);
+                            break;
+                        else: graph.insertEdge(fromNode.label, fromNode.interchange.label, 0);
 
     return graph;
 
@@ -217,24 +185,10 @@ def getStation(id = '', label = ''):
 
 if __name__ == '__main__':
     stations = arrangeData();
+    for key, val in stations.items():
+        print(key);
+        for v in val:
+            v.toStr();
+
     graph = constructRoute();
-
-
-    # for line in existing_line:
-    #     line.toStr();
-    #
-    #     sptr = line.head;
-    #     while sptr is not None:
-    #         sptr.toStr();
-    #         sptr = sptr.nextStation;
-    #
-    #     print();
-    #
-    # start = getStation(label = 'G12');
-    # # start = getStation(label = 'BL10');
-    # end = getStation(label = 'BL14');
-    #
-    # # print(p)
-    # # for i in p:
-    # #     for j in i:
-    # #         print(j.toStr());
+    graph.toStr();

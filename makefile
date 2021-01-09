@@ -6,5 +6,8 @@ init:
 run:
 	python3 ./bin/main.py
 
-test_route:
-	python3 ./bin/route.py
+test_route: mkDEBUG
+	python3 ./bin/route.py > ./DEBUG/routeDEBUG.txt
+
+mkDEBUG:
+	mkdir -p DEBUG
