@@ -73,7 +73,7 @@ def getAllAPI() -> None:
 def DEBUG(path):
     print("***** %s *****" %path);
     print(os.stat(path));
-    print("********************\n")
+    print("******************************\n")
 
 if __name__ == '__main__':
     DEBUG(getRouteAPI());

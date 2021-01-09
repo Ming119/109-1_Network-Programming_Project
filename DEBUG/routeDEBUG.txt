@@ -1,2211 +1,3044 @@
-('1', 'BR', 'BR 文湖線')
+BR
 *****
+<__main__.Node object at 0x7f2ee1e73198>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 019 - label: BR01 - sName: 動物園
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e731d0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 018 - label: BR02 - sName: 木柵
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73208>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 017 - label: BR03 - sName: 萬芳社區
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73240>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 016 - label: BR04 - sName: 萬芳醫院
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73278>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 015 - label: BR05 - sName: 辛亥
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e732b0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 014 - label: BR06 - sName: 麟光
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e732e8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 013 - label: BR07 - sName: 六張犁
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73320>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 012 - label: BR08 - sName: 科技大樓
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73358>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 011 - label: BR09 - sName: 大安
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e737f0>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73400>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 010 - label: BR10 - sName: 忠孝復興
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76a90>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e733c8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 009 - label: BR11 - sName: 南京復興
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76128>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73390>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 008 - label: BR12 - sName: 中山國中
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e734e0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 007 - label: BR13 - sName: 松山機場
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73438>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 021 - label: BR14 - sName: 大直
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73470>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 022 - label: BR15 - sName: 劍南路
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73518>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 023 - label: BR16 - sName: 西湖
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73550>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 024 - label: BR17 - sName: 港墘
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73588>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 025 - label: BR18 - sName: 文德
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e735c0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 026 - label: BR19 - sName: 內湖
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e735f8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 027 - label: BR20 - sName: 大湖公園
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73630>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 028 - label: BR21 - sName: 葫洲
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73668>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 029 - label: BR22 - sName: 東湖
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e736a0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 030 - label: BR23 - sName: 南港軟體園區
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e736d8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 031 - label: BR24 - sName: 南港展覽館
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76c88>
 *****
 
-('2', 'R', 'R 淡水信義線')
+R
 *****
+<__main__.Node object at 0x7f2ee1e73780>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 099 - label: R02 - sName: 象山
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73748>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 100 - label: R03 - sName: 台北101/世貿
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e737b8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 101 - label: R04 - sName: 信義安和
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e737f0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 011 - label: R05 - sName: 大安
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73358>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e734a8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 103 - label: R06 - sName: 大安森林公園
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73828>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 134 - label: R07 - sName: 東門
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76278>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73710>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 042 - label: R08 - sName: 中正紀念堂
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73e80>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e738d0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 050 - label: R09 - sName: 台大醫院
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73908>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 051 - label: R10 - sName: 台北車站
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76588>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73978>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 053 - label: R11 - sName: 中山
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76080>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73860>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 054 - label: R12 - sName: 雙連
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e739e8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 055 - label: R13 - sName: 民權西路
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76320>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e739b0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 056 - label: R14 - sName: 圓山
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73940>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 057 - label: R15 - sName: 劍潭
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73a20>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 058 - label: R16 - sName: 士林
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73a58>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 059 - label: R17 - sName: 芝山
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73a90>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 060 - label: R18 - sName: 明德
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73ac8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 061 - label: R19 - sName: 石牌
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73b00>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 062 - label: R20 - sName: 唭哩岸
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73b38>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 063 - label: R21 - sName: 奇岩
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73b70>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 064 - label: R22 - sName: 北投
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73ba8>
 *****
 
 *****
-lid: 2 - field: R - lName: R 淡水信義線
-sid: 065 - label: R22A - sName: 新北投
-interchange: None
-*****
-
-*****
+<__main__.Node object at 0x7f2ee1e73be0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 066 - label: R23 - sName: 復興崗
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73c18>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 067 - label: R24 - sName: 忠義
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73c50>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 068 - label: R25 - sName: 關渡
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73c88>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 069 - label: R26 - sName: 竹圍
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73cc0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 070 - label: R27 - sName: 紅樹林
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73cf8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 071 - label: R28 - sName: 淡水
 interchange: None
 *****
 
-('3', 'G', 'G 松山新店線')
+G
 *****
+<__main__.Node object at 0x7f2ee1e73d30>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 033 - label: G01 - sName: 新店
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73d68>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 034 - label: G02 - sName: 新店區公所
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73da0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 035 - label: G03 - sName: 七張
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73dd8>
 *****
 
 *****
-lid: 3 - field: G - lName: G 松山新店線
-sid: 032 - label: G03A - sName: 小碧潭
-interchange: None
-*****
-
-*****
+<__main__.Node object at 0x7f2ee1e73e10>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 036 - label: G04 - sName: 大坪林
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76ac8>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73898>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 037 - label: G05 - sName: 景美
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73e48>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 038 - label: G06 - sName: 萬隆
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73eb8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 039 - label: G07 - sName: 公館
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73ef0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 040 - label: G08 - sName: 台電大樓
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73f28>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 041 - label: G09 - sName: 古亭
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76198>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73e80>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 042 - label: G10 - sName: 中正紀念堂
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73710>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73f98>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 043 - label: G11 - sName: 小南門
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73fd0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 086 - label: G12 - sName: 西門
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e769b0>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e760b8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 105 - label: G13 - sName: 北門
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76080>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 053 - label: G14 - sName: 中山
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73978>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e73f60>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 132 - label: G15 - sName: 松江南京
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76390>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76128>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 009 - label: G16 - sName: 南京復興
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e733c8>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76048>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 109 - label: G17 - sName: 台北小巨蛋
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e760f0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 110 - label: G18 - sName: 南京三民
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e761d0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 111 - label: G19 - sName: 松山
 interchange: None
 *****
 
-('4', 'O', 'O 中和新蘆線')
+O
 *****
+<__main__.Node object at 0x7f2ee1e76208>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 048 - label: O01 - sName: 南勢角
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76240>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 047 - label: O02 - sName: 景安
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76cc0>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76160>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 046 - label: O03 - sName: 永安市場
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e762b0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 045 - label: O04 - sName: 頂溪
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76198>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 041 - label: O05 - sName: 古亭
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73f28>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76278>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 134 - label: O06 - sName: 東門
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73828>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e762e8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 089 - label: O07 - sName: 忠孝新生
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76a58>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76390>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 132 - label: O08 - sName: 松江南京
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73f60>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76358>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 131 - label: O09 - sName: 行天宮
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76438>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 130 - label: O10 - sName: 中山國小
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76320>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 055 - label: O11 - sName: 民權西路
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e739e8>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76400>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 128 - label: O12 - sName: 大橋頭
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e763c8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 127 - label: O13 - sName: 台北橋
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e764a8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 126 - label: O14 - sName: 菜寮
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e764e0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 125 - label: O15 - sName: 三重
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76518>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 124 - label: O16 - sName: 先嗇宮
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76550>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 123 - label: O17 - sName: 頭前庄
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76ef0>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76470>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 122 - label: O18 - sName: 新莊
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e765c0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 121 - label: O19 - sName: 輔大
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e765f8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 180 - label: O20 - sName: 丹鳳
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76630>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 179 - label: O21 - sName: 迴龍
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76668>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 178 - label: O50 - sName: 三重國小
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e766a0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 177 - label: O51 - sName: 三和國中
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e766d8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 176 - label: O52 - sName: 徐匯中學
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76710>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 175 - label: O53 - sName: 三民高中
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76748>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 174 - label: O54 - sName: 蘆洲
 interchange: None
 *****
 
-('5', 'BL', 'BL 板南線')
+BL
 *****
+<__main__.Node object at 0x7f2ee1e76780>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 076 - label: BL01 - sName: 頂埔
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e767b8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 077 - label: BL02 - sName: 永寧
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e767f0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 078 - label: BL03 - sName: 土城
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76828>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 079 - label: BL04 - sName: 海山
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76860>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 080 - label: BL05 - sName: 亞東醫院
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76898>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 081 - label: BL06 - sName: 府中
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e768d0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 082 - label: BL07 - sName: 板橋
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76908>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 083 - label: BL08 - sName: 新埔
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76940>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 084 - label: BL09 - sName: 江子翠
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76978>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 085 - label: BL10 - sName: 龍山寺
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e769b0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 086 - label: BL11 - sName: 西門
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73fd0>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76588>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 051 - label: BL12 - sName: 台北車站
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73908>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76a20>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 088 - label: BL13 - sName: 善導寺
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76a58>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 089 - label: BL14 - sName: 忠孝新生
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e762e8>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76a90>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 010 - label: BL15 - sName: 忠孝復興
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73400>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e769e8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 091 - label: BL16 - sName: 忠孝敦化
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76b00>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 092 - label: BL17 - sName: 國父紀念館
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76b70>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 093 - label: BL18 - sName: 市政府
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76ba8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 094 - label: BL19 - sName: 永春
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76be0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 095 - label: BL20 - sName: 後山埤
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76c18>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 096 - label: BL21 - sName: 昆陽
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76c50>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 097 - label: BL22 - sName: 南港
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76c88>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 031 - label: BL23 - sName: 南港展覽館
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e736d8>
 *****
 
-('6', 'Y', 'Y 環狀線')
+Y
 *****
+<__main__.Node object at 0x7f2ee1e76ac8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 036 - label: Y07 - sName: 大坪林
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e73e10>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76b38>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 201 - label: Y08 - sName: 十四張
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76d68>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 202 - label: Y09 - sName: 秀朗橋
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76cf8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 203 - label: Y10 - sName: 景平
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76cc0>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 047 - label: Y11 - sName: 景安
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76240>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76d30>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 205 - label: Y12 - sName: 中和
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76da0>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 206 - label: Y13 - sName: 橋和
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76e10>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 207 - label: Y14 - sName: 中原
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76e48>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 208 - label: Y15 - sName: 板新
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76e80>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 209 - label: Y16 - sName: 板橋
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76eb8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 210 - label: Y17 - sName: 新埔民生
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76ef0>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 123 - label: Y18 - sName: 頭前庄
-interchange: None
+interchange: <__main__.Node object at 0x7f2ee1e76550>
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76dd8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 212 - label: Y19 - sName: 幸福
 interchange: None
 *****
 
 *****
+<__main__.Node object at 0x7f2ee1e76f28>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 213 - label: Y20 - sName: 新北產業園區
 interchange: None
 *****
 
-*****
-From <__main__.Node object at 0x7f61422f1ba8> to <__main__.Node object at 0x7f61422f1be0>
+
+**********
+From BR01 to 動物園
+[('BR02', '木柵')]
+**********
+
+**********
+From BR02 to 木柵
+[('BR01', '動物園'), ('BR03', '萬芳社區')]
+**********
+
+**********
+From BR03 to 萬芳社區
+[('BR02', '木柵'), ('BR04', '萬芳醫院')]
+**********
+
+**********
+From BR04 to 萬芳醫院
+[('BR03', '萬芳社區'), ('BR05', '辛亥')]
+**********
+
+**********
+From BR05 to 辛亥
+[('BR04', '萬芳醫院'), ('BR06', '麟光')]
+**********
+
+**********
+From BR06 to 麟光
+[('BR05', '辛亥'), ('BR07', '六張犁')]
+**********
+
+**********
+From BR07 to 六張犁
+[('BR06', '麟光'), ('BR08', '科技大樓')]
+**********
+
+**********
+From BR08 to 科技大樓
+[('BR07', '六張犁'), ('BR09', '大安')]
+**********
+
+**********
+From BR09 to 大安
+[('BR08', '科技大樓'), ('BR10', '忠孝復興'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安'), ('R05', '大安')]
+**********
+
+**********
+From BR10 to 忠孝復興
+[('BR09', '大安'), ('BR11', '南京復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興'), ('BL15', '忠孝復興')]
+**********
+
+**********
+From R05 to 大安
+[('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('R04', '信義安和'), ('R06', '大安森林公園'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安'), ('BR09', '大安')]
+**********
+
+**********
+From BR11 to 南京復興
+[('BR10', '忠孝復興'), ('BR12', '中山國中'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興'), ('G16', '南京復興')]
+**********
+
+**********
+From BL15 to 忠孝復興
+[('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BL14', '忠孝新生'), ('BL16', '忠孝敦化'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興'), ('BR10', '忠孝復興')]
+**********
+
+**********
+From BR12 to 中山國中
+[('BR11', '南京復興'), ('BR13', '松山機場')]
+**********
+
+**********
+From G16 to 南京復興
+[('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('G15', '松江南京'), ('G17', '台北小巨蛋'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興'), ('BR11', '南京復興')]
+**********
+
+**********
+From BR13 to 松山機場
+[('BR12', '中山國中'), ('BR14', '大直')]
+**********
+
+**********
+From BR14 to 大直
+[('BR13', '松山機場'), ('BR15', '劍南路')]
+**********
+
+**********
+From BR15 to 劍南路
+[('BR14', '大直'), ('BR16', '西湖')]
+**********
+
+**********
+From BR16 to 西湖
+[('BR15', '劍南路'), ('BR17', '港墘')]
+**********
+
+**********
+From BR17 to 港墘
+[('BR16', '西湖'), ('BR18', '文德')]
+**********
+
+**********
+From BR18 to 文德
+[('BR17', '港墘'), ('BR19', '內湖')]
+**********
+
+**********
+From BR19 to 內湖
+[('BR18', '文德'), ('BR20', '大湖公園')]
+**********
+
+**********
+From BR20 to 大湖公園
+[('BR19', '內湖'), ('BR21', '葫洲')]
+**********
+
+**********
+From BR21 to 葫洲
+[('BR20', '大湖公園'), ('BR22', '東湖')]
+**********
+
+**********
+From BR22 to 東湖
+[('BR21', '葫洲'), ('BR23', '南港軟體園區')]
+**********
+
+**********
+From BR23 to 南港軟體園區
+[('BR22', '東湖'), ('BR24', '南港展覽館')]
+**********
+
+**********
+From BR24 to 南港展覽館
+[('BR23', '南港軟體園區')]
+**********
+
+**********
+From R02 to 象山
+[('R03', '台北101/世貿')]
+**********
+
+**********
+From R03 to 台北101/世貿
+[('R02', '象山'), ('R04', '信義安和')]
+**********
+
+**********
+From R04 to 信義安和
+[('R03', '台北101/世貿'), ('R05', '大安')]
+**********
+
+**********
+From R06 to 大安森林公園
+[('R05', '大安'), ('R07', '東門')]
+**********
+
+**********
+From R07 to 東門
+[('R06', '大安森林公園'), ('R08', '中正紀念堂'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門'), ('O06', '東門')]
+**********
+
+**********
+From R08 to 中正紀念堂
+[('R07', '東門'), ('R09', '台大醫院'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂'), ('G10', '中正紀念堂')]
+**********
+
+**********
+From O06 to 東門
+[('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('O05', '古亭'), ('O07', '忠孝新生'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門'), ('R07', '東門')]
+**********
+
+**********
+From R09 to 台大醫院
+[('R08', '中正紀念堂'), ('R10', '台北車站')]
+**********
+
+**********
+From G10 to 中正紀念堂
+[('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('G09', '古亭'), ('G11', '小南門'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂'), ('R08', '中正紀念堂')]
+**********
+
+**********
+From R10 to 台北車站
+[('R09', '台大醫院'), ('R11', '中山'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站'), ('BL12', '台北車站')]
+**********
+
+**********
+From R11 to 中山
+[('R10', '台北車站'), ('R12', '雙連'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山'), ('G14', '中山')]
+**********
+
+**********
+From BL12 to 台北車站
+[('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('BL11', '西門'), ('BL13', '善導寺'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站'), ('R10', '台北車站')]
+**********
+
+**********
+From R12 to 雙連
+[('R11', '中山'), ('R13', '民權西路')]
+**********
+
+**********
+From G14 to 中山
+[('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('G13', '北門'), ('G15', '松江南京'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山'), ('R11', '中山')]
+**********
+
+**********
+From R13 to 民權西路
+[('R12', '雙連'), ('R14', '圓山'), ('O11', '民權西路'), ('O11', '民權西路'), ('O11', '民權西路'), ('O11', '民權西路'), ('O11', '民權西路'), ('O11', '民權西路')]
+**********
+
+**********
+From R14 to 圓山
+[('R13', '民權西路'), ('R15', '劍潭')]
+**********
+
+**********
+From O11 to 民權西路
+[('R13', '民權西路'), ('R13', '民權西路'), ('R13', '民權西路'), ('O10', '中山國小'), ('O12', '大橋頭'), ('R13', '民權西路'), ('R13', '民權西路'), ('R13', '民權西路')]
+**********
+
+**********
+From R15 to 劍潭
+[('R14', '圓山'), ('R16', '士林')]
+**********
+
+**********
+From R16 to 士林
+[('R15', '劍潭'), ('R17', '芝山')]
+**********
+
+**********
+From R17 to 芝山
+[('R16', '士林'), ('R18', '明德')]
+**********
+
+**********
+From R18 to 明德
+[('R17', '芝山'), ('R19', '石牌')]
+**********
+
+**********
+From R19 to 石牌
+[('R18', '明德'), ('R20', '唭哩岸')]
+**********
+
+**********
+From R20 to 唭哩岸
+[('R19', '石牌'), ('R21', '奇岩')]
+**********
+
+**********
+From R21 to 奇岩
+[('R20', '唭哩岸'), ('R22', '北投')]
+**********
+
+**********
+From R22 to 北投
+[('R21', '奇岩'), ('R23', '復興崗'), ('R22A', '新北投'), ('R22A', '新北投')]
+**********
+
+**********
+From R23 to 復興崗
+[('R22', '北投'), ('R24', '忠義')]
+**********
+
+**********
+From R22A to 新北投
+[('R22', '北投'), ('R22', '北投')]
+**********
+
+**********
+From R24 to 忠義
+[('R23', '復興崗'), ('R25', '關渡')]
+**********
+
+**********
+From R25 to 關渡
+[('R24', '忠義'), ('R26', '竹圍')]
+**********
+
+**********
+From R26 to 竹圍
+[('R25', '關渡'), ('R27', '紅樹林')]
+**********
+
+**********
+From R27 to 紅樹林
+[('R26', '竹圍'), ('R28', '淡水')]
+**********
+
+**********
+From R28 to 淡水
+[('R27', '紅樹林')]
+**********
+
+**********
+From G01 to 新店
+[('G02', '新店區公所')]
+**********
+
+**********
+From G02 to 新店區公所
+[('G01', '新店'), ('G03', '七張')]
+**********
+
+**********
+From G03 to 七張
+[('G02', '新店區公所'), ('G04', '大坪林'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭'), ('G03A', '小碧潭')]
+**********
+
+**********
+From G04 to 大坪林
+[('G03', '七張'), ('G05', '景美'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林'), ('Y07', '大坪林')]
+**********
+
+**********
+From G03A to 小碧潭
+[('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張'), ('G03', '七張')]
+**********
+
+**********
+From G05 to 景美
+[('G04', '大坪林'), ('G06', '萬隆')]
+**********
+
+**********
+From Y07 to 大坪林
+[('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('Y08', '十四張'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林'), ('G04', '大坪林')]
+**********
+
+**********
+From G06 to 萬隆
+[('G05', '景美'), ('G07', '公館')]
+**********
+
+**********
+From G07 to 公館
+[('G06', '萬隆'), ('G08', '台電大樓')]
+**********
+
+**********
+From G08 to 台電大樓
+[('G07', '公館'), ('G09', '古亭')]
+**********
+
+**********
+From G09 to 古亭
+[('G08', '台電大樓'), ('G10', '中正紀念堂'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭'), ('O05', '古亭')]
+**********
+
+**********
+From O05 to 古亭
+[('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('O04', '頂溪'), ('O06', '東門'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭'), ('G09', '古亭')]
+**********
+
+**********
+From G11 to 小南門
+[('G10', '中正紀念堂'), ('G12', '西門')]
+**********
+
+**********
+From G12 to 西門
+[('G11', '小南門'), ('G13', '北門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門'), ('BL11', '西門')]
+**********
+
+**********
+From G13 to 北門
+[('G12', '西門'), ('G14', '中山')]
+**********
+
+**********
+From BL11 to 西門
+[('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('BL10', '龍山寺'), ('BL12', '台北車站'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門'), ('G12', '西門')]
+**********
+
+**********
+From G15 to 松江南京
+[('G14', '中山'), ('G16', '南京復興'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京'), ('O08', '松江南京')]
+**********
+
+**********
+From O08 to 松江南京
+[('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('O07', '忠孝新生'), ('O09', '行天宮'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京'), ('G15', '松江南京')]
+**********
+
+**********
+From G17 to 台北小巨蛋
+[('G16', '南京復興'), ('G18', '南京三民')]
+**********
+
+**********
+From G18 to 南京三民
+[('G17', '台北小巨蛋'), ('G19', '松山')]
+**********
+
+**********
+From G19 to 松山
+[('G18', '南京三民')]
+**********
+
+**********
+From O01 to 南勢角
+[('O02', '景安')]
+**********
+
+**********
+From O02 to 景安
+[('O01', '南勢角'), ('O03', '永安市場'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安'), ('Y11', '景安')]
+**********
+
+**********
+From O03 to 永安市場
+[('O02', '景安'), ('O04', '頂溪')]
+**********
+
+**********
+From Y11 to 景安
+[('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('Y10', '景平'), ('Y12', '中和'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安'), ('O02', '景安')]
+**********
+
+**********
+From O04 to 頂溪
+[('O03', '永安市場'), ('O05', '古亭')]
+**********
+
+**********
+From O07 to 忠孝新生
+[('O06', '東門'), ('O08', '松江南京'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生'), ('BL14', '忠孝新生')]
+**********
+
+**********
+From BL14 to 忠孝新生
+[('O07', '忠孝新生'), ('O07', '忠孝新生'), ('O07', '忠孝新生'), ('O07', '忠孝新生'), ('BL13', '善導寺'), ('BL15', '忠孝復興'), ('O07', '忠孝新生'), ('O07', '忠孝新生'), ('O07', '忠孝新生'), ('O07', '忠孝新生')]
+**********
+
+**********
+From O09 to 行天宮
+[('O08', '松江南京'), ('O10', '中山國小')]
+**********
+
+**********
+From O10 to 中山國小
+[('O09', '行天宮'), ('O11', '民權西路')]
+**********
+
+**********
+From O12 to 大橋頭
+[('O11', '民權西路'), ('O13', '台北橋')]
+**********
+
+**********
+From O13 to 台北橋
+[('O12', '大橋頭'), ('O14', '菜寮')]
+**********
+
+**********
+From O14 to 菜寮
+[('O13', '台北橋'), ('O15', '三重')]
+**********
+
+**********
+From O15 to 三重
+[('O14', '菜寮'), ('O16', '先嗇宮')]
+**********
+
+**********
+From O16 to 先嗇宮
+[('O15', '三重'), ('O17', '頭前庄')]
+**********
+
+**********
+From O17 to 頭前庄
+[('O16', '先嗇宮'), ('O18', '新莊'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄'), ('Y18', '頭前庄')]
+**********
+
+**********
+From O18 to 新莊
+[('O17', '頭前庄'), ('O19', '輔大')]
+**********
+
+**********
+From Y18 to 頭前庄
+[('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('Y17', '新埔民生'), ('Y19', '幸福'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄'), ('O17', '頭前庄')]
+**********
+
+**********
+From O19 to 輔大
+[('O18', '新莊'), ('O20', '丹鳳')]
+**********
+
+**********
+From O20 to 丹鳳
+[('O19', '輔大'), ('O21', '迴龍')]
+**********
+
+**********
+From O21 to 迴龍
+[('O20', '丹鳳')]
+**********
+
+**********
+From O50 to 三重國小
+[('O51', '三和國中')]
+**********
+
+**********
+From O51 to 三和國中
+[('O50', '三重國小'), ('O52', '徐匯中學')]
+**********
+
+**********
+From O52 to 徐匯中學
+[('O51', '三和國中'), ('O53', '三民高中')]
+**********
+
+**********
+From O53 to 三民高中
+[('O52', '徐匯中學'), ('O54', '蘆洲')]
+**********
+
+**********
+From O54 to 蘆洲
+[('O53', '三民高中')]
+**********
+
+**********
+From BL01 to 頂埔
+[('BL02', '永寧')]
+**********
+
+**********
+From BL02 to 永寧
+[('BL01', '頂埔'), ('BL03', '土城')]
+**********
+
+**********
+From BL03 to 土城
+[('BL02', '永寧'), ('BL04', '海山')]
+**********
+
+**********
+From BL04 to 海山
+[('BL03', '土城'), ('BL05', '亞東醫院')]
+**********
+
+**********
+From BL05 to 亞東醫院
+[('BL04', '海山'), ('BL06', '府中')]
+**********
+
+**********
+From BL06 to 府中
+[('BL05', '亞東醫院'), ('BL07', '板橋')]
+**********
+
+**********
+From BL07 to 板橋
+[('BL06', '府中'), ('BL08', '新埔')]
+**********
+
+**********
+From BL08 to 新埔
+[('BL07', '板橋'), ('BL09', '江子翠')]
+**********
+
+**********
+From BL09 to 江子翠
+[('BL08', '新埔'), ('BL10', '龍山寺')]
+**********
+
+**********
+From BL10 to 龍山寺
+[('BL09', '江子翠'), ('BL11', '西門')]
+**********
+
+**********
+From BL13 to 善導寺
+[('BL12', '台北車站'), ('BL14', '忠孝新生')]
+**********
+
+**********
+From BL16 to 忠孝敦化
+[('BL15', '忠孝復興'), ('BL17', '國父紀念館')]
+**********
+
+**********
+From BL17 to 國父紀念館
+[('BL16', '忠孝敦化'), ('BL18', '市政府')]
+**********
+
+**********
+From BL18 to 市政府
+[('BL17', '國父紀念館'), ('BL19', '永春')]
+**********
+
+**********
+From BL19 to 永春
+[('BL18', '市政府'), ('BL20', '後山埤')]
+**********
+
+**********
+From BL20 to 後山埤
+[('BL19', '永春'), ('BL21', '昆陽')]
+**********
+
+**********
+From BL21 to 昆陽
+[('BL20', '後山埤'), ('BL22', '南港')]
+**********
+
+**********
+From BL22 to 南港
+[('BL21', '昆陽'), ('BL23', '南港展覽館')]
+**********
+
+**********
+From BL23 to 南港展覽館
+[('BL22', '南港')]
+**********
+
+**********
+From Y08 to 十四張
+[('Y07', '大坪林'), ('Y09', '秀朗橋')]
+**********
+
+**********
+From Y09 to 秀朗橋
+[('Y08', '十四張'), ('Y10', '景平')]
+**********
+
+**********
+From Y10 to 景平
+[('Y09', '秀朗橋'), ('Y11', '景安')]
+**********
+
+**********
+From Y12 to 中和
+[('Y11', '景安'), ('Y13', '橋和')]
+**********
+
+**********
+From Y13 to 橋和
+[('Y12', '中和'), ('Y14', '中原')]
+**********
+
+**********
+From Y14 to 中原
+[('Y13', '橋和'), ('Y15', '板新')]
+**********
+
+**********
+From Y15 to 板新
+[('Y14', '中原'), ('Y16', '板橋')]
+**********
+
+**********
+From Y16 to 板橋
+[('Y15', '板新'), ('Y17', '新埔民生')]
+**********
+
+**********
+From Y17 to 新埔民生
+[('Y16', '板橋'), ('Y18', '頭前庄')]
+**********
+
+**********
+From Y19 to 幸福
+[('Y18', '頭前庄'), ('Y20', '新北產業園區')]
+**********
+
+**********
+From Y20 to 新北產業園區
+[('Y19', '幸福')]
+**********
+
+
+**********
+From ('BR01', '動物園') to ('BR02', '木柵')
 Time: 92s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1be0> to <__main__.Node object at 0x7f61422f1ba8>
+**********
+From ('BR02', '木柵') to ('BR01', '動物園')
 Time: 92s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1be0> to <__main__.Node object at 0x7f61422f1c18>
+**********
+From ('BR02', '木柵') to ('BR03', '萬芳社區')
 Time: 72s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c18> to <__main__.Node object at 0x7f61422f1be0>
+**********
+From ('BR03', '萬芳社區') to ('BR02', '木柵')
 Time: 72s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c18> to <__main__.Node object at 0x7f61422f1c50>
+**********
+From ('BR03', '萬芳社區') to ('BR04', '萬芳醫院')
 Time: 124s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c50> to <__main__.Node object at 0x7f61422f1c18>
+**********
+From ('BR04', '萬芳醫院') to ('BR03', '萬芳社區')
 Time: 124s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c50> to <__main__.Node object at 0x7f61422f1c88>
+**********
+From ('BR04', '萬芳醫院') to ('BR05', '辛亥')
 Time: 131s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c88> to <__main__.Node object at 0x7f61422f1c50>
+**********
+From ('BR05', '辛亥') to ('BR04', '萬芳醫院')
 Time: 131s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1c88> to <__main__.Node object at 0x7f61422f1cc0>
+**********
+From ('BR05', '辛亥') to ('BR06', '麟光')
 Time: 149s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1cc0> to <__main__.Node object at 0x7f61422f1c88>
+**********
+From ('BR06', '麟光') to ('BR05', '辛亥')
 Time: 149s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1cc0> to <__main__.Node object at 0x7f61422f1cf8>
+**********
+From ('BR06', '麟光') to ('BR07', '六張犁')
 Time: 97s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1cf8> to <__main__.Node object at 0x7f61422f1cc0>
+**********
+From ('BR07', '六張犁') to ('BR06', '麟光')
 Time: 97s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1cf8> to <__main__.Node object at 0x7f61422f1d30>
+**********
+From ('BR07', '六張犁') to ('BR08', '科技大樓')
 Time: 147s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1d30> to <__main__.Node object at 0x7f61422f1cf8>
+**********
+From ('BR08', '科技大樓') to ('BR07', '六張犁')
 Time: 147s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1d30> to <__main__.Node object at 0x7f61422f1d68>
+**********
+From ('BR08', '科技大樓') to ('BR09', '大安')
 Time: 99s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1d68> to <__main__.Node object at 0x7f61422f1d30>
+**********
+From ('BR09', '大安') to ('BR08', '科技大樓')
 Time: 99s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1d68> to <__main__.Node object at 0x7f61422f1e10>
+**********
+From ('BR09', '大安') to ('BR10', '忠孝復興')
 Time: 112s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e10> to <__main__.Node object at 0x7f61422f1d68>
+**********
+From ('BR10', '忠孝復興') to ('BR09', '大安')
 Time: 112s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e10> to <__main__.Node object at 0x7f61422f1da0>
+**********
+From ('BR09', '大安') to ('R05', '大安')
+Time: 300s
+**********
+
+**********
+From ('R05', '大安') to ('BR09', '大安')
+Time: 300s
+**********
+
+**********
+From ('BR10', '忠孝復興') to ('BR11', '南京復興')
 Time: 116s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1da0> to <__main__.Node object at 0x7f61422f1e10>
+**********
+From ('BR11', '南京復興') to ('BR10', '忠孝復興')
 Time: 116s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1da0> to <__main__.Node object at 0x7f61422f1e48>
+**********
+From ('BR10', '忠孝復興') to ('BL15', '忠孝復興')
+Time: 300s
+**********
+
+**********
+From ('BL15', '忠孝復興') to ('BR10', '忠孝復興')
+Time: 300s
+**********
+
+**********
+From ('BR11', '南京復興') to ('BR12', '中山國中')
 Time: 91s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e48> to <__main__.Node object at 0x7f61422f1da0>
+**********
+From ('BR12', '中山國中') to ('BR11', '南京復興')
 Time: 91s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e48> to <__main__.Node object at 0x7f61422f1eb8>
+**********
+From ('BR11', '南京復興') to ('G16', '南京復興')
+Time: 300s
+**********
+
+**********
+From ('G16', '南京復興') to ('BR11', '南京復興')
+Time: 300s
+**********
+
+**********
+From ('BR12', '中山國中') to ('BR13', '松山機場')
 Time: 167s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1eb8> to <__main__.Node object at 0x7f61422f1e48>
+**********
+From ('BR13', '松山機場') to ('BR12', '中山國中')
 Time: 167s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1eb8> to <__main__.Node object at 0x7f61422f1e80>
+**********
+From ('BR13', '松山機場') to ('BR14', '大直')
 Time: 197s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e80> to <__main__.Node object at 0x7f61422f1eb8>
+**********
+From ('BR14', '大直') to ('BR13', '松山機場')
 Time: 197s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1e80> to <__main__.Node object at 0x7f61422f1ef0>
+**********
+From ('BR14', '大直') to ('BR15', '劍南路')
 Time: 128s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1ef0> to <__main__.Node object at 0x7f61422f1e80>
+**********
+From ('BR15', '劍南路') to ('BR14', '大直')
 Time: 128s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1ef0> to <__main__.Node object at 0x7f61422f1f28>
+**********
+From ('BR15', '劍南路') to ('BR16', '西湖')
 Time: 135s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f28> to <__main__.Node object at 0x7f61422f1ef0>
+**********
+From ('BR16', '西湖') to ('BR15', '劍南路')
 Time: 135s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f28> to <__main__.Node object at 0x7f61422f1f60>
+**********
+From ('BR16', '西湖') to ('BR17', '港墘')
 Time: 90s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f60> to <__main__.Node object at 0x7f61422f1f28>
+**********
+From ('BR17', '港墘') to ('BR16', '西湖')
 Time: 90s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f60> to <__main__.Node object at 0x7f61422f1f98>
+**********
+From ('BR17', '港墘') to ('BR18', '文德')
 Time: 97s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f98> to <__main__.Node object at 0x7f61422f1f60>
+**********
+From ('BR18', '文德') to ('BR17', '港墘')
 Time: 97s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1f98> to <__main__.Node object at 0x7f61422f1fd0>
+**********
+From ('BR18', '文德') to ('BR19', '內湖')
 Time: 103s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1fd0> to <__main__.Node object at 0x7f61422f1f98>
+**********
+From ('BR19', '內湖') to ('BR18', '文德')
 Time: 103s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1fd0> to <__main__.Node object at 0x7f61422f4048>
+**********
+From ('BR19', '內湖') to ('BR20', '大湖公園')
 Time: 96s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4048> to <__main__.Node object at 0x7f61422f1fd0>
+**********
+From ('BR20', '大湖公園') to ('BR19', '內湖')
 Time: 96s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4048> to <__main__.Node object at 0x7f61422f4080>
+**********
+From ('BR20', '大湖公園') to ('BR21', '葫洲')
 Time: 146s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4080> to <__main__.Node object at 0x7f61422f4048>
+**********
+From ('BR21', '葫洲') to ('BR20', '大湖公園')
 Time: 146s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4080> to <__main__.Node object at 0x7f61422f40b8>
+**********
+From ('BR21', '葫洲') to ('BR22', '東湖')
 Time: 103s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f40b8> to <__main__.Node object at 0x7f61422f4080>
+**********
+From ('BR22', '東湖') to ('BR21', '葫洲')
 Time: 103s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f40b8> to <__main__.Node object at 0x7f61422f40f0>
+**********
+From ('BR22', '東湖') to ('BR23', '南港軟體園區')
 Time: 110s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f40f0> to <__main__.Node object at 0x7f61422f40b8>
+**********
+From ('BR23', '南港軟體園區') to ('BR22', '東湖')
 Time: 110s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f40f0> to <__main__.Node object at 0x7f61422f4128>
+**********
+From ('BR23', '南港軟體園區') to ('BR24', '南港展覽館')
 Time: 78s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4128> to <__main__.Node object at 0x7f61422f40f0>
+**********
+From ('BR24', '南港展覽館') to ('BR23', '南港軟體園區')
 Time: 78s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f1dd8> to <__main__.Node object at 0x7f61422f4198>
+**********
+From ('R02', '象山') to ('R03', '台北101/世貿')
 Time: 122s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4198> to <__main__.Node object at 0x7f61422f1dd8>
+**********
+From ('R03', '台北101/世貿') to ('R02', '象山')
 Time: 122s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4198> to <__main__.Node object at 0x7f61422f41d0>
+**********
+From ('R03', '台北101/世貿') to ('R04', '信義安和')
 Time: 120s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f41d0> to <__main__.Node object at 0x7f61422f4198>
+**********
+From ('R04', '信義安和') to ('R03', '台北101/世貿')
 Time: 120s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f41d0> to <__main__.Node object at 0x7f61422f4208>
+**********
+From ('R04', '信義安和') to ('R05', '大安')
 Time: 127s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4208> to <__main__.Node object at 0x7f61422f41d0>
+**********
+From ('R05', '大安') to ('R04', '信義安和')
 Time: 127s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4208> to <__main__.Node object at 0x7f61422f4160>
+**********
+From ('R05', '大安') to ('R06', '大安森林公園')
 Time: 99s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4160> to <__main__.Node object at 0x7f61422f4208>
+**********
+From ('R06', '大安森林公園') to ('R05', '大安')
 Time: 99s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4160> to <__main__.Node object at 0x7f61422f4240>
+**********
+From ('R06', '大安森林公園') to ('R07', '東門')
 Time: 106s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4240> to <__main__.Node object at 0x7f61422f4160>
+**********
+From ('R07', '東門') to ('R06', '大安森林公園')
 Time: 106s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4240> to <__main__.Node object at 0x7f61422f4278>
+**********
+From ('R07', '東門') to ('R08', '中正紀念堂')
 Time: 205s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4278> to <__main__.Node object at 0x7f61422f4240>
+**********
+From ('R08', '中正紀念堂') to ('R07', '東門')
 Time: 205s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4278> to <__main__.Node object at 0x7f61422f42e8>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f42e8> to <__main__.Node object at 0x7f61422f4278>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f42e8> to <__main__.Node object at 0x7f61422f4358>
-Time: 102s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4358> to <__main__.Node object at 0x7f61422f42e8>
-Time: 102s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4358> to <__main__.Node object at 0x7f61422f4320>
-Time: 96s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4320> to <__main__.Node object at 0x7f61422f4358>
-Time: 96s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4320> to <__main__.Node object at 0x7f61422f42b0>
-Time: 90s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f42b0> to <__main__.Node object at 0x7f61422f4320>
-Time: 90s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f42b0> to <__main__.Node object at 0x7f61422f4400>
-Time: 94s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4400> to <__main__.Node object at 0x7f61422f42b0>
-Time: 94s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4400> to <__main__.Node object at 0x7f61422f43c8>
-Time: 114s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f43c8> to <__main__.Node object at 0x7f61422f4400>
-Time: 114s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f43c8> to <__main__.Node object at 0x7f61422f4438>
-Time: 138s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4438> to <__main__.Node object at 0x7f61422f43c8>
-Time: 138s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4438> to <__main__.Node object at 0x7f61422f4470>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4470> to <__main__.Node object at 0x7f61422f4438>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4470> to <__main__.Node object at 0x7f61422f44a8>
+**********
+From ('R07', '東門') to ('O06', '東門')
 Time: 120s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f44a8> to <__main__.Node object at 0x7f61422f4470>
+**********
+From ('O06', '東門') to ('R07', '東門')
 Time: 120s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f44a8> to <__main__.Node object at 0x7f61422f44e0>
-Time: 105s
-*****
+**********
+From ('R08', '中正紀念堂') to ('R09', '台大醫院')
+Time: 121s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f44e0> to <__main__.Node object at 0x7f61422f44a8>
-Time: 105s
-*****
+**********
+From ('R09', '台大醫院') to ('R08', '中正紀念堂')
+Time: 121s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f44e0> to <__main__.Node object at 0x7f61422f4518>
-Time: 89s
-*****
+**********
+From ('R08', '中正紀念堂') to ('G10', '中正紀念堂')
+Time: 120s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4518> to <__main__.Node object at 0x7f61422f44e0>
-Time: 89s
-*****
+**********
+From ('G10', '中正紀念堂') to ('R08', '中正紀念堂')
+Time: 120s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4518> to <__main__.Node object at 0x7f61422f4550>
-Time: 127s
-*****
+**********
+From ('R09', '台大醫院') to ('R10', '台北車站')
+Time: 102s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4550> to <__main__.Node object at 0x7f61422f4518>
-Time: 127s
-*****
+**********
+From ('R10', '台北車站') to ('R09', '台大醫院')
+Time: 102s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4550> to <__main__.Node object at 0x7f61422f4588>
-Time: 98s
-*****
+**********
+From ('R10', '台北車站') to ('R11', '中山')
+Time: 96s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4588> to <__main__.Node object at 0x7f61422f4550>
-Time: 98s
-*****
+**********
+From ('R11', '中山') to ('R10', '台北車站')
+Time: 96s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4588> to <__main__.Node object at 0x7f61422f45c0>
-Time: 119s
-*****
+**********
+From ('R10', '台北車站') to ('BL12', '台北車站')
+Time: 240s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f45c0> to <__main__.Node object at 0x7f61422f4588>
-Time: 119s
-*****
+**********
+From ('BL12', '台北車站') to ('R10', '台北車站')
+Time: 240s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f45c0> to <__main__.Node object at 0x7f61422f45f8>
-Time: 157s
-*****
+**********
+From ('R11', '中山') to ('R12', '雙連')
+Time: 90s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f45f8> to <__main__.Node object at 0x7f61422f45c0>
-Time: 157s
-*****
+**********
+From ('R12', '雙連') to ('R11', '中山')
+Time: 90s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4630> to <__main__.Node object at 0x7f61422f4668>
-Time: 137s
-*****
+**********
+From ('R11', '中山') to ('G14', '中山')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4668> to <__main__.Node object at 0x7f61422f4630>
-Time: 137s
-*****
+**********
+From ('G14', '中山') to ('R11', '中山')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4668> to <__main__.Node object at 0x7f61422f46a0>
-Time: 105s
-*****
+**********
+From ('R12', '雙連') to ('R13', '民權西路')
+Time: 94s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f46a0> to <__main__.Node object at 0x7f61422f4668>
-Time: 105s
-*****
+**********
+From ('R13', '民權西路') to ('R12', '雙連')
+Time: 94s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f46a0> to <__main__.Node object at 0x7f61422f46d8>
-Time: 173s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f46d8> to <__main__.Node object at 0x7f61422f46a0>
-Time: 173s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f46d8> to <__main__.Node object at 0x7f61422f4710>
-Time: 163s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4710> to <__main__.Node object at 0x7f61422f46d8>
-Time: 163s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4710> to <__main__.Node object at 0x7f61422f4748>
-Time: 175s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4748> to <__main__.Node object at 0x7f61422f4710>
-Time: 175s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4780> to <__main__.Node object at 0x7f61422f47b8>
-Time: 136s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f47b8> to <__main__.Node object at 0x7f61422f4780>
-Time: 136s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f47b8> to <__main__.Node object at 0x7f61422f47f0>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f47f0> to <__main__.Node object at 0x7f61422f47b8>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f47f0> to <__main__.Node object at 0x7f61422f4828>
-Time: 203s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4828> to <__main__.Node object at 0x7f61422f47f0>
-Time: 203s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4860> to <__main__.Node object at 0x7f61422f4390>
-Time: 119s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4390> to <__main__.Node object at 0x7f61422f4860>
-Time: 119s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4390> to <__main__.Node object at 0x7f61422f4898>
-Time: 116s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4898> to <__main__.Node object at 0x7f61422f4390>
-Time: 116s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4898> to <__main__.Node object at 0x7f61422f4908>
-Time: 151s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4908> to <__main__.Node object at 0x7f61422f4898>
-Time: 151s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4908> to <__main__.Node object at 0x7f61422f4940>
-Time: 109s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4940> to <__main__.Node object at 0x7f61422f4908>
-Time: 109s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4940> to <__main__.Node object at 0x7f61422f4978>
-Time: 118s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4978> to <__main__.Node object at 0x7f61422f4940>
-Time: 118s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4978> to <__main__.Node object at 0x7f61422f48d0>
-Time: 125s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f48d0> to <__main__.Node object at 0x7f61422f4978>
-Time: 125s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f48d0> to <__main__.Node object at 0x7f61422f49e8>
-Time: 103s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f49e8> to <__main__.Node object at 0x7f61422f48d0>
-Time: 103s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f49e8> to <__main__.Node object at 0x7f61422f4a20>
-Time: 117s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4a20> to <__main__.Node object at 0x7f61422f49e8>
-Time: 117s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4a20> to <__main__.Node object at 0x7f61422f4a58>
+**********
+From ('R13', '民權西路') to ('R14', '圓山')
 Time: 114s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4a58> to <__main__.Node object at 0x7f61422f4a20>
+**********
+From ('R14', '圓山') to ('R13', '民權西路')
 Time: 114s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4a58> to <__main__.Node object at 0x7f61422f4a90>
-Time: 151s
-*****
+**********
+From ('R13', '民權西路') to ('O11', '民權西路')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4a90> to <__main__.Node object at 0x7f61422f4a58>
-Time: 151s
-*****
+**********
+From ('O11', '民權西路') to ('R13', '民權西路')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4a90> to <__main__.Node object at 0x7f61422f49b0>
-Time: 141s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f49b0> to <__main__.Node object at 0x7f61422f4a90>
-Time: 141s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f49b0> to <__main__.Node object at 0x7f61422f4b00>
-Time: 125s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4b00> to <__main__.Node object at 0x7f61422f49b0>
-Time: 125s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4b00> to <__main__.Node object at 0x7f61422f4b70>
-Time: 111s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4b70> to <__main__.Node object at 0x7f61422f4b00>
-Time: 111s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4b70> to <__main__.Node object at 0x7f61422f4ac8>
-Time: 129s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4ac8> to <__main__.Node object at 0x7f61422f4b70>
-Time: 129s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4ac8> to <__main__.Node object at 0x7f61422f4b38>
+**********
+From ('R14', '圓山') to ('R15', '劍潭')
 Time: 138s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4b38> to <__main__.Node object at 0x7f61422f4ac8>
+**********
+From ('R15', '劍潭') to ('R14', '圓山')
 Time: 138s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4be0> to <__main__.Node object at 0x7f61422f4c18>
-Time: 125s
-*****
+**********
+From ('R15', '劍潭') to ('R16', '士林')
+Time: 121s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4c18> to <__main__.Node object at 0x7f61422f4be0>
-Time: 125s
-*****
+**********
+From ('R16', '士林') to ('R15', '劍潭')
+Time: 121s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4c18> to <__main__.Node object at 0x7f61422f4ba8>
-Time: 119s
-*****
+**********
+From ('R16', '士林') to ('R17', '芝山')
+Time: 120s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4ba8> to <__main__.Node object at 0x7f61422f4c18>
-Time: 119s
-*****
+**********
+From ('R17', '芝山') to ('R16', '士林')
+Time: 120s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4ba8> to <__main__.Node object at 0x7f61422f4c88>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4c88> to <__main__.Node object at 0x7f61422f4ba8>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4c88> to <__main__.Node object at 0x7f61422f4cc0>
-Time: 220s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4cc0> to <__main__.Node object at 0x7f61422f4c88>
-Time: 220s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4cc0> to <__main__.Node object at 0x7f61422f4c50>
-Time: 241s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4c50> to <__main__.Node object at 0x7f61422f4cc0>
-Time: 241s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4c50> to <__main__.Node object at 0x7f61422f4cf8>
-Time: 174s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4cf8> to <__main__.Node object at 0x7f61422f4c50>
-Time: 174s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4cf8> to <__main__.Node object at 0x7f61422f4d68>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4d68> to <__main__.Node object at 0x7f61422f4cf8>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4d68> to <__main__.Node object at 0x7f61422f4d30>
-Time: 108s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4d30> to <__main__.Node object at 0x7f61422f4d68>
-Time: 108s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4d30> to <__main__.Node object at 0x7f61422f4e10>
-Time: 126s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4e10> to <__main__.Node object at 0x7f61422f4d30>
-Time: 126s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4e10> to <__main__.Node object at 0x7f61422f4dd8>
+**********
+From ('R17', '芝山') to ('R18', '明德')
 Time: 105s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4dd8> to <__main__.Node object at 0x7f61422f4e10>
+**********
+From ('R18', '明德') to ('R17', '芝山')
 Time: 105s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4dd8> to <__main__.Node object at 0x7f61422f4da0>
+**********
+From ('R18', '明德') to ('R19', '石牌')
+Time: 89s
+**********
+
+**********
+From ('R19', '石牌') to ('R18', '明德')
+Time: 89s
+**********
+
+**********
+From ('R19', '石牌') to ('R20', '唭哩岸')
+Time: 127s
+**********
+
+**********
+From ('R20', '唭哩岸') to ('R19', '石牌')
+Time: 127s
+**********
+
+**********
+From ('R20', '唭哩岸') to ('R21', '奇岩')
 Time: 98s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4da0> to <__main__.Node object at 0x7f61422f4dd8>
+**********
+From ('R21', '奇岩') to ('R20', '唭哩岸')
 Time: 98s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4da0> to <__main__.Node object at 0x7f61422f4e48>
-Time: 152s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4e48> to <__main__.Node object at 0x7f61422f4da0>
-Time: 152s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4e48> to <__main__.Node object at 0x7f61422f4eb8>
-Time: 122s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4eb8> to <__main__.Node object at 0x7f61422f4e48>
-Time: 122s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4eb8> to <__main__.Node object at 0x7f61422f4ef0>
-Time: 109s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4ef0> to <__main__.Node object at 0x7f61422f4eb8>
-Time: 109s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4ef0> to <__main__.Node object at 0x7f61422f4f28>
-Time: 167s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4f28> to <__main__.Node object at 0x7f61422f4ef0>
-Time: 167s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4f28> to <__main__.Node object at 0x7f61422f4f60>
-Time: 133s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4f60> to <__main__.Node object at 0x7f61422f4f28>
-Time: 133s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f4f60> to <__main__.Node object at 0x7f61422f4e80>
+**********
+From ('R21', '奇岩') to ('R22', '北投')
 Time: 119s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4e80> to <__main__.Node object at 0x7f61422f4f60>
+**********
+From ('R22', '北投') to ('R21', '奇岩')
 Time: 119s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4e80> to <__main__.Node object at 0x7f61422f4fd0>
-Time: 162s
-*****
+**********
+From ('R22', '北投') to ('R23', '復興崗')
+Time: 160s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4fd0> to <__main__.Node object at 0x7f61422f4e80>
-Time: 162s
-*****
+**********
+From ('R23', '復興崗') to ('R22', '北投')
+Time: 160s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4fd0> to <__main__.Node object at 0x7f61422f8048>
-Time: 138s
-*****
+**********
+From ('R22', '北投') to ('R22A', '新北投')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8048> to <__main__.Node object at 0x7f61422f4fd0>
-Time: 138s
-*****
+**********
+From ('R22A', '新北投') to ('R22', '北投')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8048> to <__main__.Node object at 0x7f61422f8080>
-Time: 168s
-*****
+**********
+From ('R23', '復興崗') to ('R24', '忠義')
+Time: 137s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8080> to <__main__.Node object at 0x7f61422f8048>
-Time: 168s
-*****
+**********
+From ('R24', '忠義') to ('R23', '復興崗')
+Time: 137s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f80b8> to <__main__.Node object at 0x7f61422f80f0>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f80f0> to <__main__.Node object at 0x7f61422f80b8>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f80f0> to <__main__.Node object at 0x7f61422f8128>
-Time: 107s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8128> to <__main__.Node object at 0x7f61422f80f0>
-Time: 107s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8128> to <__main__.Node object at 0x7f61422f8160>
-Time: 117s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8160> to <__main__.Node object at 0x7f61422f8128>
-Time: 117s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8160> to <__main__.Node object at 0x7f61422f8198>
-Time: 111s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8198> to <__main__.Node object at 0x7f61422f8160>
-Time: 111s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f81d0> to <__main__.Node object at 0x7f61422f8208>
-Time: 208s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8208> to <__main__.Node object at 0x7f61422f81d0>
-Time: 208s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8208> to <__main__.Node object at 0x7f61422f8240>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8240> to <__main__.Node object at 0x7f61422f8208>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8240> to <__main__.Node object at 0x7f61422f8278>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8278> to <__main__.Node object at 0x7f61422f8240>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8278> to <__main__.Node object at 0x7f61422f82b0>
-Time: 168s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f82b0> to <__main__.Node object at 0x7f61422f8278>
-Time: 168s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f82b0> to <__main__.Node object at 0x7f61422f82e8>
-Time: 130s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f82e8> to <__main__.Node object at 0x7f61422f82b0>
-Time: 130s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f82e8> to <__main__.Node object at 0x7f61422f8320>
-Time: 95s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8320> to <__main__.Node object at 0x7f61422f82e8>
-Time: 95s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8320> to <__main__.Node object at 0x7f61422f8358>
-Time: 135s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8358> to <__main__.Node object at 0x7f61422f8320>
-Time: 135s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8358> to <__main__.Node object at 0x7f61422f8390>
+**********
+From ('R24', '忠義') to ('R25', '關渡')
 Time: 105s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8390> to <__main__.Node object at 0x7f61422f8358>
+**********
+From ('R25', '關渡') to ('R24', '忠義')
 Time: 105s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8390> to <__main__.Node object at 0x7f61422f83c8>
-Time: 221s
-*****
+**********
+From ('R25', '關渡') to ('R26', '竹圍')
+Time: 173s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f83c8> to <__main__.Node object at 0x7f61422f8390>
-Time: 221s
-*****
+**********
+From ('R26', '竹圍') to ('R25', '關渡')
+Time: 173s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f83c8> to <__main__.Node object at 0x7f61422f8400>
-Time: 145s
-*****
+**********
+From ('R26', '竹圍') to ('R27', '紅樹林')
+Time: 163s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8400> to <__main__.Node object at 0x7f61422f83c8>
-Time: 145s
-*****
+**********
+From ('R27', '紅樹林') to ('R26', '竹圍')
+Time: 163s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8400> to <__main__.Node object at 0x7f61422f4f98>
-Time: 162s
-*****
+**********
+From ('R27', '紅樹林') to ('R28', '淡水')
+Time: 175s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4f98> to <__main__.Node object at 0x7f61422f8400>
-Time: 162s
-*****
+**********
+From ('R28', '淡水') to ('R27', '紅樹林')
+Time: 175s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f4f98> to <__main__.Node object at 0x7f61422f8470>
-Time: 91s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8470> to <__main__.Node object at 0x7f61422f4f98>
-Time: 91s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8470> to <__main__.Node object at 0x7f61422f84a8>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f84a8> to <__main__.Node object at 0x7f61422f8470>
-Time: 121s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f84a8> to <__main__.Node object at 0x7f61422f84e0>
-Time: 130s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f84e0> to <__main__.Node object at 0x7f61422f84a8>
-Time: 130s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f84e0> to <__main__.Node object at 0x7f61422f8518>
-Time: 93s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8518> to <__main__.Node object at 0x7f61422f84e0>
-Time: 93s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8518> to <__main__.Node object at 0x7f61422f8550>
-Time: 99s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8550> to <__main__.Node object at 0x7f61422f8518>
-Time: 99s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8550> to <__main__.Node object at 0x7f61422f8438>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8438> to <__main__.Node object at 0x7f61422f8550>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8438> to <__main__.Node object at 0x7f61422f85c0>
-Time: 112s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f85c0> to <__main__.Node object at 0x7f61422f8438>
-Time: 112s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f85c0> to <__main__.Node object at 0x7f61422f85f8>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f85f8> to <__main__.Node object at 0x7f61422f85c0>
-Time: 105s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f85f8> to <__main__.Node object at 0x7f61422f8630>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8630> to <__main__.Node object at 0x7f61422f85f8>
-Time: 132s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8630> to <__main__.Node object at 0x7f61422f8668>
-Time: 133s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8668> to <__main__.Node object at 0x7f61422f8630>
-Time: 133s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8668> to <__main__.Node object at 0x7f61422f86a0>
-Time: 112s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f86a0> to <__main__.Node object at 0x7f61422f8668>
-Time: 112s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8588> to <__main__.Node object at 0x7f61422f8710>
-Time: 168s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8710> to <__main__.Node object at 0x7f61422f8588>
-Time: 168s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8710> to <__main__.Node object at 0x7f61422f8780>
-Time: 134s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8780> to <__main__.Node object at 0x7f61422f8710>
-Time: 134s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8780> to <__main__.Node object at 0x7f61422f86d8>
-Time: 104s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f86d8> to <__main__.Node object at 0x7f61422f8780>
-Time: 104s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f86d8> to <__main__.Node object at 0x7f61422f87b8>
-Time: 119s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f87b8> to <__main__.Node object at 0x7f61422f86d8>
-Time: 119s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f87b8> to <__main__.Node object at 0x7f61422f8748>
-Time: 219s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8748> to <__main__.Node object at 0x7f61422f87b8>
-Time: 219s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8748> to <__main__.Node object at 0x7f61422f87f0>
-Time: 129s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f87f0> to <__main__.Node object at 0x7f61422f8748>
-Time: 129s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f87f0> to <__main__.Node object at 0x7f61422f8860>
-Time: 97s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8860> to <__main__.Node object at 0x7f61422f87f0>
-Time: 97s
-*****
-
-*****
-From <__main__.Node object at 0x7f61422f8860> to <__main__.Node object at 0x7f61422f8898>
+**********
+From ('G01', '新店') to ('G02', '新店區公所')
 Time: 136s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8898> to <__main__.Node object at 0x7f61422f8860>
+**********
+From ('G02', '新店區公所') to ('G01', '新店')
 Time: 136s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8898> to <__main__.Node object at 0x7f61422f88d0>
-Time: 193s
-*****
+**********
+From ('G02', '新店區公所') to ('G03', '七張')
+Time: 105s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f88d0> to <__main__.Node object at 0x7f61422f8898>
-Time: 193s
-*****
+**********
+From ('G03', '七張') to ('G02', '新店區公所')
+Time: 105s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f88d0> to <__main__.Node object at 0x7f61422f8908>
-Time: 216s
-*****
+**********
+From ('G03', '七張') to ('G04', '大坪林')
+Time: 105s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8908> to <__main__.Node object at 0x7f61422f88d0>
-Time: 216s
-*****
+**********
+From ('G04', '大坪林') to ('G03', '七張')
+Time: 105s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8908> to <__main__.Node object at 0x7f61422f8940>
-Time: 178s
-*****
+**********
+From ('G03', '七張') to ('G03A', '小碧潭')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8940> to <__main__.Node object at 0x7f61422f8908>
-Time: 178s
-*****
+**********
+From ('G03A', '小碧潭') to ('G03', '七張')
+Time: 180s
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8940> to <__main__.Node object at 0x7f61422f8828>
+**********
+From ('G04', '大坪林') to ('G05', '景美')
+Time: 119s
+**********
+
+**********
+From ('G05', '景美') to ('G04', '大坪林')
+Time: 119s
+**********
+
+**********
+From ('G04', '大坪林') to ('Y07', '大坪林')
+Time: 0s
+**********
+
+**********
+From ('Y07', '大坪林') to ('G04', '大坪林')
+Time: 0s
+**********
+
+**********
+From ('G05', '景美') to ('G06', '萬隆')
+Time: 116s
+**********
+
+**********
+From ('G06', '萬隆') to ('G05', '景美')
+Time: 116s
+**********
+
+**********
+From ('G06', '萬隆') to ('G07', '公館')
+Time: 151s
+**********
+
+**********
+From ('G07', '公館') to ('G06', '萬隆')
+Time: 151s
+**********
+
+**********
+From ('G07', '公館') to ('G08', '台電大樓')
+Time: 109s
+**********
+
+**********
+From ('G08', '台電大樓') to ('G07', '公館')
+Time: 109s
+**********
+
+**********
+From ('G08', '台電大樓') to ('G09', '古亭')
 Time: 118s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8828> to <__main__.Node object at 0x7f61422f8940>
+**********
+From ('G09', '古亭') to ('G08', '台電大樓')
 Time: 118s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8828> to <__main__.Node object at 0x7f61422f8978>
+**********
+From ('G09', '古亭') to ('G10', '中正紀念堂')
+Time: 125s
+**********
+
+**********
+From ('G10', '中正紀念堂') to ('G09', '古亭')
+Time: 125s
+**********
+
+**********
+From ('G09', '古亭') to ('O05', '古亭')
+Time: 120s
+**********
+
+**********
+From ('O05', '古亭') to ('G09', '古亭')
+Time: 120s
+**********
+
+**********
+From ('G10', '中正紀念堂') to ('G11', '小南門')
+Time: 103s
+**********
+
+**********
+From ('G11', '小南門') to ('G10', '中正紀念堂')
+Time: 103s
+**********
+
+**********
+From ('G11', '小南門') to ('G12', '西門')
+Time: 117s
+**********
+
+**********
+From ('G12', '西門') to ('G11', '小南門')
+Time: 117s
+**********
+
+**********
+From ('G12', '西門') to ('G13', '北門')
+Time: 114s
+**********
+
+**********
+From ('G13', '北門') to ('G12', '西門')
+Time: 114s
+**********
+
+**********
+From ('G12', '西門') to ('BL11', '西門')
+Time: 120s
+**********
+
+**********
+From ('BL11', '西門') to ('G12', '西門')
+Time: 120s
+**********
+
+**********
+From ('G13', '北門') to ('G14', '中山')
+Time: 151s
+**********
+
+**********
+From ('G14', '中山') to ('G13', '北門')
+Time: 151s
+**********
+
+**********
+From ('G14', '中山') to ('G15', '松江南京')
+Time: 141s
+**********
+
+**********
+From ('G15', '松江南京') to ('G14', '中山')
+Time: 141s
+**********
+
+**********
+From ('G15', '松江南京') to ('G16', '南京復興')
+Time: 125s
+**********
+
+**********
+From ('G16', '南京復興') to ('G15', '松江南京')
+Time: 125s
+**********
+
+**********
+From ('G15', '松江南京') to ('O08', '松江南京')
+Time: 120s
+**********
+
+**********
+From ('O08', '松江南京') to ('G15', '松江南京')
+Time: 120s
+**********
+
+**********
+From ('G16', '南京復興') to ('G17', '台北小巨蛋')
+Time: 111s
+**********
+
+**********
+From ('G17', '台北小巨蛋') to ('G16', '南京復興')
+Time: 111s
+**********
+
+**********
+From ('G17', '台北小巨蛋') to ('G18', '南京三民')
+Time: 129s
+**********
+
+**********
+From ('G18', '南京三民') to ('G17', '台北小巨蛋')
+Time: 129s
+**********
+
+**********
+From ('G18', '南京三民') to ('G19', '松山')
+Time: 138s
+**********
+
+**********
+From ('G19', '松山') to ('G18', '南京三民')
+Time: 138s
+**********
+
+**********
+From ('O01', '南勢角') to ('O02', '景安')
+Time: 125s
+**********
+
+**********
+From ('O02', '景安') to ('O01', '南勢角')
+Time: 125s
+**********
+
+**********
+From ('O02', '景安') to ('O03', '永安市場')
+Time: 119s
+**********
+
+**********
+From ('O03', '永安市場') to ('O02', '景安')
+Time: 119s
+**********
+
+**********
+From ('O02', '景安') to ('Y11', '景安')
+Time: 360s
+**********
+
+**********
+From ('Y11', '景安') to ('O02', '景安')
+Time: 360s
+**********
+
+**********
+From ('O03', '永安市場') to ('O04', '頂溪')
+Time: 132s
+**********
+
+**********
+From ('O04', '頂溪') to ('O03', '永安市場')
+Time: 132s
+**********
+
+**********
+From ('O04', '頂溪') to ('O05', '古亭')
+Time: 220s
+**********
+
+**********
+From ('O05', '古亭') to ('O04', '頂溪')
+Time: 220s
+**********
+
+**********
+From ('O05', '古亭') to ('O06', '東門')
+Time: 241s
+**********
+
+**********
+From ('O06', '東門') to ('O05', '古亭')
+Time: 241s
+**********
+
+**********
+From ('O06', '東門') to ('O07', '忠孝新生')
+Time: 174s
+**********
+
+**********
+From ('O07', '忠孝新生') to ('O06', '東門')
+Time: 174s
+**********
+
+**********
+From ('O07', '忠孝新生') to ('O08', '松江南京')
+Time: 132s
+**********
+
+**********
+From ('O08', '松江南京') to ('O07', '忠孝新生')
+Time: 132s
+**********
+
+**********
+From ('O07', '忠孝新生') to ('BL14', '忠孝新生')
+Time: 120s
+**********
+
+**********
+From ('BL14', '忠孝新生') to ('O07', '忠孝新生')
+Time: 120s
+**********
+
+**********
+From ('O08', '松江南京') to ('O09', '行天宮')
+Time: 108s
+**********
+
+**********
+From ('O09', '行天宮') to ('O08', '松江南京')
+Time: 108s
+**********
+
+**********
+From ('O09', '行天宮') to ('O10', '中山國小')
+Time: 126s
+**********
+
+**********
+From ('O10', '中山國小') to ('O09', '行天宮')
+Time: 126s
+**********
+
+**********
+From ('O10', '中山國小') to ('O11', '民權西路')
+Time: 105s
+**********
+
+**********
+From ('O11', '民權西路') to ('O10', '中山國小')
+Time: 105s
+**********
+
+**********
+From ('O11', '民權西路') to ('O12', '大橋頭')
+Time: 98s
+**********
+
+**********
+From ('O12', '大橋頭') to ('O11', '民權西路')
+Time: 98s
+**********
+
+**********
+From ('O12', '大橋頭') to ('O13', '台北橋')
+Time: 152s
+**********
+
+**********
+From ('O13', '台北橋') to ('O12', '大橋頭')
+Time: 152s
+**********
+
+**********
+From ('O13', '台北橋') to ('O14', '菜寮')
+Time: 122s
+**********
+
+**********
+From ('O14', '菜寮') to ('O13', '台北橋')
+Time: 122s
+**********
+
+**********
+From ('O14', '菜寮') to ('O15', '三重')
+Time: 109s
+**********
+
+**********
+From ('O15', '三重') to ('O14', '菜寮')
+Time: 109s
+**********
+
+**********
+From ('O15', '三重') to ('O16', '先嗇宮')
+Time: 167s
+**********
+
+**********
+From ('O16', '先嗇宮') to ('O15', '三重')
+Time: 167s
+**********
+
+**********
+From ('O16', '先嗇宮') to ('O17', '頭前庄')
+Time: 133s
+**********
+
+**********
+From ('O17', '頭前庄') to ('O16', '先嗇宮')
+Time: 133s
+**********
+
+**********
+From ('O17', '頭前庄') to ('O18', '新莊')
+Time: 119s
+**********
+
+**********
+From ('O18', '新莊') to ('O17', '頭前庄')
+Time: 119s
+**********
+
+**********
+From ('O17', '頭前庄') to ('Y18', '頭前庄')
+Time: 360s
+**********
+
+**********
+From ('Y18', '頭前庄') to ('O17', '頭前庄')
+Time: 360s
+**********
+
+**********
+From ('O18', '新莊') to ('O19', '輔大')
+Time: 162s
+**********
+
+**********
+From ('O19', '輔大') to ('O18', '新莊')
+Time: 162s
+**********
+
+**********
+From ('O19', '輔大') to ('O20', '丹鳳')
+Time: 138s
+**********
+
+**********
+From ('O20', '丹鳳') to ('O19', '輔大')
+Time: 138s
+**********
+
+**********
+From ('O20', '丹鳳') to ('O21', '迴龍')
+Time: 168s
+**********
+
+**********
+From ('O21', '迴龍') to ('O20', '丹鳳')
+Time: 168s
+**********
+
+**********
+From ('O50', '三重國小') to ('O51', '三和國中')
+Time: 132s
+**********
+
+**********
+From ('O51', '三和國中') to ('O50', '三重國小')
+Time: 132s
+**********
+
+**********
+From ('O51', '三和國中') to ('O52', '徐匯中學')
+Time: 107s
+**********
+
+**********
+From ('O52', '徐匯中學') to ('O51', '三和國中')
+Time: 107s
+**********
+
+**********
+From ('O52', '徐匯中學') to ('O53', '三民高中')
+Time: 117s
+**********
+
+**********
+From ('O53', '三民高中') to ('O52', '徐匯中學')
+Time: 117s
+**********
+
+**********
+From ('O53', '三民高中') to ('O54', '蘆洲')
+Time: 111s
+**********
+
+**********
+From ('O54', '蘆洲') to ('O53', '三民高中')
+Time: 111s
+**********
+
+**********
+From ('BL01', '頂埔') to ('BL02', '永寧')
+Time: 208s
+**********
+
+**********
+From ('BL02', '永寧') to ('BL01', '頂埔')
+Time: 208s
+**********
+
+**********
+From ('BL02', '永寧') to ('BL03', '土城')
+Time: 121s
+**********
+
+**********
+From ('BL03', '土城') to ('BL02', '永寧')
+Time: 121s
+**********
+
+**********
+From ('BL03', '土城') to ('BL04', '海山')
+Time: 132s
+**********
+
+**********
+From ('BL04', '海山') to ('BL03', '土城')
+Time: 132s
+**********
+
+**********
+From ('BL04', '海山') to ('BL05', '亞東醫院')
+Time: 168s
+**********
+
+**********
+From ('BL05', '亞東醫院') to ('BL04', '海山')
+Time: 168s
+**********
+
+**********
+From ('BL05', '亞東醫院') to ('BL06', '府中')
+Time: 130s
+**********
+
+**********
+From ('BL06', '府中') to ('BL05', '亞東醫院')
+Time: 130s
+**********
+
+**********
+From ('BL06', '府中') to ('BL07', '板橋')
+Time: 95s
+**********
+
+**********
+From ('BL07', '板橋') to ('BL06', '府中')
+Time: 95s
+**********
+
+**********
+From ('BL07', '板橋') to ('BL08', '新埔')
 Time: 135s
-*****
+**********
 
-*****
-From <__main__.Node object at 0x7f61422f8978> to <__main__.Node object at 0x7f61422f8828>
+**********
+From ('BL08', '新埔') to ('BL07', '板橋')
 Time: 135s
-*****
+**********
 
-<__main__.Node object at 0x7f61422f1ba8> [<__main__.Node object at 0x7f61422f1be0>]
-<__main__.Node object at 0x7f61422f1be0> [<__main__.Node object at 0x7f61422f1ba8>, <__main__.Node object at 0x7f61422f1c18>]
-<__main__.Node object at 0x7f61422f1c18> [<__main__.Node object at 0x7f61422f1be0>, <__main__.Node object at 0x7f61422f1c50>]
-<__main__.Node object at 0x7f61422f1c50> [<__main__.Node object at 0x7f61422f1c18>, <__main__.Node object at 0x7f61422f1c88>]
-<__main__.Node object at 0x7f61422f1c88> [<__main__.Node object at 0x7f61422f1c50>, <__main__.Node object at 0x7f61422f1cc0>]
-<__main__.Node object at 0x7f61422f1cc0> [<__main__.Node object at 0x7f61422f1c88>, <__main__.Node object at 0x7f61422f1cf8>]
-<__main__.Node object at 0x7f61422f1cf8> [<__main__.Node object at 0x7f61422f1cc0>, <__main__.Node object at 0x7f61422f1d30>]
-<__main__.Node object at 0x7f61422f1d30> [<__main__.Node object at 0x7f61422f1cf8>, <__main__.Node object at 0x7f61422f1d68>]
-<__main__.Node object at 0x7f61422f1d68> [<__main__.Node object at 0x7f61422f1d30>, <__main__.Node object at 0x7f61422f1e10>]
-<__main__.Node object at 0x7f61422f1e10> [<__main__.Node object at 0x7f61422f1d68>, <__main__.Node object at 0x7f61422f1da0>]
-<__main__.Node object at 0x7f61422f1da0> [<__main__.Node object at 0x7f61422f1e10>, <__main__.Node object at 0x7f61422f1e48>]
-<__main__.Node object at 0x7f61422f1e48> [<__main__.Node object at 0x7f61422f1da0>, <__main__.Node object at 0x7f61422f1eb8>]
-<__main__.Node object at 0x7f61422f1eb8> [<__main__.Node object at 0x7f61422f1e48>, <__main__.Node object at 0x7f61422f1e80>]
-<__main__.Node object at 0x7f61422f1e80> [<__main__.Node object at 0x7f61422f1eb8>, <__main__.Node object at 0x7f61422f1ef0>]
-<__main__.Node object at 0x7f61422f1ef0> [<__main__.Node object at 0x7f61422f1e80>, <__main__.Node object at 0x7f61422f1f28>]
-<__main__.Node object at 0x7f61422f1f28> [<__main__.Node object at 0x7f61422f1ef0>, <__main__.Node object at 0x7f61422f1f60>]
-<__main__.Node object at 0x7f61422f1f60> [<__main__.Node object at 0x7f61422f1f28>, <__main__.Node object at 0x7f61422f1f98>]
-<__main__.Node object at 0x7f61422f1f98> [<__main__.Node object at 0x7f61422f1f60>, <__main__.Node object at 0x7f61422f1fd0>]
-<__main__.Node object at 0x7f61422f1fd0> [<__main__.Node object at 0x7f61422f1f98>, <__main__.Node object at 0x7f61422f4048>]
-<__main__.Node object at 0x7f61422f4048> [<__main__.Node object at 0x7f61422f1fd0>, <__main__.Node object at 0x7f61422f4080>]
-<__main__.Node object at 0x7f61422f4080> [<__main__.Node object at 0x7f61422f4048>, <__main__.Node object at 0x7f61422f40b8>]
-<__main__.Node object at 0x7f61422f40b8> [<__main__.Node object at 0x7f61422f4080>, <__main__.Node object at 0x7f61422f40f0>]
-<__main__.Node object at 0x7f61422f40f0> [<__main__.Node object at 0x7f61422f40b8>, <__main__.Node object at 0x7f61422f4128>]
-<__main__.Node object at 0x7f61422f4128> [<__main__.Node object at 0x7f61422f40f0>]
-<__main__.Node object at 0x7f61422f1dd8> [<__main__.Node object at 0x7f61422f4198>]
-<__main__.Node object at 0x7f61422f4198> [<__main__.Node object at 0x7f61422f1dd8>, <__main__.Node object at 0x7f61422f41d0>]
-<__main__.Node object at 0x7f61422f41d0> [<__main__.Node object at 0x7f61422f4198>, <__main__.Node object at 0x7f61422f4208>]
-<__main__.Node object at 0x7f61422f4208> [<__main__.Node object at 0x7f61422f41d0>, <__main__.Node object at 0x7f61422f4160>]
-<__main__.Node object at 0x7f61422f4160> [<__main__.Node object at 0x7f61422f4208>, <__main__.Node object at 0x7f61422f4240>]
-<__main__.Node object at 0x7f61422f4240> [<__main__.Node object at 0x7f61422f4160>, <__main__.Node object at 0x7f61422f4278>]
-<__main__.Node object at 0x7f61422f4278> [<__main__.Node object at 0x7f61422f4240>, <__main__.Node object at 0x7f61422f42e8>]
-<__main__.Node object at 0x7f61422f42e8> [<__main__.Node object at 0x7f61422f4278>, <__main__.Node object at 0x7f61422f4358>]
-<__main__.Node object at 0x7f61422f4358> [<__main__.Node object at 0x7f61422f42e8>, <__main__.Node object at 0x7f61422f4320>]
-<__main__.Node object at 0x7f61422f4320> [<__main__.Node object at 0x7f61422f4358>, <__main__.Node object at 0x7f61422f42b0>]
-<__main__.Node object at 0x7f61422f42b0> [<__main__.Node object at 0x7f61422f4320>, <__main__.Node object at 0x7f61422f4400>]
-<__main__.Node object at 0x7f61422f4400> [<__main__.Node object at 0x7f61422f42b0>, <__main__.Node object at 0x7f61422f43c8>]
-<__main__.Node object at 0x7f61422f43c8> [<__main__.Node object at 0x7f61422f4400>, <__main__.Node object at 0x7f61422f4438>]
-<__main__.Node object at 0x7f61422f4438> [<__main__.Node object at 0x7f61422f43c8>, <__main__.Node object at 0x7f61422f4470>]
-<__main__.Node object at 0x7f61422f4470> [<__main__.Node object at 0x7f61422f4438>, <__main__.Node object at 0x7f61422f44a8>]
-<__main__.Node object at 0x7f61422f44a8> [<__main__.Node object at 0x7f61422f4470>, <__main__.Node object at 0x7f61422f44e0>]
-<__main__.Node object at 0x7f61422f44e0> [<__main__.Node object at 0x7f61422f44a8>, <__main__.Node object at 0x7f61422f4518>]
-<__main__.Node object at 0x7f61422f4518> [<__main__.Node object at 0x7f61422f44e0>, <__main__.Node object at 0x7f61422f4550>]
-<__main__.Node object at 0x7f61422f4550> [<__main__.Node object at 0x7f61422f4518>, <__main__.Node object at 0x7f61422f4588>]
-<__main__.Node object at 0x7f61422f4588> [<__main__.Node object at 0x7f61422f4550>, <__main__.Node object at 0x7f61422f45c0>]
-<__main__.Node object at 0x7f61422f45c0> [<__main__.Node object at 0x7f61422f4588>, <__main__.Node object at 0x7f61422f45f8>]
-<__main__.Node object at 0x7f61422f45f8> [<__main__.Node object at 0x7f61422f45c0>]
-<__main__.Node object at 0x7f61422f4630> [<__main__.Node object at 0x7f61422f4668>]
-<__main__.Node object at 0x7f61422f4668> [<__main__.Node object at 0x7f61422f4630>, <__main__.Node object at 0x7f61422f46a0>]
-<__main__.Node object at 0x7f61422f46a0> [<__main__.Node object at 0x7f61422f4668>, <__main__.Node object at 0x7f61422f46d8>]
-<__main__.Node object at 0x7f61422f46d8> [<__main__.Node object at 0x7f61422f46a0>, <__main__.Node object at 0x7f61422f4710>]
-<__main__.Node object at 0x7f61422f4710> [<__main__.Node object at 0x7f61422f46d8>, <__main__.Node object at 0x7f61422f4748>]
-<__main__.Node object at 0x7f61422f4748> [<__main__.Node object at 0x7f61422f4710>]
-<__main__.Node object at 0x7f61422f4780> [<__main__.Node object at 0x7f61422f47b8>]
-<__main__.Node object at 0x7f61422f47b8> [<__main__.Node object at 0x7f61422f4780>, <__main__.Node object at 0x7f61422f47f0>]
-<__main__.Node object at 0x7f61422f47f0> [<__main__.Node object at 0x7f61422f47b8>, <__main__.Node object at 0x7f61422f4828>]
-<__main__.Node object at 0x7f61422f4828> [<__main__.Node object at 0x7f61422f47f0>]
-<__main__.Node object at 0x7f61422f4860> [<__main__.Node object at 0x7f61422f4390>]
-<__main__.Node object at 0x7f61422f4390> [<__main__.Node object at 0x7f61422f4860>, <__main__.Node object at 0x7f61422f4898>]
-<__main__.Node object at 0x7f61422f4898> [<__main__.Node object at 0x7f61422f4390>, <__main__.Node object at 0x7f61422f4908>]
-<__main__.Node object at 0x7f61422f4908> [<__main__.Node object at 0x7f61422f4898>, <__main__.Node object at 0x7f61422f4940>]
-<__main__.Node object at 0x7f61422f4940> [<__main__.Node object at 0x7f61422f4908>, <__main__.Node object at 0x7f61422f4978>]
-<__main__.Node object at 0x7f61422f4978> [<__main__.Node object at 0x7f61422f4940>, <__main__.Node object at 0x7f61422f48d0>]
-<__main__.Node object at 0x7f61422f48d0> [<__main__.Node object at 0x7f61422f4978>, <__main__.Node object at 0x7f61422f49e8>]
-<__main__.Node object at 0x7f61422f49e8> [<__main__.Node object at 0x7f61422f48d0>, <__main__.Node object at 0x7f61422f4a20>]
-<__main__.Node object at 0x7f61422f4a20> [<__main__.Node object at 0x7f61422f49e8>, <__main__.Node object at 0x7f61422f4a58>]
-<__main__.Node object at 0x7f61422f4a58> [<__main__.Node object at 0x7f61422f4a20>, <__main__.Node object at 0x7f61422f4a90>]
-<__main__.Node object at 0x7f61422f4a90> [<__main__.Node object at 0x7f61422f4a58>, <__main__.Node object at 0x7f61422f49b0>]
-<__main__.Node object at 0x7f61422f49b0> [<__main__.Node object at 0x7f61422f4a90>, <__main__.Node object at 0x7f61422f4b00>]
-<__main__.Node object at 0x7f61422f4b00> [<__main__.Node object at 0x7f61422f49b0>, <__main__.Node object at 0x7f61422f4b70>]
-<__main__.Node object at 0x7f61422f4b70> [<__main__.Node object at 0x7f61422f4b00>, <__main__.Node object at 0x7f61422f4ac8>]
-<__main__.Node object at 0x7f61422f4ac8> [<__main__.Node object at 0x7f61422f4b70>, <__main__.Node object at 0x7f61422f4b38>]
-<__main__.Node object at 0x7f61422f4b38> [<__main__.Node object at 0x7f61422f4ac8>]
-<__main__.Node object at 0x7f61422f4be0> [<__main__.Node object at 0x7f61422f4c18>]
-<__main__.Node object at 0x7f61422f4c18> [<__main__.Node object at 0x7f61422f4be0>, <__main__.Node object at 0x7f61422f4ba8>]
-<__main__.Node object at 0x7f61422f4ba8> [<__main__.Node object at 0x7f61422f4c18>, <__main__.Node object at 0x7f61422f4c88>]
-<__main__.Node object at 0x7f61422f4c88> [<__main__.Node object at 0x7f61422f4ba8>, <__main__.Node object at 0x7f61422f4cc0>]
-<__main__.Node object at 0x7f61422f4cc0> [<__main__.Node object at 0x7f61422f4c88>, <__main__.Node object at 0x7f61422f4c50>]
-<__main__.Node object at 0x7f61422f4c50> [<__main__.Node object at 0x7f61422f4cc0>, <__main__.Node object at 0x7f61422f4cf8>]
-<__main__.Node object at 0x7f61422f4cf8> [<__main__.Node object at 0x7f61422f4c50>, <__main__.Node object at 0x7f61422f4d68>]
-<__main__.Node object at 0x7f61422f4d68> [<__main__.Node object at 0x7f61422f4cf8>, <__main__.Node object at 0x7f61422f4d30>]
-<__main__.Node object at 0x7f61422f4d30> [<__main__.Node object at 0x7f61422f4d68>, <__main__.Node object at 0x7f61422f4e10>]
-<__main__.Node object at 0x7f61422f4e10> [<__main__.Node object at 0x7f61422f4d30>, <__main__.Node object at 0x7f61422f4dd8>]
-<__main__.Node object at 0x7f61422f4dd8> [<__main__.Node object at 0x7f61422f4e10>, <__main__.Node object at 0x7f61422f4da0>]
-<__main__.Node object at 0x7f61422f4da0> [<__main__.Node object at 0x7f61422f4dd8>, <__main__.Node object at 0x7f61422f4e48>]
-<__main__.Node object at 0x7f61422f4e48> [<__main__.Node object at 0x7f61422f4da0>, <__main__.Node object at 0x7f61422f4eb8>]
-<__main__.Node object at 0x7f61422f4eb8> [<__main__.Node object at 0x7f61422f4e48>, <__main__.Node object at 0x7f61422f4ef0>]
-<__main__.Node object at 0x7f61422f4ef0> [<__main__.Node object at 0x7f61422f4eb8>, <__main__.Node object at 0x7f61422f4f28>]
-<__main__.Node object at 0x7f61422f4f28> [<__main__.Node object at 0x7f61422f4ef0>, <__main__.Node object at 0x7f61422f4f60>]
-<__main__.Node object at 0x7f61422f4f60> [<__main__.Node object at 0x7f61422f4f28>, <__main__.Node object at 0x7f61422f4e80>]
-<__main__.Node object at 0x7f61422f4e80> [<__main__.Node object at 0x7f61422f4f60>, <__main__.Node object at 0x7f61422f4fd0>]
-<__main__.Node object at 0x7f61422f4fd0> [<__main__.Node object at 0x7f61422f4e80>, <__main__.Node object at 0x7f61422f8048>]
-<__main__.Node object at 0x7f61422f8048> [<__main__.Node object at 0x7f61422f4fd0>, <__main__.Node object at 0x7f61422f8080>]
-<__main__.Node object at 0x7f61422f8080> [<__main__.Node object at 0x7f61422f8048>]
-<__main__.Node object at 0x7f61422f80b8> [<__main__.Node object at 0x7f61422f80f0>]
-<__main__.Node object at 0x7f61422f80f0> [<__main__.Node object at 0x7f61422f80b8>, <__main__.Node object at 0x7f61422f8128>]
-<__main__.Node object at 0x7f61422f8128> [<__main__.Node object at 0x7f61422f80f0>, <__main__.Node object at 0x7f61422f8160>]
-<__main__.Node object at 0x7f61422f8160> [<__main__.Node object at 0x7f61422f8128>, <__main__.Node object at 0x7f61422f8198>]
-<__main__.Node object at 0x7f61422f8198> [<__main__.Node object at 0x7f61422f8160>]
-<__main__.Node object at 0x7f61422f81d0> [<__main__.Node object at 0x7f61422f8208>]
-<__main__.Node object at 0x7f61422f8208> [<__main__.Node object at 0x7f61422f81d0>, <__main__.Node object at 0x7f61422f8240>]
-<__main__.Node object at 0x7f61422f8240> [<__main__.Node object at 0x7f61422f8208>, <__main__.Node object at 0x7f61422f8278>]
-<__main__.Node object at 0x7f61422f8278> [<__main__.Node object at 0x7f61422f8240>, <__main__.Node object at 0x7f61422f82b0>]
-<__main__.Node object at 0x7f61422f82b0> [<__main__.Node object at 0x7f61422f8278>, <__main__.Node object at 0x7f61422f82e8>]
-<__main__.Node object at 0x7f61422f82e8> [<__main__.Node object at 0x7f61422f82b0>, <__main__.Node object at 0x7f61422f8320>]
-<__main__.Node object at 0x7f61422f8320> [<__main__.Node object at 0x7f61422f82e8>, <__main__.Node object at 0x7f61422f8358>]
-<__main__.Node object at 0x7f61422f8358> [<__main__.Node object at 0x7f61422f8320>, <__main__.Node object at 0x7f61422f8390>]
-<__main__.Node object at 0x7f61422f8390> [<__main__.Node object at 0x7f61422f8358>, <__main__.Node object at 0x7f61422f83c8>]
-<__main__.Node object at 0x7f61422f83c8> [<__main__.Node object at 0x7f61422f8390>, <__main__.Node object at 0x7f61422f8400>]
-<__main__.Node object at 0x7f61422f8400> [<__main__.Node object at 0x7f61422f83c8>, <__main__.Node object at 0x7f61422f4f98>]
-<__main__.Node object at 0x7f61422f4f98> [<__main__.Node object at 0x7f61422f8400>, <__main__.Node object at 0x7f61422f8470>]
-<__main__.Node object at 0x7f61422f8470> [<__main__.Node object at 0x7f61422f4f98>, <__main__.Node object at 0x7f61422f84a8>]
-<__main__.Node object at 0x7f61422f84a8> [<__main__.Node object at 0x7f61422f8470>, <__main__.Node object at 0x7f61422f84e0>]
-<__main__.Node object at 0x7f61422f84e0> [<__main__.Node object at 0x7f61422f84a8>, <__main__.Node object at 0x7f61422f8518>]
-<__main__.Node object at 0x7f61422f8518> [<__main__.Node object at 0x7f61422f84e0>, <__main__.Node object at 0x7f61422f8550>]
-<__main__.Node object at 0x7f61422f8550> [<__main__.Node object at 0x7f61422f8518>, <__main__.Node object at 0x7f61422f8438>]
-<__main__.Node object at 0x7f61422f8438> [<__main__.Node object at 0x7f61422f8550>, <__main__.Node object at 0x7f61422f85c0>]
-<__main__.Node object at 0x7f61422f85c0> [<__main__.Node object at 0x7f61422f8438>, <__main__.Node object at 0x7f61422f85f8>]
-<__main__.Node object at 0x7f61422f85f8> [<__main__.Node object at 0x7f61422f85c0>, <__main__.Node object at 0x7f61422f8630>]
-<__main__.Node object at 0x7f61422f8630> [<__main__.Node object at 0x7f61422f85f8>, <__main__.Node object at 0x7f61422f8668>]
-<__main__.Node object at 0x7f61422f8668> [<__main__.Node object at 0x7f61422f8630>, <__main__.Node object at 0x7f61422f86a0>]
-<__main__.Node object at 0x7f61422f86a0> [<__main__.Node object at 0x7f61422f8668>]
-<__main__.Node object at 0x7f61422f8588> [<__main__.Node object at 0x7f61422f8710>]
-<__main__.Node object at 0x7f61422f8710> [<__main__.Node object at 0x7f61422f8588>, <__main__.Node object at 0x7f61422f8780>]
-<__main__.Node object at 0x7f61422f8780> [<__main__.Node object at 0x7f61422f8710>, <__main__.Node object at 0x7f61422f86d8>]
-<__main__.Node object at 0x7f61422f86d8> [<__main__.Node object at 0x7f61422f8780>, <__main__.Node object at 0x7f61422f87b8>]
-<__main__.Node object at 0x7f61422f87b8> [<__main__.Node object at 0x7f61422f86d8>, <__main__.Node object at 0x7f61422f8748>]
-<__main__.Node object at 0x7f61422f8748> [<__main__.Node object at 0x7f61422f87b8>, <__main__.Node object at 0x7f61422f87f0>]
-<__main__.Node object at 0x7f61422f87f0> [<__main__.Node object at 0x7f61422f8748>, <__main__.Node object at 0x7f61422f8860>]
-<__main__.Node object at 0x7f61422f8860> [<__main__.Node object at 0x7f61422f87f0>, <__main__.Node object at 0x7f61422f8898>]
-<__main__.Node object at 0x7f61422f8898> [<__main__.Node object at 0x7f61422f8860>, <__main__.Node object at 0x7f61422f88d0>]
-<__main__.Node object at 0x7f61422f88d0> [<__main__.Node object at 0x7f61422f8898>, <__main__.Node object at 0x7f61422f8908>]
-<__main__.Node object at 0x7f61422f8908> [<__main__.Node object at 0x7f61422f88d0>, <__main__.Node object at 0x7f61422f8940>]
-<__main__.Node object at 0x7f61422f8940> [<__main__.Node object at 0x7f61422f8908>, <__main__.Node object at 0x7f61422f8828>]
-<__main__.Node object at 0x7f61422f8828> [<__main__.Node object at 0x7f61422f8940>, <__main__.Node object at 0x7f61422f8978>]
-<__main__.Node object at 0x7f61422f8978> [<__main__.Node object at 0x7f61422f8828>]
+**********
+From ('BL08', '新埔') to ('BL09', '江子翠')
+Time: 105s
+**********
+
+**********
+From ('BL09', '江子翠') to ('BL08', '新埔')
+Time: 105s
+**********
+
+**********
+From ('BL09', '江子翠') to ('BL10', '龍山寺')
+Time: 221s
+**********
+
+**********
+From ('BL10', '龍山寺') to ('BL09', '江子翠')
+Time: 221s
+**********
+
+**********
+From ('BL10', '龍山寺') to ('BL11', '西門')
+Time: 145s
+**********
+
+**********
+From ('BL11', '西門') to ('BL10', '龍山寺')
+Time: 145s
+**********
+
+**********
+From ('BL11', '西門') to ('BL12', '台北車站')
+Time: 162s
+**********
+
+**********
+From ('BL12', '台北車站') to ('BL11', '西門')
+Time: 162s
+**********
+
+**********
+From ('BL12', '台北車站') to ('BL13', '善導寺')
+Time: 91s
+**********
+
+**********
+From ('BL13', '善導寺') to ('BL12', '台北車站')
+Time: 91s
+**********
+
+**********
+From ('BL13', '善導寺') to ('BL14', '忠孝新生')
+Time: 121s
+**********
+
+**********
+From ('BL14', '忠孝新生') to ('BL13', '善導寺')
+Time: 121s
+**********
+
+**********
+From ('BL14', '忠孝新生') to ('BL15', '忠孝復興')
+Time: 130s
+**********
+
+**********
+From ('BL15', '忠孝復興') to ('BL14', '忠孝新生')
+Time: 130s
+**********
+
+**********
+From ('BL15', '忠孝復興') to ('BL16', '忠孝敦化')
+Time: 93s
+**********
+
+**********
+From ('BL16', '忠孝敦化') to ('BL15', '忠孝復興')
+Time: 93s
+**********
+
+**********
+From ('BL16', '忠孝敦化') to ('BL17', '國父紀念館')
+Time: 99s
+**********
+
+**********
+From ('BL17', '國父紀念館') to ('BL16', '忠孝敦化')
+Time: 99s
+**********
+
+**********
+From ('BL17', '國父紀念館') to ('BL18', '市政府')
+Time: 105s
+**********
+
+**********
+From ('BL18', '市政府') to ('BL17', '國父紀念館')
+Time: 105s
+**********
+
+**********
+From ('BL18', '市政府') to ('BL19', '永春')
+Time: 112s
+**********
+
+**********
+From ('BL19', '永春') to ('BL18', '市政府')
+Time: 112s
+**********
+
+**********
+From ('BL19', '永春') to ('BL20', '後山埤')
+Time: 105s
+**********
+
+**********
+From ('BL20', '後山埤') to ('BL19', '永春')
+Time: 105s
+**********
+
+**********
+From ('BL20', '後山埤') to ('BL21', '昆陽')
+Time: 132s
+**********
+
+**********
+From ('BL21', '昆陽') to ('BL20', '後山埤')
+Time: 132s
+**********
+
+**********
+From ('BL21', '昆陽') to ('BL22', '南港')
+Time: 133s
+**********
+
+**********
+From ('BL22', '南港') to ('BL21', '昆陽')
+Time: 133s
+**********
+
+**********
+From ('BL22', '南港') to ('BL23', '南港展覽館')
+Time: 112s
+**********
+
+**********
+From ('BL23', '南港展覽館') to ('BL22', '南港')
+Time: 112s
+**********
+
+**********
+From ('Y07', '大坪林') to ('Y08', '十四張')
+Time: 168s
+**********
+
+**********
+From ('Y08', '十四張') to ('Y07', '大坪林')
+Time: 168s
+**********
+
+**********
+From ('Y08', '十四張') to ('Y09', '秀朗橋')
+Time: 134s
+**********
+
+**********
+From ('Y09', '秀朗橋') to ('Y08', '十四張')
+Time: 134s
+**********
+
+**********
+From ('Y09', '秀朗橋') to ('Y10', '景平')
+Time: 104s
+**********
+
+**********
+From ('Y10', '景平') to ('Y09', '秀朗橋')
+Time: 104s
+**********
+
+**********
+From ('Y10', '景平') to ('Y11', '景安')
+Time: 119s
+**********
+
+**********
+From ('Y11', '景安') to ('Y10', '景平')
+Time: 119s
+**********
+
+**********
+From ('Y11', '景安') to ('Y12', '中和')
+Time: 219s
+**********
+
+**********
+From ('Y12', '中和') to ('Y11', '景安')
+Time: 219s
+**********
+
+**********
+From ('Y12', '中和') to ('Y13', '橋和')
+Time: 129s
+**********
+
+**********
+From ('Y13', '橋和') to ('Y12', '中和')
+Time: 129s
+**********
+
+**********
+From ('Y13', '橋和') to ('Y14', '中原')
+Time: 97s
+**********
+
+**********
+From ('Y14', '中原') to ('Y13', '橋和')
+Time: 97s
+**********
+
+**********
+From ('Y14', '中原') to ('Y15', '板新')
+Time: 136s
+**********
+
+**********
+From ('Y15', '板新') to ('Y14', '中原')
+Time: 136s
+**********
+
+**********
+From ('Y15', '板新') to ('Y16', '板橋')
+Time: 193s
+**********
+
+**********
+From ('Y16', '板橋') to ('Y15', '板新')
+Time: 193s
+**********
+
+**********
+From ('Y16', '板橋') to ('Y17', '新埔民生')
+Time: 216s
+**********
+
+**********
+From ('Y17', '新埔民生') to ('Y16', '板橋')
+Time: 216s
+**********
+
+**********
+From ('Y17', '新埔民生') to ('Y18', '頭前庄')
+Time: 178s
+**********
+
+**********
+From ('Y18', '頭前庄') to ('Y17', '新埔民生')
+Time: 178s
+**********
+
+**********
+From ('Y18', '頭前庄') to ('Y19', '幸福')
+Time: 118s
+**********
+
+**********
+From ('Y19', '幸福') to ('Y18', '頭前庄')
+Time: 118s
+**********
+
+**********
+From ('Y19', '幸福') to ('Y20', '新北產業園區')
+Time: 135s
+**********
+
+**********
+From ('Y20', '新北產業園區') to ('Y19', '幸福')
+Time: 135s
+**********
+
