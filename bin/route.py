@@ -7,6 +7,8 @@ import json, csv
 import collections
 import heapq
 
+
+
 # Class: Node
 # Initial input: Line ID        (lid),
 #                Station ID     (sid),
@@ -102,7 +104,7 @@ def dijsktra(graph, initial, end):
 def arrangeData():
     all_stations = {};
 
-    with open('./API/MRT_tw_API.json', 'r') as f:
+    with open('./API/routeAPI.json', 'r') as f:
         routeData = json.load(f);
 
         for line in routeData:
@@ -150,7 +152,7 @@ def constructRoute():
             fromNode = stations[i];
             toNode = stations[i+1];
 
-            with open("./API/MRT_Time_API.csv", 'r', encoding='BIG5') as f:
+            with open("./API/travelTimeAPI.csv", 'r', encoding='BIG5') as f:
                 timeData = list(csv.reader(f));
 
                 for row in timeData:
@@ -163,7 +165,7 @@ def constructRoute():
 
             # Interchange
             if fromNode.interchange:
-                with open("./API/MRT_interchangeTime_API.csv", 'r', encoding='BIG5') as f:
+                with open("./API/interchangeTimeAPI.csv", 'r', encoding='BIG5') as f:
                     timeData = list(csv.reader(f));
 
                     for row in timeData:
