@@ -1,0 +1,2322 @@
+BR
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 019 - label: BR01 - sName: 動物園
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 018 - label: BR02 - sName: 木柵
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 017 - label: BR03 - sName: 萬芳社區
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 016 - label: BR04 - sName: 萬芳醫院
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 015 - label: BR05 - sName: 辛亥
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 014 - label: BR06 - sName: 麟光
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 013 - label: BR07 - sName: 六張犁
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 012 - label: BR08 - sName: 科技大樓
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 011 - label: BR09 - sName: 大安
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 010 - label: BR10 - sName: 忠孝復興
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 009 - label: BR11 - sName: 南京復興
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 008 - label: BR12 - sName: 中山國中
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 007 - label: BR13 - sName: 松山機場
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 021 - label: BR14 - sName: 大直
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 022 - label: BR15 - sName: 劍南路
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 023 - label: BR16 - sName: 西湖
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 024 - label: BR17 - sName: 港墘
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 025 - label: BR18 - sName: 文德
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 026 - label: BR19 - sName: 內湖
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 027 - label: BR20 - sName: 大湖公園
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 028 - label: BR21 - sName: 葫洲
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 029 - label: BR22 - sName: 東湖
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 030 - label: BR23 - sName: 南港軟體園區
+interchange: None
+*****
+
+*****
+lid: 1 - field: BR - lName: BR 文湖線
+sid: 031 - label: BR24 - sName: 南港展覽館
+interchange: None
+*****
+
+R
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 099 - label: R02 - sName: 象山
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 100 - label: R03 - sName: 台北101/世貿
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 101 - label: R04 - sName: 信義安和
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 011 - label: R05 - sName: 大安
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 103 - label: R06 - sName: 大安森林公園
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 134 - label: R07 - sName: 東門
+interchange: <__main__.Node object at 0x7f8f5b476208>
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 042 - label: R08 - sName: 中正紀念堂
+interchange: <__main__.Node object at 0x7f8f5b473e48>
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 050 - label: R09 - sName: 台大醫院
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 051 - label: R10 - sName: 台北車站
+interchange: <__main__.Node object at 0x7f8f5b476550>
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 053 - label: R11 - sName: 中山
+interchange: <__main__.Node object at 0x7f8f5b476048>
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 054 - label: R12 - sName: 雙連
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 055 - label: R13 - sName: 民權西路
+interchange: <__main__.Node object at 0x7f8f5b476390>
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 056 - label: R14 - sName: 圓山
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 057 - label: R15 - sName: 劍潭
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 058 - label: R16 - sName: 士林
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 059 - label: R17 - sName: 芝山
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 060 - label: R18 - sName: 明德
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 061 - label: R19 - sName: 石牌
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 062 - label: R20 - sName: 唭哩岸
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 063 - label: R21 - sName: 奇岩
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 064 - label: R22 - sName: 北投
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 065 - label: R22A - sName: 新北投
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 066 - label: R23 - sName: 復興崗
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 067 - label: R24 - sName: 忠義
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 068 - label: R25 - sName: 關渡
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 069 - label: R26 - sName: 竹圍
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 070 - label: R27 - sName: 紅樹林
+interchange: None
+*****
+
+*****
+lid: 2 - field: R - lName: R 淡水信義線
+sid: 071 - label: R28 - sName: 淡水
+interchange: None
+*****
+
+G
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 033 - label: G01 - sName: 新店
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 034 - label: G02 - sName: 新店區公所
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 035 - label: G03 - sName: 七張
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 032 - label: G03A - sName: 小碧潭
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 036 - label: G04 - sName: 大坪林
+interchange: <__main__.Node object at 0x7f8f5b476b00>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 037 - label: G05 - sName: 景美
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 038 - label: G06 - sName: 萬隆
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 039 - label: G07 - sName: 公館
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 040 - label: G08 - sName: 台電大樓
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 041 - label: G09 - sName: 古亭
+interchange: <__main__.Node object at 0x7f8f5b476278>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 042 - label: G10 - sName: 中正紀念堂
+interchange: <__main__.Node object at 0x7f8f5b4737f0>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 043 - label: G11 - sName: 小南門
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 086 - label: G12 - sName: 西門
+interchange: <__main__.Node object at 0x7f8f5b476978>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 105 - label: G13 - sName: 北門
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 053 - label: G14 - sName: 中山
+interchange: <__main__.Node object at 0x7f8f5b473898>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 132 - label: G15 - sName: 松江南京
+interchange: <__main__.Node object at 0x7f8f5b476320>
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 009 - label: G16 - sName: 南京復興
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 109 - label: G17 - sName: 台北小巨蛋
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 110 - label: G18 - sName: 南京三民
+interchange: None
+*****
+
+*****
+lid: 3 - field: G - lName: G 松山新店線
+sid: 111 - label: G19 - sName: 松山
+interchange: None
+*****
+
+O
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 048 - label: O01 - sName: 南勢角
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 047 - label: O02 - sName: 景安
+interchange: <__main__.Node object at 0x7f8f5b476d30>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 046 - label: O03 - sName: 永安市場
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 045 - label: O04 - sName: 頂溪
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 041 - label: O05 - sName: 古亭
+interchange: <__main__.Node object at 0x7f8f5b473ef0>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 134 - label: O06 - sName: 東門
+interchange: <__main__.Node object at 0x7f8f5b4737b8>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 089 - label: O07 - sName: 忠孝新生
+interchange: <__main__.Node object at 0x7f8f5b476a20>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 132 - label: O08 - sName: 松江南京
+interchange: <__main__.Node object at 0x7f8f5b473f28>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 131 - label: O09 - sName: 行天宮
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 130 - label: O10 - sName: 中山國小
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 055 - label: O11 - sName: 民權西路
+interchange: <__main__.Node object at 0x7f8f5b473978>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 128 - label: O12 - sName: 大橋頭
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 127 - label: O13 - sName: 台北橋
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 126 - label: O14 - sName: 菜寮
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 125 - label: O15 - sName: 三重
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 124 - label: O16 - sName: 先嗇宮
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 123 - label: O17 - sName: 頭前庄
+interchange: <__main__.Node object at 0x7f8f5b476eb8>
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 122 - label: O18 - sName: 新莊
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 121 - label: O19 - sName: 輔大
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 180 - label: O20 - sName: 丹鳳
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 179 - label: O21 - sName: 迴龍
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 178 - label: O50 - sName: 三重國小
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 177 - label: O51 - sName: 三和國中
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 176 - label: O52 - sName: 徐匯中學
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 175 - label: O53 - sName: 三民高中
+interchange: None
+*****
+
+*****
+lid: 4 - field: O - lName: O 中和新蘆線
+sid: 174 - label: O54 - sName: 蘆洲
+interchange: None
+*****
+
+BL
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 076 - label: BL01 - sName: 頂埔
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 077 - label: BL02 - sName: 永寧
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 078 - label: BL03 - sName: 土城
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 079 - label: BL04 - sName: 海山
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 080 - label: BL05 - sName: 亞東醫院
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 081 - label: BL06 - sName: 府中
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 082 - label: BL07 - sName: 板橋
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 083 - label: BL08 - sName: 新埔
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 084 - label: BL09 - sName: 江子翠
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 085 - label: BL10 - sName: 龍山寺
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 086 - label: BL11 - sName: 西門
+interchange: <__main__.Node object at 0x7f8f5b473f98>
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 051 - label: BL12 - sName: 台北車站
+interchange: <__main__.Node object at 0x7f8f5b4738d0>
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 088 - label: BL13 - sName: 善導寺
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 089 - label: BL14 - sName: 忠孝新生
+interchange: <__main__.Node object at 0x7f8f5b4762b0>
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 010 - label: BL15 - sName: 忠孝復興
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 091 - label: BL16 - sName: 忠孝敦化
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 092 - label: BL17 - sName: 國父紀念館
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 093 - label: BL18 - sName: 市政府
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 094 - label: BL19 - sName: 永春
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 095 - label: BL20 - sName: 後山埤
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 096 - label: BL21 - sName: 昆陽
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 097 - label: BL22 - sName: 南港
+interchange: None
+*****
+
+*****
+lid: 5 - field: BL - lName: BL 板南線
+sid: 031 - label: BL23 - sName: 南港展覽館
+interchange: None
+*****
+
+Y
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 036 - label: Y07 - sName: 大坪林
+interchange: <__main__.Node object at 0x7f8f5b473dd8>
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 201 - label: Y08 - sName: 十四張
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 202 - label: Y09 - sName: 秀朗橋
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 203 - label: Y10 - sName: 景平
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 047 - label: Y11 - sName: 景安
+interchange: <__main__.Node object at 0x7f8f5b4761d0>
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 205 - label: Y12 - sName: 中和
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 206 - label: Y13 - sName: 橋和
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 207 - label: Y14 - sName: 中原
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 208 - label: Y15 - sName: 板新
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 209 - label: Y16 - sName: 板橋
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 210 - label: Y17 - sName: 新埔民生
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 123 - label: Y18 - sName: 頭前庄
+interchange: <__main__.Node object at 0x7f8f5b476518>
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 212 - label: Y19 - sName: 幸福
+interchange: None
+*****
+
+*****
+lid: 6 - field: Y - lName: Y 環狀線
+sid: 213 - label: Y20 - sName: 新北產業園區
+interchange: None
+*****
+
+BR01 BR02 92
+BR02 BR03 72
+BR03 BR04 124
+BR04 BR05 131
+BR05 BR06 149
+BR06 BR07 97
+BR07 BR08 147
+BR08 BR09 99
+BR09 BR10 112
+BR10 BR11 116
+BR11 BR12 91
+BR12 BR13 167
+BR13 BR14 197
+BR14 BR15 128
+BR15 BR16 135
+BR16 BR17 90
+BR17 BR18 97
+BR18 BR19 103
+BR19 BR20 96
+BR20 BR21 146
+BR21 BR22 103
+BR22 BR23 110
+BR23 BR24 78
+R02 R03 122
+R03 R04 120
+R04 R05 127
+R05 R06 99
+R06 R07 106
+R07 R08 205
+R08 R09 121
+R09 R10 102
+R10 R11 96
+R11 R12 90
+R12 R13 94
+R13 R14 114
+R14 R15 138
+R15 R16 121
+R16 R17 120
+R17 R18 105
+R18 R19 89
+R19 R20 127
+R20 R21 98
+R21 R22 119
+R22 R22A 157
+R23 R24 137
+R24 R25 105
+R25 R26 173
+R26 R27 163
+R27 R28 175
+G01 G02 136
+G02 G03 105
+G03 G03A 203
+G04 G05 119
+G05 G06 116
+G06 G07 151
+G07 G08 109
+G08 G09 118
+G09 G10 125
+G10 G11 103
+G11 G12 117
+G12 G13 114
+G13 G14 151
+G14 G15 141
+G15 G16 125
+G16 G17 111
+G17 G18 129
+G18 G19 138
+O01 O02 125
+O02 O03 119
+O03 O04 132
+O04 O05 220
+O05 O06 241
+O06 O07 174
+O07 O08 132
+O08 O09 108
+O09 O10 126
+O10 O11 105
+O11 O12 98
+O12 O13 152
+O13 O14 122
+O14 O15 109
+O15 O16 167
+O16 O17 133
+O17 O18 119
+O18 O19 162
+O19 O20 138
+O20 O21 168
+O50 O51 132
+O51 O52 107
+O52 O53 117
+O53 O54 111
+BL01 BL02 208
+BL02 BL03 121
+BL03 BL04 132
+BL04 BL05 168
+BL05 BL06 130
+BL06 BL07 95
+BL07 BL08 135
+BL08 BL09 105
+BL09 BL10 221
+BL10 BL11 145
+BL11 BL12 162
+BL12 BL13 91
+BL13 BL14 121
+BL14 BL15 130
+BL15 BL16 93
+BL16 BL17 99
+BL17 BL18 105
+BL18 BL19 112
+BL19 BL20 105
+BL20 BL21 132
+BL21 BL22 133
+BL22 BL23 112
+Y07 Y08 168
+Y08 Y09 134
+Y09 Y10 104
+Y10 Y11 119
+Y11 Y12 219
+Y12 Y13 129
+Y13 Y14 97
+Y14 Y15 136
+Y15 Y16 193
+Y16 Y17 216
+Y17 Y18 178
+Y18 Y19 118
+Y19 Y20 135
+*****
+From BR01 to BR02
+Time: 92s
+*****
+
+*****
+From BR02 to BR01
+Time: 92s
+*****
+
+*****
+From BR02 to BR03
+Time: 72s
+*****
+
+*****
+From BR03 to BR02
+Time: 72s
+*****
+
+*****
+From BR03 to BR04
+Time: 124s
+*****
+
+*****
+From BR04 to BR03
+Time: 124s
+*****
+
+*****
+From BR04 to BR05
+Time: 131s
+*****
+
+*****
+From BR05 to BR04
+Time: 131s
+*****
+
+*****
+From BR05 to BR06
+Time: 149s
+*****
+
+*****
+From BR06 to BR05
+Time: 149s
+*****
+
+*****
+From BR06 to BR07
+Time: 97s
+*****
+
+*****
+From BR07 to BR06
+Time: 97s
+*****
+
+*****
+From BR07 to BR08
+Time: 147s
+*****
+
+*****
+From BR08 to BR07
+Time: 147s
+*****
+
+*****
+From BR08 to BR09
+Time: 99s
+*****
+
+*****
+From BR09 to BR08
+Time: 99s
+*****
+
+*****
+From BR09 to BR10
+Time: 112s
+*****
+
+*****
+From BR10 to BR09
+Time: 112s
+*****
+
+*****
+From BR10 to BR11
+Time: 116s
+*****
+
+*****
+From BR11 to BR10
+Time: 116s
+*****
+
+*****
+From BR11 to BR12
+Time: 91s
+*****
+
+*****
+From BR12 to BR11
+Time: 91s
+*****
+
+*****
+From BR12 to BR13
+Time: 167s
+*****
+
+*****
+From BR13 to BR12
+Time: 167s
+*****
+
+*****
+From BR13 to BR14
+Time: 197s
+*****
+
+*****
+From BR14 to BR13
+Time: 197s
+*****
+
+*****
+From BR14 to BR15
+Time: 128s
+*****
+
+*****
+From BR15 to BR14
+Time: 128s
+*****
+
+*****
+From BR15 to BR16
+Time: 135s
+*****
+
+*****
+From BR16 to BR15
+Time: 135s
+*****
+
+*****
+From BR16 to BR17
+Time: 90s
+*****
+
+*****
+From BR17 to BR16
+Time: 90s
+*****
+
+*****
+From BR17 to BR18
+Time: 97s
+*****
+
+*****
+From BR18 to BR17
+Time: 97s
+*****
+
+*****
+From BR18 to BR19
+Time: 103s
+*****
+
+*****
+From BR19 to BR18
+Time: 103s
+*****
+
+*****
+From BR19 to BR20
+Time: 96s
+*****
+
+*****
+From BR20 to BR19
+Time: 96s
+*****
+
+*****
+From BR20 to BR21
+Time: 146s
+*****
+
+*****
+From BR21 to BR20
+Time: 146s
+*****
+
+*****
+From BR21 to BR22
+Time: 103s
+*****
+
+*****
+From BR22 to BR21
+Time: 103s
+*****
+
+*****
+From BR22 to BR23
+Time: 110s
+*****
+
+*****
+From BR23 to BR22
+Time: 110s
+*****
+
+*****
+From BR23 to BR24
+Time: 78s
+*****
+
+*****
+From BR24 to BR23
+Time: 78s
+*****
+
+*****
+From R02 to R03
+Time: 122s
+*****
+
+*****
+From R03 to R02
+Time: 122s
+*****
+
+*****
+From R03 to R04
+Time: 120s
+*****
+
+*****
+From R04 to R03
+Time: 120s
+*****
+
+*****
+From R04 to R05
+Time: 127s
+*****
+
+*****
+From R05 to R04
+Time: 127s
+*****
+
+*****
+From R05 to R06
+Time: 99s
+*****
+
+*****
+From R06 to R05
+Time: 99s
+*****
+
+*****
+From R06 to R07
+Time: 106s
+*****
+
+*****
+From R07 to R06
+Time: 106s
+*****
+
+*****
+From R07 to R08
+Time: 205s
+*****
+
+*****
+From R08 to R07
+Time: 205s
+*****
+
+*****
+From R07 to O06
+Time: 120s
+*****
+
+*****
+From O06 to R07
+Time: 120s
+*****
+
+*****
+From R08 to R09
+Time: 121s
+*****
+
+*****
+From R09 to R08
+Time: 121s
+*****
+
+*****
+From R08 to G10
+Time: 120s
+*****
+
+*****
+From G10 to R08
+Time: 120s
+*****
+
+*****
+From R09 to R10
+Time: 102s
+*****
+
+*****
+From R10 to R09
+Time: 102s
+*****
+
+*****
+From R10 to R11
+Time: 96s
+*****
+
+*****
+From R11 to R10
+Time: 96s
+*****
+
+*****
+From R10 to BL12
+Time: 240s
+*****
+
+*****
+From BL12 to R10
+Time: 240s
+*****
+
+*****
+From R11 to R12
+Time: 90s
+*****
+
+*****
+From R12 to R11
+Time: 90s
+*****
+
+*****
+From R11 to G14
+Time: 180s
+*****
+
+*****
+From G14 to R11
+Time: 180s
+*****
+
+*****
+From R12 to R13
+Time: 94s
+*****
+
+*****
+From R13 to R12
+Time: 94s
+*****
+
+*****
+From R13 to R14
+Time: 114s
+*****
+
+*****
+From R14 to R13
+Time: 114s
+*****
+
+*****
+From R13 to O11
+Time: 180s
+*****
+
+*****
+From O11 to R13
+Time: 180s
+*****
+
+*****
+From R14 to R15
+Time: 138s
+*****
+
+*****
+From R15 to R14
+Time: 138s
+*****
+
+*****
+From R15 to R16
+Time: 121s
+*****
+
+*****
+From R16 to R15
+Time: 121s
+*****
+
+*****
+From R16 to R17
+Time: 120s
+*****
+
+*****
+From R17 to R16
+Time: 120s
+*****
+
+*****
+From R17 to R18
+Time: 105s
+*****
+
+*****
+From R18 to R17
+Time: 105s
+*****
+
+*****
+From R18 to R19
+Time: 89s
+*****
+
+*****
+From R19 to R18
+Time: 89s
+*****
+
+*****
+From R19 to R20
+Time: 127s
+*****
+
+*****
+From R20 to R19
+Time: 127s
+*****
+
+*****
+From R20 to R21
+Time: 98s
+*****
+
+*****
+From R21 to R20
+Time: 98s
+*****
+
+*****
+From R21 to R22
+Time: 119s
+*****
+
+*****
+From R22 to R21
+Time: 119s
+*****
+
+*****
+From R22 to R22A
+Time: 157s
+*****
+
+*****
+From R22A to R22
+Time: 157s
+*****
+
+*****
+From R23 to R24
+Time: 137s
+*****
+
+*****
+From R24 to R23
+Time: 137s
+*****
+
+*****
+From R24 to R25
+Time: 105s
+*****
+
+*****
+From R25 to R24
+Time: 105s
+*****
+
+*****
+From R25 to R26
+Time: 173s
+*****
+
+*****
+From R26 to R25
+Time: 173s
+*****
+
+*****
+From R26 to R27
+Time: 163s
+*****
+
+*****
+From R27 to R26
+Time: 163s
+*****
+
+*****
+From R27 to R28
+Time: 175s
+*****
+
+*****
+From R28 to R27
+Time: 175s
+*****
+
+*****
+From G01 to G02
+Time: 136s
+*****
+
+*****
+From G02 to G01
+Time: 136s
+*****
+
+*****
+From G02 to G03
+Time: 105s
+*****
+
+*****
+From G03 to G02
+Time: 105s
+*****
+
+*****
+From G03 to G03A
+Time: 203s
+*****
+
+*****
+From G03A to G03
+Time: 203s
+*****
+
+*****
+From G04 to G05
+Time: 119s
+*****
+
+*****
+From G05 to G04
+Time: 119s
+*****
+
+*****
+From G04 to Y07
+Time: 0s
+*****
+
+*****
+From Y07 to G04
+Time: 0s
+*****
+
+*****
+From G05 to G06
+Time: 116s
+*****
+
+*****
+From G06 to G05
+Time: 116s
+*****
+
+*****
+From G06 to G07
+Time: 151s
+*****
+
+*****
+From G07 to G06
+Time: 151s
+*****
+
+*****
+From G07 to G08
+Time: 109s
+*****
+
+*****
+From G08 to G07
+Time: 109s
+*****
+
+*****
+From G08 to G09
+Time: 118s
+*****
+
+*****
+From G09 to G08
+Time: 118s
+*****
+
+*****
+From G09 to G10
+Time: 125s
+*****
+
+*****
+From G10 to G09
+Time: 125s
+*****
+
+*****
+From G09 to O05
+Time: 120s
+*****
+
+*****
+From O05 to G09
+Time: 120s
+*****
+
+*****
+From G10 to G11
+Time: 103s
+*****
+
+*****
+From G11 to G10
+Time: 103s
+*****
+
+*****
+From G11 to G12
+Time: 117s
+*****
+
+*****
+From G12 to G11
+Time: 117s
+*****
+
+*****
+From G12 to G13
+Time: 114s
+*****
+
+*****
+From G13 to G12
+Time: 114s
+*****
+
+*****
+From G12 to BL11
+Time: 120s
+*****
+
+*****
+From BL11 to G12
+Time: 120s
+*****
+
+*****
+From G13 to G14
+Time: 151s
+*****
+
+*****
+From G14 to G13
+Time: 151s
+*****
+
+*****
+From G14 to G15
+Time: 141s
+*****
+
+*****
+From G15 to G14
+Time: 141s
+*****
+
+*****
+From G15 to G16
+Time: 125s
+*****
+
+*****
+From G16 to G15
+Time: 125s
+*****
+
+*****
+From G15 to O08
+Time: 120s
+*****
+
+*****
+From O08 to G15
+Time: 120s
+*****
+
+*****
+From G16 to G17
+Time: 111s
+*****
+
+*****
+From G17 to G16
+Time: 111s
+*****
+
+*****
+From G17 to G18
+Time: 129s
+*****
+
+*****
+From G18 to G17
+Time: 129s
+*****
+
+*****
+From G18 to G19
+Time: 138s
+*****
+
+*****
+From G19 to G18
+Time: 138s
+*****
+
+*****
+From O01 to O02
+Time: 125s
+*****
+
+*****
+From O02 to O01
+Time: 125s
+*****
+
+*****
+From O02 to O03
+Time: 119s
+*****
+
+*****
+From O03 to O02
+Time: 119s
+*****
+
+*****
+From O02 to Y11
+Time: 360s
+*****
+
+*****
+From Y11 to O02
+Time: 360s
+*****
+
+*****
+From O03 to O04
+Time: 132s
+*****
+
+*****
+From O04 to O03
+Time: 132s
+*****
+
+*****
+From O04 to O05
+Time: 220s
+*****
+
+*****
+From O05 to O04
+Time: 220s
+*****
+
+*****
+From O05 to O06
+Time: 241s
+*****
+
+*****
+From O06 to O05
+Time: 241s
+*****
+
+*****
+From O06 to O07
+Time: 174s
+*****
+
+*****
+From O07 to O06
+Time: 174s
+*****
+
+*****
+From O07 to O08
+Time: 132s
+*****
+
+*****
+From O08 to O07
+Time: 132s
+*****
+
+*****
+From O07 to BL14
+Time: 120s
+*****
+
+*****
+From BL14 to O07
+Time: 120s
+*****
+
+*****
+From O08 to O09
+Time: 108s
+*****
+
+*****
+From O09 to O08
+Time: 108s
+*****
+
+*****
+From O09 to O10
+Time: 126s
+*****
+
+*****
+From O10 to O09
+Time: 126s
+*****
+
+*****
+From O10 to O11
+Time: 105s
+*****
+
+*****
+From O11 to O10
+Time: 105s
+*****
+
+*****
+From O11 to O12
+Time: 98s
+*****
+
+*****
+From O12 to O11
+Time: 98s
+*****
+
+*****
+From O12 to O13
+Time: 152s
+*****
+
+*****
+From O13 to O12
+Time: 152s
+*****
+
+*****
+From O13 to O14
+Time: 122s
+*****
+
+*****
+From O14 to O13
+Time: 122s
+*****
+
+*****
+From O14 to O15
+Time: 109s
+*****
+
+*****
+From O15 to O14
+Time: 109s
+*****
+
+*****
+From O15 to O16
+Time: 167s
+*****
+
+*****
+From O16 to O15
+Time: 167s
+*****
+
+*****
+From O16 to O17
+Time: 133s
+*****
+
+*****
+From O17 to O16
+Time: 133s
+*****
+
+*****
+From O17 to O18
+Time: 119s
+*****
+
+*****
+From O18 to O17
+Time: 119s
+*****
+
+*****
+From O17 to Y18
+Time: 360s
+*****
+
+*****
+From Y18 to O17
+Time: 360s
+*****
+
+*****
+From O18 to O19
+Time: 162s
+*****
+
+*****
+From O19 to O18
+Time: 162s
+*****
+
+*****
+From O19 to O20
+Time: 138s
+*****
+
+*****
+From O20 to O19
+Time: 138s
+*****
+
+*****
+From O20 to O21
+Time: 168s
+*****
+
+*****
+From O21 to O20
+Time: 168s
+*****
+
+*****
+From O50 to O51
+Time: 132s
+*****
+
+*****
+From O51 to O50
+Time: 132s
+*****
+
+*****
+From O51 to O52
+Time: 107s
+*****
+
+*****
+From O52 to O51
+Time: 107s
+*****
+
+*****
+From O52 to O53
+Time: 117s
+*****
+
+*****
+From O53 to O52
+Time: 117s
+*****
+
+*****
+From O53 to O54
+Time: 111s
+*****
+
+*****
+From O54 to O53
+Time: 111s
+*****
+
+*****
+From BL01 to BL02
+Time: 208s
+*****
+
+*****
+From BL02 to BL01
+Time: 208s
+*****
+
+*****
+From BL02 to BL03
+Time: 121s
+*****
+
+*****
+From BL03 to BL02
+Time: 121s
+*****
+
+*****
+From BL03 to BL04
+Time: 132s
+*****
+
+*****
+From BL04 to BL03
+Time: 132s
+*****
+
+*****
+From BL04 to BL05
+Time: 168s
+*****
+
+*****
+From BL05 to BL04
+Time: 168s
+*****
+
+*****
+From BL05 to BL06
+Time: 130s
+*****
+
+*****
+From BL06 to BL05
+Time: 130s
+*****
+
+*****
+From BL06 to BL07
+Time: 95s
+*****
+
+*****
+From BL07 to BL06
+Time: 95s
+*****
+
+*****
+From BL07 to BL08
+Time: 135s
+*****
+
+*****
+From BL08 to BL07
+Time: 135s
+*****
+
+*****
+From BL08 to BL09
+Time: 105s
+*****
+
+*****
+From BL09 to BL08
+Time: 105s
+*****
+
+*****
+From BL09 to BL10
+Time: 221s
+*****
+
+*****
+From BL10 to BL09
+Time: 221s
+*****
+
+*****
+From BL10 to BL11
+Time: 145s
+*****
+
+*****
+From BL11 to BL10
+Time: 145s
+*****
+
+*****
+From BL11 to BL12
+Time: 162s
+*****
+
+*****
+From BL12 to BL11
+Time: 162s
+*****
+
+*****
+From BL12 to BL13
+Time: 91s
+*****
+
+*****
+From BL13 to BL12
+Time: 91s
+*****
+
+*****
+From BL13 to BL14
+Time: 121s
+*****
+
+*****
+From BL14 to BL13
+Time: 121s
+*****
+
+*****
+From BL14 to BL15
+Time: 130s
+*****
+
+*****
+From BL15 to BL14
+Time: 130s
+*****
+
+*****
+From BL15 to BL16
+Time: 93s
+*****
+
+*****
+From BL16 to BL15
+Time: 93s
+*****
+
+*****
+From BL16 to BL17
+Time: 99s
+*****
+
+*****
+From BL17 to BL16
+Time: 99s
+*****
+
+*****
+From BL17 to BL18
+Time: 105s
+*****
+
+*****
+From BL18 to BL17
+Time: 105s
+*****
+
+*****
+From BL18 to BL19
+Time: 112s
+*****
+
+*****
+From BL19 to BL18
+Time: 112s
+*****
+
+*****
+From BL19 to BL20
+Time: 105s
+*****
+
+*****
+From BL20 to BL19
+Time: 105s
+*****
+
+*****
+From BL20 to BL21
+Time: 132s
+*****
+
+*****
+From BL21 to BL20
+Time: 132s
+*****
+
+*****
+From BL21 to BL22
+Time: 133s
+*****
+
+*****
+From BL22 to BL21
+Time: 133s
+*****
+
+*****
+From BL22 to BL23
+Time: 112s
+*****
+
+*****
+From BL23 to BL22
+Time: 112s
+*****
+
+*****
+From Y07 to Y08
+Time: 168s
+*****
+
+*****
+From Y08 to Y07
+Time: 168s
+*****
+
+*****
+From Y08 to Y09
+Time: 134s
+*****
+
+*****
+From Y09 to Y08
+Time: 134s
+*****
+
+*****
+From Y09 to Y10
+Time: 104s
+*****
+
+*****
+From Y10 to Y09
+Time: 104s
+*****
+
+*****
+From Y10 to Y11
+Time: 119s
+*****
+
+*****
+From Y11 to Y10
+Time: 119s
+*****
+
+*****
+From Y11 to Y12
+Time: 219s
+*****
+
+*****
+From Y12 to Y11
+Time: 219s
+*****
+
+*****
+From Y12 to Y13
+Time: 129s
+*****
+
+*****
+From Y13 to Y12
+Time: 129s
+*****
+
+*****
+From Y13 to Y14
+Time: 97s
+*****
+
+*****
+From Y14 to Y13
+Time: 97s
+*****
+
+*****
+From Y14 to Y15
+Time: 136s
+*****
+
+*****
+From Y15 to Y14
+Time: 136s
+*****
+
+*****
+From Y15 to Y16
+Time: 193s
+*****
+
+*****
+From Y16 to Y15
+Time: 193s
+*****
+
+*****
+From Y16 to Y17
+Time: 216s
+*****
+
+*****
+From Y17 to Y16
+Time: 216s
+*****
+
+*****
+From Y17 to Y18
+Time: 178s
+*****
+
+*****
+From Y18 to Y17
+Time: 178s
+*****
+
+*****
+From Y18 to Y19
+Time: 118s
+*****
+
+*****
+From Y19 to Y18
+Time: 118s
+*****
+
+*****
+From Y19 to Y20
+Time: 135s
+*****
+
+*****
+From Y20 to Y19
+Time: 135s
+*****
+

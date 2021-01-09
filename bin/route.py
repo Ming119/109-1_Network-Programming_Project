@@ -8,6 +8,12 @@ import collections
 import heapq
 
 # Class: Node
+# Initial input: Line ID        (lid),
+#                Station ID     (sid),
+#                Line Name      (lName),
+#                Station Name   (sName),
+#                Line Field     (field),
+#                Station Label  (label)
 class Node:
     def __init__(self, lid, sid, lName, sName, field, label):
         self.lid = lid
@@ -26,6 +32,7 @@ class Node:
 
 # Class: Graph
 # Weighted Graph
+# Initial input: None
 class Graph:
     def __init__(self):
         self.edges = collections.defaultdict(list);
@@ -45,7 +52,9 @@ class Graph:
 
 
 # Function: dijsktra()
-# Find the Shortest Path by Dijsktra Algorithm
+# Find the Shortest Path by the Dijsktra Algorithm
+# Input: a weighted graph (Graph), an initial node (Node), a destination node (Node)
+# Return: the shortest path of from the initial node to the destination node
 def dijsktra(graph, initial, end):
     # shortest paths is a dict of nodes
     # whose value is a tuple of (previous node, weight)
@@ -86,6 +95,10 @@ def dijsktra(graph, initial, end):
 
 
 # Function: arrangeData()
+# Read the data from the API files and arrange the data
+# Input: None
+# Return: the arranged Data in the following format:
+#         {LineField: [*Node, ...], ...}
 def arrangeData():
     all_stations = {};
 
@@ -125,6 +138,9 @@ def arrangeData():
 
 
 # Function: constructRoute()
+# Construct a Weighted Graph from the data
+# Input: None
+# Return: a weighted graph
 def constructRoute():
     route = arrangeData();
     graph = Graph();
@@ -142,7 +158,6 @@ def constructRoute():
                         (fromNode.sName in row[2]) and (toNode.sName in row[1]):
 
                         travelTime = (int(row[3]) + int(row[5]));
-                        print(fromNode.label, toNode.label, travelTime);
                         if travelTime: graph.insertEdge(fromNode.label, toNode.label, travelTime);
                         break;
 
@@ -183,6 +198,7 @@ def getStation(id = '', label = ''):
 
 
 
+# DEBUG
 if __name__ == '__main__':
     stations = arrangeData();
     for key, val in stations.items():

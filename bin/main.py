@@ -1,4 +1,4 @@
-import os, csv, json
+import os
 import os.path
 from os import path
 import time
@@ -9,9 +9,6 @@ import requests
 from bs4 import BeautifulSoup
 
 import route
-# import api
-
-API_path = './API/MRT_tw_API' # default
 
 #
 # def getStation(line):
@@ -50,33 +47,10 @@ API_path = './API/MRT_tw_API' # default
 #             print('{:^30}'.format('*** 輸入錯誤，請重新輸入 ***'))
 #             print('*** Input error, please input again ***')
 #
-#
-#
-# def getPrice(departure, destination):
-#     url = 'https://data.taipei/api/getDatasetInfo/downloadResource?id=4acb4911-0360-4063-808d-fcee629508b3&rid=893c2f2a-dcfd-407b-b871-394a14105532'
-#     urllib.request.urlretrieve(url, './apidoc/MRT_Price_API.csv')
-#
-#     with open('./apidoc/MRT_Price_API.csv', 'r') as csvfile:
-#         csv_reader = csv.reader(csvfile)
-#
-#         for row in csv_reader:
-#             if (row[0] == departure and row[1] == destination): return row
-#
+
 
 
 # def printout():
-    # print('\n{:^25}'.format('--- 請選擇語言 ---'))
-    #     print('--- Please select language ---')
-    #
-    #     while True:
-    #         lang = int(input('1.中文 | 2.English\n'))
-    #         if 0 < lang < 3: break
-    #
-    #         print('\n{:^30}'.format('*** 輸入錯誤，請重新輸入 ***'))
-    #         print('*** Input error, please input again ***')
-    #
-    #     getAPI('tw' if lang == 1 else 'en')
-    #
     #     print('\n{:^50}'.format('--- 請選擇出發地捷運路線 ---'))
     #     print('--- Please select the MRT route from the place of departure ---')
     #     departure = getRoute()
@@ -99,6 +73,9 @@ API_path = './API/MRT_tw_API' # default
 
 
 
-
 if __name__ == '__main__':
-    
+    graph = route.constructRoute();
+
+
+
+    path = route.dijsktra(graph, start, end);
