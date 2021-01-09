@@ -1,16 +1,16 @@
 ***** ./API/routeAPI.json *****
-os.stat_result(st_mode=33279, st_ino=4503599627510084, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=18201, st_atime=1610185821, st_mtime=1610185555, st_ctime=1610185555)
-********************
+os.stat_result(st_mode=33279, st_ino=4503599627510084, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=26606, st_atime=1610212347, st_mtime=1610211293, st_ctime=1610211293)
+******************************
 
 ***** ./API/travelTimeAPI.csv *****
-os.stat_result(st_mode=33279, st_ino=8162774324748632, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=9331, st_atime=1610185823, st_mtime=1610185805, st_ctime=1610185805)
-********************
+os.stat_result(st_mode=33279, st_ino=8162774324748632, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=9331, st_atime=1610212166, st_mtime=1610185805, st_ctime=1610192081)
+******************************
 
-***** ./API/interchangeTimeAPI.csv *****
-os.stat_result(st_mode=33279, st_ino=7318349394616672, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=409, st_atime=1610185822, st_mtime=1610185806, st_ctime=1610185806)
-********************
+***** ./API/transferTimeAPI.csv *****
+os.stat_result(st_mode=33279, st_ino=1688849860667660, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=409, st_atime=1610212348, st_mtime=1610212348, st_ctime=1610212348)
+******************************
 
 ***** ./API/priceAPI.csv *****
-os.stat_result(st_mode=33279, st_ino=3659174697378179, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=404017, st_atime=1610185822, st_mtime=1610185807, st_ctime=1610185807)
-********************
+os.stat_result(st_mode=33279, st_ino=3659174697378179, st_dev=15, st_nlink=1, st_uid=1000, st_gid=1000, st_size=404017, st_atime=1610210906, st_mtime=1610202969, st_ctime=1610202969)
+******************************
 

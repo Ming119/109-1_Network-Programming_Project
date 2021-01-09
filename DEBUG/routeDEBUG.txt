@@ -1,364 +1,364 @@
 BR
 *****
-<__main__.Node object at 0x7f55bbdb9e10>
+<__main__.Node object at 0x7fb256e19e80>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 019 - label: BR01 - sName: 動物園
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9e48>
+<__main__.Node object at 0x7fb256e19eb8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 018 - label: BR02 - sName: 木柵
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9e80>
+<__main__.Node object at 0x7fb256e19ef0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 017 - label: BR03 - sName: 萬芳社區
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9eb8>
+<__main__.Node object at 0x7fb256e19f28>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 016 - label: BR04 - sName: 萬芳醫院
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9ef0>
+<__main__.Node object at 0x7fb256e19f60>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 015 - label: BR05 - sName: 辛亥
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9f28>
+<__main__.Node object at 0x7fb256e19f98>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 014 - label: BR06 - sName: 麟光
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9f60>
+<__main__.Node object at 0x7fb256e19fd0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 013 - label: BR07 - sName: 六張犁
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9f98>
+<__main__.Node object at 0x7fb256e1a048>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 012 - label: BR08 - sName: 科技大樓
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdb9fd0>
+<__main__.Node object at 0x7fb256e1a080>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 011 - label: BR09 - sName: 大安
-interchange: <__main__.Node object at 0x7f55bbdba4a8>
+interchange: <__main__.Node object at 0x7fb256e1a518>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba0b8>
+<__main__.Node object at 0x7fb256e1a128>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 010 - label: BR10 - sName: 忠孝復興
-interchange: <__main__.Node object at 0x7f55bbd44748>
+interchange: <__main__.Node object at 0x7fb256da47b8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba080>
+<__main__.Node object at 0x7fb256e1a0f0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 009 - label: BR11 - sName: 南京復興
-interchange: <__main__.Node object at 0x7f55bbdbada0>
+interchange: <__main__.Node object at 0x7fb256e1ae10>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba048>
+<__main__.Node object at 0x7fb256e1a0b8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 008 - label: BR12 - sName: 中山國中
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba198>
+<__main__.Node object at 0x7fb256e1a208>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 007 - label: BR13 - sName: 松山機場
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba0f0>
+<__main__.Node object at 0x7fb256e1a160>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 021 - label: BR14 - sName: 大直
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba128>
+<__main__.Node object at 0x7fb256e1a198>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 022 - label: BR15 - sName: 劍南路
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba1d0>
+<__main__.Node object at 0x7fb256e1a240>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 023 - label: BR16 - sName: 西湖
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba208>
+<__main__.Node object at 0x7fb256e1a278>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 024 - label: BR17 - sName: 港墘
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba240>
+<__main__.Node object at 0x7fb256e1a2b0>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 025 - label: BR18 - sName: 文德
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba278>
+<__main__.Node object at 0x7fb256e1a2e8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 026 - label: BR19 - sName: 內湖
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba2b0>
+<__main__.Node object at 0x7fb256e1a320>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 027 - label: BR20 - sName: 大湖公園
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba2e8>
+<__main__.Node object at 0x7fb256e1a358>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 028 - label: BR21 - sName: 葫洲
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba320>
+<__main__.Node object at 0x7fb256e1a390>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 029 - label: BR22 - sName: 東湖
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba358>
+<__main__.Node object at 0x7fb256e1a3c8>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 030 - label: BR23 - sName: 南港軟體園區
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba390>
+<__main__.Node object at 0x7fb256e1a400>
 lid: 1 - field: BR - lName: BR 文湖線
 sid: 031 - label: BR24 - sName: 南港展覽館
-interchange: <__main__.Node object at 0x7f55bbd44940>
+interchange: <__main__.Node object at 0x7fb256da49b0>
 *****
 
 R
 *****
-<__main__.Node object at 0x7f55bbdba438>
+<__main__.Node object at 0x7fb256e1a4a8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 099 - label: R02 - sName: 象山
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba400>
+<__main__.Node object at 0x7fb256e1a470>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 100 - label: R03 - sName: 台北101/世貿
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba470>
+<__main__.Node object at 0x7fb256e1a4e0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 101 - label: R04 - sName: 信義安和
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba4a8>
+<__main__.Node object at 0x7fb256e1a518>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 011 - label: R05 - sName: 大安
-interchange: <__main__.Node object at 0x7f55bbdb9fd0>
+interchange: <__main__.Node object at 0x7fb256e1a080>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba160>
+<__main__.Node object at 0x7fb256e1a1d0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 103 - label: R06 - sName: 大安森林公園
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba4e0>
+<__main__.Node object at 0x7fb256e1a550>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 134 - label: R07 - sName: 東門
-interchange: <__main__.Node object at 0x7f55bbdbaef0>
+interchange: <__main__.Node object at 0x7fb256e1af60>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba3c8>
+<__main__.Node object at 0x7fb256e1a438>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 042 - label: R08 - sName: 中正紀念堂
-interchange: <__main__.Node object at 0x7f55bbdbab38>
+interchange: <__main__.Node object at 0x7fb256e1aba8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba588>
+<__main__.Node object at 0x7fb256e1a5f8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 050 - label: R09 - sName: 台大醫院
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba5c0>
+<__main__.Node object at 0x7fb256e1a630>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 051 - label: R10 - sName: 台北車站
-interchange: <__main__.Node object at 0x7f55bbd44240>
+interchange: <__main__.Node object at 0x7fb256da42b0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba630>
+<__main__.Node object at 0x7fb256e1a6a0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 053 - label: R11 - sName: 中山
-interchange: <__main__.Node object at 0x7f55bbdbacf8>
+interchange: <__main__.Node object at 0x7fb256e1ad68>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba518>
+<__main__.Node object at 0x7fb256e1a588>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 054 - label: R12 - sName: 雙連
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba6a0>
+<__main__.Node object at 0x7fb256e1a710>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 055 - label: R13 - sName: 民權西路
-interchange: <__main__.Node object at 0x7f55bbd440f0>
+interchange: <__main__.Node object at 0x7fb256da4048>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba668>
+<__main__.Node object at 0x7fb256e1a6d8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 056 - label: R14 - sName: 圓山
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba5f8>
+<__main__.Node object at 0x7fb256e1a668>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 057 - label: R15 - sName: 劍潭
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba6d8>
+<__main__.Node object at 0x7fb256e1a748>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 058 - label: R16 - sName: 士林
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba710>
+<__main__.Node object at 0x7fb256e1a780>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 059 - label: R17 - sName: 芝山
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba748>
+<__main__.Node object at 0x7fb256e1a7b8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 060 - label: R18 - sName: 明德
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba780>
+<__main__.Node object at 0x7fb256e1a7f0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 061 - label: R19 - sName: 石牌
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba7b8>
+<__main__.Node object at 0x7fb256e1a828>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 062 - label: R20 - sName: 唭哩岸
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba7f0>
+<__main__.Node object at 0x7fb256e1a860>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 063 - label: R21 - sName: 奇岩
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba828>
+<__main__.Node object at 0x7fb256e1a898>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 064 - label: R22 - sName: 北投
-interchange: <__main__.Node object at 0x7f55bbdba860>
+interchange: <__main__.Node object at 0x7fb256e1a8d0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba860>
+<__main__.Node object at 0x7fb256e1a8d0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 065 - label: R22A - sName: 新北投
-interchange: <__main__.Node object at 0x7f55bbdba828>
+interchange: <__main__.Node object at 0x7fb256e1a898>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba898>
+<__main__.Node object at 0x7fb256e1a908>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 066 - label: R23 - sName: 復興崗
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba8d0>
+<__main__.Node object at 0x7fb256e1a940>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 067 - label: R24 - sName: 忠義
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba908>
+<__main__.Node object at 0x7fb256e1a978>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 068 - label: R25 - sName: 關渡
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba940>
+<__main__.Node object at 0x7fb256e1a9b0>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 069 - label: R26 - sName: 竹圍
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba978>
+<__main__.Node object at 0x7fb256e1a9e8>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 070 - label: R27 - sName: 紅樹林
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba9b0>
+<__main__.Node object at 0x7fb256e1aa20>
 lid: 2 - field: R - lName: R 淡水信義線
 sid: 071 - label: R28 - sName: 淡水
 interchange: None
@@ -366,140 +366,140 @@ interchange: None
 
 G
 *****
-<__main__.Node object at 0x7f55bbdba9e8>
+<__main__.Node object at 0x7fb256e1aa58>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 033 - label: G01 - sName: 新店
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaa20>
+<__main__.Node object at 0x7fb256e1aa90>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 034 - label: G02 - sName: 新店區公所
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaa58>
+<__main__.Node object at 0x7fb256e1aac8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 035 - label: G03 - sName: 七張
-interchange: <__main__.Node object at 0x7f55bbdbaa90>
+interchange: <__main__.Node object at 0x7fb256e1ab00>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaa90>
+<__main__.Node object at 0x7fb256e1ab00>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 032 - label: G03A - sName: 小碧潭
-interchange: <__main__.Node object at 0x7f55bbdbaa58>
+interchange: <__main__.Node object at 0x7fb256e1aac8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaac8>
+<__main__.Node object at 0x7fb256e1ab38>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 036 - label: G04 - sName: 大坪林
-interchange: <__main__.Node object at 0x7f55bbd44780>
+interchange: <__main__.Node object at 0x7fb256da47f0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdba550>
+<__main__.Node object at 0x7fb256e1a5c0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 037 - label: G05 - sName: 景美
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbab00>
+<__main__.Node object at 0x7fb256e1ab70>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 038 - label: G06 - sName: 萬隆
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbab70>
+<__main__.Node object at 0x7fb256e1abe0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 039 - label: G07 - sName: 公館
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaba8>
+<__main__.Node object at 0x7fb256e1ac18>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 040 - label: G08 - sName: 台電大樓
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbabe0>
+<__main__.Node object at 0x7fb256e1ac50>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 041 - label: G09 - sName: 古亭
-interchange: <__main__.Node object at 0x7f55bbdbae10>
+interchange: <__main__.Node object at 0x7fb256e1ae80>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbab38>
+<__main__.Node object at 0x7fb256e1aba8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 042 - label: G10 - sName: 中正紀念堂
-interchange: <__main__.Node object at 0x7f55bbdba3c8>
+interchange: <__main__.Node object at 0x7fb256e1a438>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbac50>
+<__main__.Node object at 0x7fb256e1acc0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 043 - label: G11 - sName: 小南門
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbac88>
+<__main__.Node object at 0x7fb256e1acf8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 086 - label: G12 - sName: 西門
-interchange: <__main__.Node object at 0x7f55bbd44668>
+interchange: <__main__.Node object at 0x7fb256da46d8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbad30>
+<__main__.Node object at 0x7fb256e1ada0>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 105 - label: G13 - sName: 北門
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbacf8>
+<__main__.Node object at 0x7fb256e1ad68>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 053 - label: G14 - sName: 中山
-interchange: <__main__.Node object at 0x7f55bbdba630>
+interchange: <__main__.Node object at 0x7fb256e1a6a0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbacc0>
+<__main__.Node object at 0x7fb256e1ad30>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 132 - label: G15 - sName: 松江南京
-interchange: <__main__.Node object at 0x7f55bbd44048>
+interchange: <__main__.Node object at 0x7fb256da40b8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbada0>
+<__main__.Node object at 0x7fb256e1ae10>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 009 - label: G16 - sName: 南京復興
-interchange: <__main__.Node object at 0x7f55bbdba080>
+interchange: <__main__.Node object at 0x7fb256e1a0f0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbac18>
+<__main__.Node object at 0x7fb256e1ac88>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 109 - label: G17 - sName: 台北小巨蛋
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbad68>
+<__main__.Node object at 0x7fb256e1add8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 110 - label: G18 - sName: 南京三民
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbae48>
+<__main__.Node object at 0x7fb256e1aeb8>
 lid: 3 - field: G - lName: G 松山新店線
 sid: 111 - label: G19 - sName: 松山
 interchange: None
@@ -507,182 +507,182 @@ interchange: None
 
 O
 *****
-<__main__.Node object at 0x7f55bbdbae80>
+<__main__.Node object at 0x7fb256e1aef0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 048 - label: O01 - sName: 南勢角
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaeb8>
+<__main__.Node object at 0x7fb256e1af28>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 047 - label: O02 - sName: 景安
-interchange: <__main__.Node object at 0x7f55bbd44978>
+interchange: <__main__.Node object at 0x7fb256da49e8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbadd8>
+<__main__.Node object at 0x7fb256e1ae48>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 046 - label: O03 - sName: 永安市場
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaf28>
+<__main__.Node object at 0x7fb256e1af98>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 045 - label: O04 - sName: 頂溪
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbae10>
+<__main__.Node object at 0x7fb256e1ae80>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 041 - label: O05 - sName: 古亭
-interchange: <__main__.Node object at 0x7f55bbdbabe0>
+interchange: <__main__.Node object at 0x7fb256e1ac50>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaef0>
+<__main__.Node object at 0x7fb256e1af60>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 134 - label: O06 - sName: 東門
-interchange: <__main__.Node object at 0x7f55bbdba4e0>
+interchange: <__main__.Node object at 0x7fb256e1a550>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaf60>
+<__main__.Node object at 0x7fb256e1afd0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 089 - label: O07 - sName: 忠孝新生
-interchange: <__main__.Node object at 0x7f55bbd44710>
+interchange: <__main__.Node object at 0x7fb256da4780>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44048>
+<__main__.Node object at 0x7fb256da40b8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 132 - label: O08 - sName: 松江南京
-interchange: <__main__.Node object at 0x7f55bbdbacc0>
+interchange: <__main__.Node object at 0x7fb256e1ad30>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbafd0>
+<__main__.Node object at 0x7fb256da4080>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 131 - label: O09 - sName: 行天宮
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbdbaf98>
+<__main__.Node object at 0x7fb256da4160>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 130 - label: O10 - sName: 中山國小
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd440f0>
+<__main__.Node object at 0x7fb256da4048>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 055 - label: O11 - sName: 民權西路
-interchange: <__main__.Node object at 0x7f55bbdba6a0>
+interchange: <__main__.Node object at 0x7fb256e1a710>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd440b8>
+<__main__.Node object at 0x7fb256da4128>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 128 - label: O12 - sName: 大橋頭
-interchange: None
+interchange: <__main__.Node object at 0x7fb256da4358>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44080>
+<__main__.Node object at 0x7fb256da40f0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 127 - label: O13 - sName: 台北橋
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44160>
+<__main__.Node object at 0x7fb256da41d0>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 126 - label: O14 - sName: 菜寮
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44198>
+<__main__.Node object at 0x7fb256da4208>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 125 - label: O15 - sName: 三重
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd441d0>
+<__main__.Node object at 0x7fb256da4240>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 124 - label: O16 - sName: 先嗇宮
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44208>
+<__main__.Node object at 0x7fb256da4278>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 123 - label: O17 - sName: 頭前庄
-interchange: <__main__.Node object at 0x7f55bbd44ba8>
+interchange: <__main__.Node object at 0x7fb256da4c18>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44128>
+<__main__.Node object at 0x7fb256da4198>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 122 - label: O18 - sName: 新莊
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44278>
+<__main__.Node object at 0x7fb256da42e8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 121 - label: O19 - sName: 輔大
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd442b0>
+<__main__.Node object at 0x7fb256da4320>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 180 - label: O20 - sName: 丹鳳
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd442e8>
+<__main__.Node object at 0x7fb256da4358>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 179 - label: O21 - sName: 迴龍
-interchange: None
+interchange: <__main__.Node object at 0x7fb256da4128>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44320>
+<__main__.Node object at 0x7fb256da4390>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 178 - label: O50 - sName: 三重國小
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44358>
+<__main__.Node object at 0x7fb256da43c8>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 177 - label: O51 - sName: 三和國中
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44390>
+<__main__.Node object at 0x7fb256da4400>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 176 - label: O52 - sName: 徐匯中學
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd443c8>
+<__main__.Node object at 0x7fb256da4438>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 175 - label: O53 - sName: 三民高中
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44400>
+<__main__.Node object at 0x7fb256da4470>
 lid: 4 - field: O - lName: O 中和新蘆線
 sid: 174 - label: O54 - sName: 蘆洲
 interchange: None
@@ -690,260 +690,260 @@ interchange: None
 
 BL
 *****
-<__main__.Node object at 0x7f55bbd44438>
+<__main__.Node object at 0x7fb256da44a8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 076 - label: BL01 - sName: 頂埔
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44470>
+<__main__.Node object at 0x7fb256da44e0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 077 - label: BL02 - sName: 永寧
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd444a8>
+<__main__.Node object at 0x7fb256da4518>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 078 - label: BL03 - sName: 土城
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd444e0>
+<__main__.Node object at 0x7fb256da4550>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 079 - label: BL04 - sName: 海山
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44518>
+<__main__.Node object at 0x7fb256da4588>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 080 - label: BL05 - sName: 亞東醫院
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44550>
+<__main__.Node object at 0x7fb256da45c0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 081 - label: BL06 - sName: 府中
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44588>
+<__main__.Node object at 0x7fb256da45f8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 082 - label: BL07 - sName: 板橋
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd445c0>
+<__main__.Node object at 0x7fb256da4630>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 083 - label: BL08 - sName: 新埔
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd445f8>
+<__main__.Node object at 0x7fb256da4668>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 084 - label: BL09 - sName: 江子翠
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44630>
+<__main__.Node object at 0x7fb256da46a0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 085 - label: BL10 - sName: 龍山寺
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44668>
+<__main__.Node object at 0x7fb256da46d8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 086 - label: BL11 - sName: 西門
-interchange: <__main__.Node object at 0x7f55bbdbac88>
+interchange: <__main__.Node object at 0x7fb256e1acf8>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44240>
+<__main__.Node object at 0x7fb256da42b0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 051 - label: BL12 - sName: 台北車站
-interchange: <__main__.Node object at 0x7f55bbdba5c0>
+interchange: <__main__.Node object at 0x7fb256e1a630>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd446d8>
+<__main__.Node object at 0x7fb256da4748>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 088 - label: BL13 - sName: 善導寺
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44710>
+<__main__.Node object at 0x7fb256da4780>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 089 - label: BL14 - sName: 忠孝新生
-interchange: <__main__.Node object at 0x7f55bbdbaf60>
+interchange: <__main__.Node object at 0x7fb256e1afd0>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44748>
+<__main__.Node object at 0x7fb256da47b8>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 010 - label: BL15 - sName: 忠孝復興
-interchange: <__main__.Node object at 0x7f55bbdba0b8>
+interchange: <__main__.Node object at 0x7fb256e1a128>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd446a0>
+<__main__.Node object at 0x7fb256da4710>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 091 - label: BL16 - sName: 忠孝敦化
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd447b8>
+<__main__.Node object at 0x7fb256da4828>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 092 - label: BL17 - sName: 國父紀念館
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44828>
+<__main__.Node object at 0x7fb256da4898>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 093 - label: BL18 - sName: 市政府
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44860>
+<__main__.Node object at 0x7fb256da48d0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 094 - label: BL19 - sName: 永春
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44898>
+<__main__.Node object at 0x7fb256da4908>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 095 - label: BL20 - sName: 後山埤
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd448d0>
+<__main__.Node object at 0x7fb256da4940>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 096 - label: BL21 - sName: 昆陽
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44908>
+<__main__.Node object at 0x7fb256da4978>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 097 - label: BL22 - sName: 南港
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44940>
+<__main__.Node object at 0x7fb256da49b0>
 lid: 5 - field: BL - lName: BL 板南線
 sid: 031 - label: BL23 - sName: 南港展覽館
-interchange: <__main__.Node object at 0x7f55bbdba390>
+interchange: <__main__.Node object at 0x7fb256e1a400>
 *****
 
 Y
 *****
-<__main__.Node object at 0x7f55bbd44780>
+<__main__.Node object at 0x7fb256da47f0>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 036 - label: Y07 - sName: 大坪林
-interchange: <__main__.Node object at 0x7f55bbdbaac8>
+interchange: <__main__.Node object at 0x7fb256e1ab38>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd447f0>
+<__main__.Node object at 0x7fb256da4860>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 201 - label: Y08 - sName: 十四張
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44a20>
+<__main__.Node object at 0x7fb256da4a90>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 202 - label: Y09 - sName: 秀朗橋
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd449b0>
+<__main__.Node object at 0x7fb256da4a20>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 203 - label: Y10 - sName: 景平
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44978>
+<__main__.Node object at 0x7fb256da49e8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 047 - label: Y11 - sName: 景安
-interchange: <__main__.Node object at 0x7f55bbdbaeb8>
+interchange: <__main__.Node object at 0x7fb256e1af28>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd449e8>
+<__main__.Node object at 0x7fb256da4a58>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 205 - label: Y12 - sName: 中和
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44a58>
+<__main__.Node object at 0x7fb256da4ac8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 206 - label: Y13 - sName: 橋和
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44ac8>
+<__main__.Node object at 0x7fb256da4b38>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 207 - label: Y14 - sName: 中原
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44b00>
+<__main__.Node object at 0x7fb256da4b70>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 208 - label: Y15 - sName: 板新
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44b38>
+<__main__.Node object at 0x7fb256da4ba8>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 209 - label: Y16 - sName: 板橋
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44b70>
+<__main__.Node object at 0x7fb256da4be0>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 210 - label: Y17 - sName: 新埔民生
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44ba8>
+<__main__.Node object at 0x7fb256da4c18>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 123 - label: Y18 - sName: 頭前庄
-interchange: <__main__.Node object at 0x7f55bbd44208>
+interchange: <__main__.Node object at 0x7fb256da4278>
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44a90>
+<__main__.Node object at 0x7fb256da4b00>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 212 - label: Y19 - sName: 幸福
 interchange: None
 *****
 
 *****
-<__main__.Node object at 0x7f55bbd44be0>
+<__main__.Node object at 0x7fb256da4c50>
 lid: 6 - field: Y - lName: Y 環狀線
 sid: 213 - label: Y20 - sName: 新北產業園區
 interchange: None
@@ -951,677 +951,677 @@ interchange: None
 
 
 **********
-From BR01 to 動物園
+From ('BR01', '動物園')
 [('BR02', '木柵')]
 **********
 
 **********
-From BR02 to 木柵
+From ('BR02', '木柵')
 [('BR01', '動物園'), ('BR03', '萬芳社區')]
 **********
 
 **********
-From BR03 to 萬芳社區
+From ('BR03', '萬芳社區')
 [('BR02', '木柵'), ('BR04', '萬芳醫院')]
 **********
 
 **********
-From BR04 to 萬芳醫院
+From ('BR04', '萬芳醫院')
 [('BR03', '萬芳社區'), ('BR05', '辛亥')]
 **********
 
 **********
-From BR05 to 辛亥
+From ('BR05', '辛亥')
 [('BR04', '萬芳醫院'), ('BR06', '麟光')]
 **********
 
 **********
-From BR06 to 麟光
+From ('BR06', '麟光')
 [('BR05', '辛亥'), ('BR07', '六張犁')]
 **********
 
 **********
-From BR07 to 六張犁
+From ('BR07', '六張犁')
 [('BR06', '麟光'), ('BR08', '科技大樓')]
 **********
 
 **********
-From BR08 to 科技大樓
+From ('BR08', '科技大樓')
 [('BR07', '六張犁'), ('BR09', '大安')]
 **********
 
 **********
-From BR09 to 大安
+From ('BR09', '大安')
 [('BR08', '科技大樓'), ('BR10', '忠孝復興'), ('R05', '大安')]
 **********
 
 **********
-From BR10 to 忠孝復興
+From ('BR10', '忠孝復興')
 [('BR09', '大安'), ('BR11', '南京復興'), ('BL15', '忠孝復興')]
 **********
 
 **********
-From R05 to 大安
+From ('R05', '大安')
 [('BR09', '大安'), ('R04', '信義安和'), ('R06', '大安森林公園')]
 **********
 
 **********
-From BR11 to 南京復興
+From ('BR11', '南京復興')
 [('BR10', '忠孝復興'), ('BR12', '中山國中'), ('G16', '南京復興')]
 **********
 
 **********
-From BL15 to 忠孝復興
+From ('BL15', '忠孝復興')
 [('BR10', '忠孝復興'), ('BL14', '忠孝新生'), ('BL16', '忠孝敦化')]
 **********
 
 **********
-From BR12 to 中山國中
+From ('BR12', '中山國中')
 [('BR11', '南京復興'), ('BR13', '松山機場')]
 **********
 
 **********
-From G16 to 南京復興
+From ('G16', '南京復興')
 [('BR11', '南京復興'), ('G15', '松江南京'), ('G17', '台北小巨蛋')]
 **********
 
 **********
-From BR13 to 松山機場
+From ('BR13', '松山機場')
 [('BR12', '中山國中'), ('BR14', '大直')]
 **********
 
 **********
-From BR14 to 大直
+From ('BR14', '大直')
 [('BR13', '松山機場'), ('BR15', '劍南路')]
 **********
 
 **********
-From BR15 to 劍南路
+From ('BR15', '劍南路')
 [('BR14', '大直'), ('BR16', '西湖')]
 **********
 
 **********
-From BR16 to 西湖
+From ('BR16', '西湖')
 [('BR15', '劍南路'), ('BR17', '港墘')]
 **********
 
 **********
-From BR17 to 港墘
+From ('BR17', '港墘')
 [('BR16', '西湖'), ('BR18', '文德')]
 **********
 
 **********
-From BR18 to 文德
+From ('BR18', '文德')
 [('BR17', '港墘'), ('BR19', '內湖')]
 **********
 
 **********
-From BR19 to 內湖
+From ('BR19', '內湖')
 [('BR18', '文德'), ('BR20', '大湖公園')]
 **********
 
 **********
-From BR20 to 大湖公園
+From ('BR20', '大湖公園')
 [('BR19', '內湖'), ('BR21', '葫洲')]
 **********
 
 **********
-From BR21 to 葫洲
+From ('BR21', '葫洲')
 [('BR20', '大湖公園'), ('BR22', '東湖')]
 **********
 
 **********
-From BR22 to 東湖
+From ('BR22', '東湖')
 [('BR21', '葫洲'), ('BR23', '南港軟體園區')]
 **********
 
 **********
-From BR23 to 南港軟體園區
+From ('BR23', '南港軟體園區')
 [('BR22', '東湖'), ('BR24', '南港展覽館')]
 **********
 
 **********
-From BR24 to 南港展覽館
+From ('BR24', '南港展覽館')
 [('BR23', '南港軟體園區'), ('BL23', '南港展覽館')]
 **********
 
 **********
-From BL23 to 南港展覽館
+From ('BL23', '南港展覽館')
 [('BR24', '南港展覽館'), ('BL22', '南港')]
 **********
 
 **********
-From R02 to 象山
+From ('R02', '象山')
 [('R03', '台北101/世貿')]
 **********
 
 **********
-From R03 to 台北101/世貿
+From ('R03', '台北101/世貿')
 [('R02', '象山'), ('R04', '信義安和')]
 **********
 
 **********
-From R04 to 信義安和
+From ('R04', '信義安和')
 [('R03', '台北101/世貿'), ('R05', '大安')]
 **********
 
 **********
-From R06 to 大安森林公園
+From ('R06', '大安森林公園')
 [('R05', '大安'), ('R07', '東門')]
 **********
 
 **********
-From R07 to 東門
+From ('R07', '東門')
 [('R06', '大安森林公園'), ('R08', '中正紀念堂'), ('O06', '東門')]
 **********
 
 **********
-From R08 to 中正紀念堂
+From ('R08', '中正紀念堂')
 [('R07', '東門'), ('R09', '台大醫院'), ('G10', '中正紀念堂')]
 **********
 
 **********
-From O06 to 東門
+From ('O06', '東門')
 [('R07', '東門'), ('O05', '古亭'), ('O07', '忠孝新生')]
 **********
 
 **********
-From R09 to 台大醫院
+From ('R09', '台大醫院')
 [('R08', '中正紀念堂'), ('R10', '台北車站')]
 **********
 
 **********
-From G10 to 中正紀念堂
+From ('G10', '中正紀念堂')
 [('R08', '中正紀念堂'), ('G09', '古亭'), ('G11', '小南門')]
 **********
 
 **********
-From R10 to 台北車站
+From ('R10', '台北車站')
 [('R09', '台大醫院'), ('R11', '中山'), ('BL12', '台北車站')]
 **********
 
 **********
-From R11 to 中山
+From ('R11', '中山')
 [('R10', '台北車站'), ('R12', '雙連'), ('G14', '中山')]
 **********
 
 **********
-From BL12 to 台北車站
+From ('BL12', '台北車站')
 [('R10', '台北車站'), ('BL11', '西門'), ('BL13', '善導寺')]
 **********
 
 **********
-From R12 to 雙連
+From ('R12', '雙連')
 [('R11', '中山'), ('R13', '民權西路')]
 **********
 
 **********
-From G14 to 中山
+From ('G14', '中山')
 [('R11', '中山'), ('G13', '北門'), ('G15', '松江南京')]
 **********
 
 **********
-From R13 to 民權西路
+From ('R13', '民權西路')
 [('R12', '雙連'), ('R14', '圓山'), ('O11', '民權西路')]
 **********
 
 **********
-From R14 to 圓山
+From ('R14', '圓山')
 [('R13', '民權西路'), ('R15', '劍潭')]
 **********
 
 **********
-From O11 to 民權西路
+From ('O11', '民權西路')
 [('R13', '民權西路'), ('O10', '中山國小'), ('O12', '大橋頭')]
 **********
 
 **********
-From R15 to 劍潭
+From ('R15', '劍潭')
 [('R14', '圓山'), ('R16', '士林')]
 **********
 
 **********
-From R16 to 士林
+From ('R16', '士林')
 [('R15', '劍潭'), ('R17', '芝山')]
 **********
 
 **********
-From R17 to 芝山
+From ('R17', '芝山')
 [('R16', '士林'), ('R18', '明德')]
 **********
 
 **********
-From R18 to 明德
+From ('R18', '明德')
 [('R17', '芝山'), ('R19', '石牌')]
 **********
 
 **********
-From R19 to 石牌
+From ('R19', '石牌')
 [('R18', '明德'), ('R20', '唭哩岸')]
 **********
 
 **********
-From R20 to 唭哩岸
+From ('R20', '唭哩岸')
 [('R19', '石牌'), ('R21', '奇岩')]
 **********
 
 **********
-From R21 to 奇岩
+From ('R21', '奇岩')
 [('R20', '唭哩岸'), ('R22', '北投')]
 **********
 
 **********
-From R22 to 北投
+From ('R22', '北投')
 [('R21', '奇岩'), ('R23', '復興崗'), ('R22A', '新北投')]
 **********
 
 **********
-From R23 to 復興崗
+From ('R23', '復興崗')
 [('R22', '北投'), ('R24', '忠義')]
 **********
 
 **********
-From R22A to 新北投
+From ('R22A', '新北投')
 [('R22', '北投')]
 **********
 
 **********
-From R24 to 忠義
+From ('R24', '忠義')
 [('R23', '復興崗'), ('R25', '關渡')]
 **********
 
 **********
-From R25 to 關渡
+From ('R25', '關渡')
 [('R24', '忠義'), ('R26', '竹圍')]
 **********
 
 **********
-From R26 to 竹圍
+From ('R26', '竹圍')
 [('R25', '關渡'), ('R27', '紅樹林')]
 **********
 
 **********
-From R27 to 紅樹林
+From ('R27', '紅樹林')
 [('R26', '竹圍'), ('R28', '淡水')]
 **********
 
 **********
-From R28 to 淡水
+From ('R28', '淡水')
 [('R27', '紅樹林')]
 **********
 
 **********
-From G01 to 新店
+From ('G01', '新店')
 [('G02', '新店區公所')]
 **********
 
 **********
-From G02 to 新店區公所
+From ('G02', '新店區公所')
 [('G01', '新店'), ('G03', '七張')]
 **********
 
 **********
-From G03 to 七張
+From ('G03', '七張')
 [('G02', '新店區公所'), ('G04', '大坪林'), ('G03A', '小碧潭')]
 **********
 
 **********
-From G04 to 大坪林
+From ('G04', '大坪林')
 [('G03', '七張'), ('G05', '景美'), ('Y07', '大坪林')]
 **********
 
 **********
-From G03A to 小碧潭
+From ('G03A', '小碧潭')
 [('G03', '七張')]
 **********
 
 **********
-From G05 to 景美
+From ('G05', '景美')
 [('G04', '大坪林'), ('G06', '萬隆')]
 **********
 
 **********
-From Y07 to 大坪林
+From ('Y07', '大坪林')
 [('G04', '大坪林'), ('Y08', '十四張')]
 **********
 
 **********
-From G06 to 萬隆
+From ('G06', '萬隆')
 [('G05', '景美'), ('G07', '公館')]
 **********
 
 **********
-From G07 to 公館
+From ('G07', '公館')
 [('G06', '萬隆'), ('G08', '台電大樓')]
 **********
 
 **********
-From G08 to 台電大樓
+From ('G08', '台電大樓')
 [('G07', '公館'), ('G09', '古亭')]
 **********
 
 **********
-From G09 to 古亭
+From ('G09', '古亭')
 [('G08', '台電大樓'), ('G10', '中正紀念堂'), ('O05', '古亭')]
 **********
 
 **********
-From O05 to 古亭
+From ('O05', '古亭')
 [('G09', '古亭'), ('O04', '頂溪'), ('O06', '東門')]
 **********
 
 **********
-From G11 to 小南門
+From ('G11', '小南門')
 [('G10', '中正紀念堂'), ('G12', '西門')]
 **********
 
 **********
-From G12 to 西門
+From ('G12', '西門')
 [('G11', '小南門'), ('G13', '北門'), ('BL11', '西門')]
 **********
 
 **********
-From G13 to 北門
+From ('G13', '北門')
 [('G12', '西門'), ('G14', '中山')]
 **********
 
 **********
-From BL11 to 西門
+From ('BL11', '西門')
 [('G12', '西門'), ('BL10', '龍山寺'), ('BL12', '台北車站')]
 **********
 
 **********
-From G15 to 松江南京
+From ('G15', '松江南京')
 [('G14', '中山'), ('G16', '南京復興'), ('O08', '松江南京')]
 **********
 
 **********
-From O08 to 松江南京
+From ('O08', '松江南京')
 [('G15', '松江南京'), ('O07', '忠孝新生'), ('O09', '行天宮')]
 **********
 
 **********
-From G17 to 台北小巨蛋
+From ('G17', '台北小巨蛋')
 [('G16', '南京復興'), ('G18', '南京三民')]
 **********
 
 **********
-From G18 to 南京三民
+From ('G18', '南京三民')
 [('G17', '台北小巨蛋'), ('G19', '松山')]
 **********
 
 **********
-From G19 to 松山
+From ('G19', '松山')
 [('G18', '南京三民')]
 **********
 
 **********
-From O01 to 南勢角
+From ('O01', '南勢角')
 [('O02', '景安')]
 **********
 
 **********
-From O02 to 景安
+From ('O02', '景安')
 [('O01', '南勢角'), ('O03', '永安市場'), ('Y11', '景安')]
 **********
 
 **********
-From O03 to 永安市場
+From ('O03', '永安市場')
 [('O02', '景安'), ('O04', '頂溪')]
 **********
 
 **********
-From Y11 to 景安
+From ('Y11', '景安')
 [('O02', '景安'), ('Y10', '景平'), ('Y12', '中和')]
 **********
 
 **********
-From O04 to 頂溪
+From ('O04', '頂溪')
 [('O03', '永安市場'), ('O05', '古亭')]
 **********
 
 **********
-From O07 to 忠孝新生
+From ('O07', '忠孝新生')
 [('O06', '東門'), ('O08', '松江南京'), ('BL14', '忠孝新生')]
 **********
 
 **********
-From BL14 to 忠孝新生
+From ('BL14', '忠孝新生')
 [('O07', '忠孝新生'), ('BL13', '善導寺'), ('BL15', '忠孝復興')]
 **********
 
 **********
-From O09 to 行天宮
+From ('O09', '行天宮')
 [('O08', '松江南京'), ('O10', '中山國小')]
 **********
 
 **********
-From O10 to 中山國小
+From ('O10', '中山國小')
 [('O09', '行天宮'), ('O11', '民權西路')]
 **********
 
 **********
-From O12 to 大橋頭
-[('O11', '民權西路'), ('O13', '台北橋')]
+From ('O12', '大橋頭')
+[('O11', '民權西路'), ('O13', '台北橋'), ('O21', '迴龍')]
 **********
 
 **********
-From O13 to 台北橋
+From ('O13', '台北橋')
 [('O12', '大橋頭'), ('O14', '菜寮')]
 **********
 
 **********
-From O14 to 菜寮
+From ('O21', '迴龍')
+[('O12', '大橋頭'), ('O20', '丹鳳')]
+**********
+
+**********
+From ('O14', '菜寮')
 [('O13', '台北橋'), ('O15', '三重')]
 **********
 
 **********
-From O15 to 三重
+From ('O15', '三重')
 [('O14', '菜寮'), ('O16', '先嗇宮')]
 **********
 
 **********
-From O16 to 先嗇宮
+From ('O16', '先嗇宮')
 [('O15', '三重'), ('O17', '頭前庄')]
 **********
 
 **********
-From O17 to 頭前庄
+From ('O17', '頭前庄')
 [('O16', '先嗇宮'), ('O18', '新莊'), ('Y18', '頭前庄')]
 **********
 
 **********
-From O18 to 新莊
+From ('O18', '新莊')
 [('O17', '頭前庄'), ('O19', '輔大')]
 **********
 
 **********
-From Y18 to 頭前庄
+From ('Y18', '頭前庄')
 [('O17', '頭前庄'), ('Y17', '新埔民生'), ('Y19', '幸福')]
 **********
 
 **********
-From O19 to 輔大
+From ('O19', '輔大')
 [('O18', '新莊'), ('O20', '丹鳳')]
 **********
 
 **********
-From O20 to 丹鳳
+From ('O20', '丹鳳')
 [('O19', '輔大'), ('O21', '迴龍')]
 **********
 
 **********
-From O21 to 迴龍
-[('O20', '丹鳳')]
-**********
-
-**********
-From O50 to 三重國小
+From ('O50', '三重國小')
 [('O51', '三和國中')]
 **********
 
 **********
-From O51 to 三和國中
+From ('O51', '三和國中')
 [('O50', '三重國小'), ('O52', '徐匯中學')]
 **********
 
 **********
-From O52 to 徐匯中學
+From ('O52', '徐匯中學')
 [('O51', '三和國中'), ('O53', '三民高中')]
 **********
 
 **********
-From O53 to 三民高中
+From ('O53', '三民高中')
 [('O52', '徐匯中學'), ('O54', '蘆洲')]
 **********
 
 **********
-From O54 to 蘆洲
+From ('O54', '蘆洲')
 [('O53', '三民高中')]
 **********
 
 **********
-From BL01 to 頂埔
+From ('BL01', '頂埔')
 [('BL02', '永寧')]
 **********
 
 **********
-From BL02 to 永寧
+From ('BL02', '永寧')
 [('BL01', '頂埔'), ('BL03', '土城')]
 **********
 
 **********
-From BL03 to 土城
+From ('BL03', '土城')
 [('BL02', '永寧'), ('BL04', '海山')]
 **********
 
 **********
-From BL04 to 海山
+From ('BL04', '海山')
 [('BL03', '土城'), ('BL05', '亞東醫院')]
 **********
 
 **********
-From BL05 to 亞東醫院
+From ('BL05', '亞東醫院')
 [('BL04', '海山'), ('BL06', '府中')]
 **********
 
 **********
-From BL06 to 府中
+From ('BL06', '府中')
 [('BL05', '亞東醫院'), ('BL07', '板橋')]
 **********
 
 **********
-From BL07 to 板橋
+From ('BL07', '板橋')
 [('BL06', '府中'), ('BL08', '新埔')]
 **********
 
 **********
-From BL08 to 新埔
+From ('BL08', '新埔')
 [('BL07', '板橋'), ('BL09', '江子翠')]
 **********
 
 **********
-From BL09 to 江子翠
+From ('BL09', '江子翠')
 [('BL08', '新埔'), ('BL10', '龍山寺')]
 **********
 
 **********
-From BL10 to 龍山寺
+From ('BL10', '龍山寺')
 [('BL09', '江子翠'), ('BL11', '西門')]
 **********
 
 **********
-From BL13 to 善導寺
+From ('BL13', '善導寺')
 [('BL12', '台北車站'), ('BL14', '忠孝新生')]
 **********
 
 **********
-From BL16 to 忠孝敦化
+From ('BL16', '忠孝敦化')
 [('BL15', '忠孝復興'), ('BL17', '國父紀念館')]
 **********
 
 **********
-From BL17 to 國父紀念館
+From ('BL17', '國父紀念館')
 [('BL16', '忠孝敦化'), ('BL18', '市政府')]
 **********
 
 **********
-From BL18 to 市政府
+From ('BL18', '市政府')
 [('BL17', '國父紀念館'), ('BL19', '永春')]
 **********
 
 **********
-From BL19 to 永春
+From ('BL19', '永春')
 [('BL18', '市政府'), ('BL20', '後山埤')]
 **********
 
 **********
-From BL20 to 後山埤
+From ('BL20', '後山埤')
 [('BL19', '永春'), ('BL21', '昆陽')]
 **********
 
 **********
-From BL21 to 昆陽
+From ('BL21', '昆陽')
 [('BL20', '後山埤'), ('BL22', '南港')]
 **********
 
 **********
-From BL22 to 南港
+From ('BL22', '南港')
 [('BL21', '昆陽'), ('BL23', '南港展覽館')]
 **********
 
 **********
-From Y08 to 十四張
+From ('Y08', '十四張')
 [('Y07', '大坪林'), ('Y09', '秀朗橋')]
 **********
 
 **********
-From Y09 to 秀朗橋
+From ('Y09', '秀朗橋')
 [('Y08', '十四張'), ('Y10', '景平')]
 **********
 
 **********
-From Y10 to 景平
+From ('Y10', '景平')
 [('Y09', '秀朗橋'), ('Y11', '景安')]
 **********
 
 **********
-From Y12 to 中和
+From ('Y12', '中和')
 [('Y11', '景安'), ('Y13', '橋和')]
 **********
 
 **********
-From Y13 to 橋和
+From ('Y13', '橋和')
 [('Y12', '中和'), ('Y14', '中原')]
 **********
 
 **********
-From Y14 to 中原
+From ('Y14', '中原')
 [('Y13', '橋和'), ('Y15', '板新')]
 **********
 
 **********
-From Y15 to 板新
+From ('Y15', '板新')
 [('Y14', '中原'), ('Y16', '板橋')]
 **********
 
 **********
-From Y16 to 板橋
+From ('Y16', '板橋')
 [('Y15', '板新'), ('Y17', '新埔民生')]
 **********
 
 **********
-From Y17 to 新埔民生
+From ('Y17', '新埔民生')
 [('Y16', '板橋'), ('Y18', '頭前庄')]
 **********
 
 **********
-From Y19 to 幸福
+From ('Y19', '幸福')
 [('Y18', '頭前庄'), ('Y20', '新北產業園區')]
 **********
 
 **********
-From Y20 to 新北產業園區
+From ('Y20', '新北產業園區')
 [('Y19', '幸福')]
 **********
 
@@ -2584,6 +2584,16 @@ Time: 152s
 **********
 From ('O13', '台北橋') to ('O12', '大橋頭')
 Time: 152s
+**********
+
+**********
+From ('O12', '大橋頭') to ('O21', '迴龍')
+Time: 10s
+**********
+
+**********
+From ('O21', '迴龍') to ('O12', '大橋頭')
+Time: 10s
 **********
 
 **********

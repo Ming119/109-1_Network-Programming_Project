@@ -24,7 +24,7 @@ import platform
 #                      sName        <string>
 #                      field        <string>
 #                      label        <string>
-#                      interchange  <Node object>
+#                      transfer  <Node object>
 #
 # Contain function(s): toStr() -> <None>
 #
@@ -36,11 +36,11 @@ class Node:
         self.sName = sName;
         self.field = field;
         self.label = label;
-        self.interchange = None;
+        self.transfer = None;
 
     # For Testing
     def toStr(self):
-        print("*****\n%s\nlid: %s - field: %s - lName: %s\nsid: %s - label: %s - sName: %s\ninterchange: %s\n*****\n" %(self, self.lid, self.field, self.lName, self.sid, self.label, self.sName, self.interchange));
+        print("*****\n%s\nlid: %s - field: %s - lName: %s\nsid: %s - label: %s - sName: %s\ntransfer: %s\n*****\n" %(self, self.lid, self.field, self.lName, self.sid, self.label, self.sName, self.transfer));
 
 
 
@@ -74,7 +74,7 @@ class Graph:
     def toStr(self):
         print();
         for key, val in self.edges.items():
-            print("**********\nFrom %s to %s\n%s\n**********\n" %(key[0], key[1], val));
+            print("**********\nFrom %s\n%s\n**********\n" %(key, val));
 
         print();
         for key, val in self.weights.items():
@@ -173,26 +173,36 @@ def arrangeData():
                 sName = station['StationName'];
 
                 node = Node(lid, sid, lName, sName, field, label);
+
+                # Handling Orange Line O12 -> O50 Branch
+                if (label == 'O50'):
+                    for inter in all_stations[field]:
+                        if (inter.label == 'O12'):
+                            node.transfer = inter;
+                            inter.transfer = node;
+                            break;
+
+                # Handling Subline
                 if (label[-1].isalpha()):
                     for inter in all_stations[field]:
                         if (inter.label == label[:-1]):
-                            node.interchange = inter;
-                            inter.interchange = node;
+                            node.transfer = inter;
+                            inter.transfer = node;
                             break;
 
                 all_stations[field].append(node);
 
                 # Interchange Station
-                interchange = station['StationLabelForRoadmap'].split(' ');
-                if (len(interchange) > 1):
-                    interLabel = interchange[0] if interchange[1] == label else interchange[1];
+                transfer = station['StationLabelForRoadmap'].split(' ');
+                if (len(transfer) > 1):
+                    interLabel = transfer[0] if transfer[1] == label else transfer[1];
                     interField = interLabel[0] if interLabel[1].isdigit() else interLabel[0:2];
 
                     if (interField in all_stations):
                         for inter in all_stations[interField]:
                             if (inter.label == interLabel):
-                                node.interchange = inter;
-                                inter.interchange = node;
+                                node.transfer = inter;
+                                inter.transfer = node;
                                 break;
 
     return all_stations;
@@ -209,11 +219,11 @@ def arrangeData():
 #
 def constructRoute(route):
     # Interchange
-    def interchange(fromNode):
-        if fromNode.interchange:
+    def transfer(fromNode):
+        if fromNode.transfer:
 
-            if platform.system() == "Windows": path = "../API/interchangeTimeAPI.csv";
-            elif platform.system() == "Linux": path = "./API/interchangeTimeAPI.csv";
+            if platform.system() == "Windows": path = "../API/transferTimeAPI.csv";
+            elif platform.system() == "Linux": path = "./API/transferTimeAPI.csv";
             else: path = "";
 
             with open(path, 'r', encoding='BIG5') as f:
@@ -222,9 +232,9 @@ def constructRoute(route):
                 for row in timeData:
                     if (fromNode.sName in row[1]):
                         travelTime = int(row[2])*60;
-                        graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), travelTime);
+                        graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.transfer.label, fromNode.transfer.sName), travelTime);
                         break;
-                    else: graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.interchange.label, fromNode.interchange.sName), 10);
+                    else: graph.insertEdge((fromNode.label, fromNode.sName), (fromNode.transfer.label, fromNode.transfer.sName), 10);
 
 
 
@@ -250,10 +260,10 @@ def constructRoute(route):
                         if travelTime: graph.insertEdge((fromNode.label, fromNode.sName), (toNode.label, toNode.sName), travelTime);
                         break;
 
-            interchange(fromNode);
+            transfer(fromNode);
 
         fromNode = stations[-1];
-        interchange(fromNode);
+        transfer(fromNode);
 
     return graph;
 
