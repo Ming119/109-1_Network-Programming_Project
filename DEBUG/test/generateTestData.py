@@ -13,7 +13,7 @@ with open('./API/routeAPI.json', 'r') as f:
         for line2 in range(1, len(routeData)+1):
             for station1 in range(1, len(routeData[line1-1]['LineStations'])+1):
                 for station2 in range(1, len(routeData[line2-1]['LineStations'])+1):
-                    with open('./test/input/%d.txt' %fileID, 'w') as testfile:
+                    with open('./DEBUG/input/%d.txt' %fileID, 'w') as testfile:
                         testfile.write("%d\n%d\n%d\n%d\n" %(line1, station1, line2, station2));
 
                     fileID += 1;

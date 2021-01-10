@@ -4,8 +4,8 @@
 #
 
 import csv, json
-import route, api
 import platform
+import route, api
 
 
 
