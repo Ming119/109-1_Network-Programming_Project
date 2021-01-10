@@ -60,9 +60,11 @@ def getPrice(start, end):
         priceData = csv.reader(f)
 
         for row in priceData:
-            r1 = row[0][:-1] if '站' in row[0] else row[0];
-            r2 = row[1][:-1] if '站' in row[1] else row[1];
-            if (r1 == start.sName and r2 == end.sName): return row;
+            # Special handling for R03 - '台北101/世貿'
+            r1 = '世貿中心' if start.sName == '台北101/世貿' else start.sName;
+            r2 = '世貿中心' if end.sName == '台北101/世貿' else end.sName;
+            if (r1 in row[0] and r2 in row[1]):
+                return row;
 
 
 
