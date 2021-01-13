@@ -39,37 +39,48 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
 
 ## 程式執行部署環境與步驟
-This program runs in Python3
-
+This program runs in Python3 \
 For using the Web Application, you need to install **Flask**
-> $ pip install flask
+> \> pip install flask
 
 or
+
 > $ pip3 install flask
 
-
-If you have install *'make'* on your system
-> $ make
-
-or
-> $ make run_web
-
-for the Web Application
-
-If you do not have *'make'* on your system
+### For Windows system
+Assuming you do not have *'make'* on your Windows system
 > \> python ./bin/main.py
 
 or
 > \> python3 ./bin/main.py
 
-and
+for the CMD interface.
+
 > \> python ./bin/app.py
 
 or
+
 > \> python3 ./bin/app.py
+
+for the Web Application. \
+If you have install *'make'* on your Windows system
+
+> \> make
+
+for the CMD interface, or
+
+> \> make run_web
 
 for the Web Application.
 
+
+
+### For Linux system
+If you want to run the program with the shell interface, type the following command on the top level folder
+> $ make
+
+If you want to run the program with the Web Application, type the following command on the top level folder
+> $ make run_web
 
 
 ## 優點/貢獻/好處
@@ -78,6 +89,6 @@ for the Web Application.
 > 跨平台 \
 > 可視化
 
-## 例子：
+## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)\
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)\
