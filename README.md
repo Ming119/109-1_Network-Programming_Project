@@ -83,10 +83,14 @@ for the Web Application.
 
 ## 執行畫面截圖
 *注意:請先下載整份檔案
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/1.JPG)
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/2.JPG)
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/3.JPG)
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/4.JPG)
+step1.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/1.JPG)\
+step2.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/2.JPG)\
+step3.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/3.JPG)\
+step4.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/4.JPG)\
 
 ## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)\
