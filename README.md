@@ -49,6 +49,7 @@ If you have install *'make'* on your system:
 
 or
 
+> $ make run_web
 for the Web Application.
 
 
@@ -62,22 +63,14 @@ and
 for the Web Application. \
 If you have install *'make'* on your Windows system
 
-> \> make
+> $ make
 
 for the CMD interface, or
 
-> \> make run_web
+> $ make run_web
 
 for the Web Application.
 
-
-
-### For Linux system
-If you want to run the program with the shell interface, type the following command on the top level folder
-> $ make
-
-If you want to run the program with the Web Application, type the following command on the top level folder
-> $ make run_web
 
 
 ## 優點/貢獻/好處
