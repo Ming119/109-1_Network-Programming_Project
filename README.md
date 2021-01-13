@@ -41,14 +41,16 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 ## 程式執行部署環境與步驟
 This program runs in Python3
 For the Web Application, you need to install **Flask**
-> >pip install flask
-> $pip3 install flask
+> \>pip install flask \
+
+> $pip3 install flask \
 
 ### For Windows system
 If you want to run the program with the CMD interface, just type the following command on the top level folder
-> python ./bin/main.py
+> python ./bin/main.py \
+
 If you want to run the program with the Web Application, just type the following command on the top level folder
-> python ./bin/app.py
+> python ./bin/app.py \
 
 ###
 
