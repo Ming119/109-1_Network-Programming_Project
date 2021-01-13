@@ -43,4 +43,4 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 > 搭乘時間可準確到單位秒 \
 > 跨平台
 
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/138562128_1063745550717792_509174560891580231_n.jpg)
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/%E8%B7%AF%E7%B7%9A%E5%9C%96%E4%B8%80.gif)
