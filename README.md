@@ -42,3 +42,5 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 > 可以把整條捷運路線印出來 \
 > 搭乘時間可準確到單位秒 \
 > 跨平台
+
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/138562128_1063745550717792_509174560891580231_n.jpg)
