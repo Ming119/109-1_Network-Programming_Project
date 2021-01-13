@@ -67,17 +67,30 @@ def getPrice(start, end):
                 return row;
 
 
+def findStationFromLabel(label):
+    sLabel = label[0] if label[1].isdigit() else label[:2];
+    for station in stations[sLabel]:
+        if station.label == label: return station;
+
+def getStations():
+    return route.arrangeData();
+
+def constructRoute(data):
+    return route.constructRoute(data);
+
+def dijsktra(graph, start, end):
+    return route.dijsktra(graph, start, end);
+
+
+
+print(" ***** 初始化 Initializing ****** ");
+api.getAllAPI();
+stations = getStations();
+graph = constructRoute(stations)
+print(" ***** 初始化完成 Finished ***** ");
 
 # main function
 if __name__ == '__main__':
-    print(" ***** 初始化 Initializing ****** ");
-    api.getAllAPI();
-    stations = route.arrangeData();
-    graph = route.constructRoute(stations);
-    print(" ***** 初始化完成 Finished ***** ");
-
-
-
     print('\n---{:^50}---'.format('---** 請選擇出發地捷運路線 **---'))
     print('---** Please select the MRT route from the place of departure **---')
     start = getRoute(stations);

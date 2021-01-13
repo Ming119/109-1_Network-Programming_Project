@@ -1,0 +1,35 @@
+.BR {
+    background-color: DarkGoldenRod;
+    font-weight: bold;
+    color: white;
+}
+
+.R {
+    background-color: Red;
+    font-weight: bold;
+    color: white;
+}
+
+.G {
+    background-color: Green;
+    font-weight: bold;
+    color: white;
+}
+
+.O {
+    background-color: Orange;
+    font-weight: bold;
+    color: black;
+}
+
+.BL {
+    background-color: Blue;
+    font-weight: bold;
+    color: white;
+}
+
+.Y {
+    background-color: Yellow;
+    font-weight: bold;
+    color: black;
+}
