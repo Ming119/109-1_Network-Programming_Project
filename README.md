@@ -19,12 +19,8 @@ The algorithm is dependent on the travel time from station A to station B by the
 臺北大眾捷運股份有限公司:
 > https://web.metro.taipei/pages/tw/ticketroutetimequery
 
-非開源
-
 Github - wntun: (韓國)
 > https://github.com/wntun/Dijkstra-shortest-path
-
-使用 Adjacency Matrix + Dijkstra
 
 Academic Journal of Engineering and Technology Science (ISSN 2616-5767) \
 By Francis Academic Press, UK \
@@ -69,10 +65,10 @@ for the Web Application.
 
 
 ## 優點/貢獻/好處
-> print out the entire route \
-> Travel time can be accurate to second \
-> Cross-platform \
-> Visualization
+1. print out the entire route
+2. Travel time can be accurate to second
+3. Cross-platform
+4. Visualization
 
 ## 執行畫面截圖
 *注意:請先下載整份檔案\
