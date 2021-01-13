@@ -90,8 +90,10 @@ if __name__ == '__main__':
     print('\n目的地：%s - %s' %(end.label, end.sName));
 
     path, time = route.dijsktra(graph, start, end);
-
     price = getPrice(start, end);
+
+    mins = time//60;
+    seconds = time%60;
 
     for i, p in enumerate(path):
         print("[%s - %s]" %(p[0], p[1]), end = '');
@@ -99,3 +101,4 @@ if __name__ == '__main__':
         else: print();
 
     print('全票票價：$ %s\t \n*敬老、愛心票價：$ %s' %(price[2], price[3]))
+    print("Time: %s mins %s seconds" %(mins, seconds));
