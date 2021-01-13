@@ -48,7 +48,7 @@ or
 > $ pip3 install flask
 
 ### For Windows system
-Assuming you do not have *make* on your Windows system
+Assuming you do not have *'make'* on your Windows system
 > \> python ./bin/main.py
 
 or
@@ -63,7 +63,7 @@ or
 > \> python3 ./bin/app.py
 
 for the Web Application. \
-If you have install *make* on your Windows system
+If you have install *'make'* on your Windows system
 
 > \> make
 
