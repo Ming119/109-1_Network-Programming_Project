@@ -58,18 +58,8 @@ for the Web Application.
 If you do not have *'make'* on your system:
 > $ python3 ./bin/main.py
 
-and
-> $ python3 ./bin/app.py
-
-for the Web Application.
-
-
-
-If you have install *'make'* on your system
-> $ make
-
 or
-> $ make run_web
+> $ python3 ./bin/app.py
 
 for the Web Application.
 
