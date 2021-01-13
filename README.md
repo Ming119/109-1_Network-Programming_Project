@@ -35,6 +35,10 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 
 
 ## 功能說明
+Input two stations of the Taipei MRT, departure station A and destination station B. \
+Find out the best path from station A to station B by its travel time.
+
+*Update the Web application for the data visualization*
 輸入所出發的臺北捷運站名和需到達的臺北捷運站名，\
 輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
 
