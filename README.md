@@ -8,10 +8,6 @@
 This program is going to find out the best path from the departure station A to the destination station B for the Taipei MRT system using the Dijkstra's Algorithm. \
 The algorithm is dependent on the travel time from station A to station B by the weighted graph.
 
-該程序將使用Dijkstra算法為台北捷運系統找到從出發站A到目的地站B的最佳路徑。 \
-該算法取決於加權圖從站點A到站點B的旅行時間。
-
-
 ## 動機背景
 市面上有很多除了官方出的APP都是可以搜尋臺北捷運的搭乘路線，例如臺北捷運通等APP，\
 但是很多的APP都有些BUG,它們的演算法並不能計算出實際的最佳(所需時間最短)路線，\
@@ -21,17 +17,19 @@ The algorithm is dependent on the travel time from station A to station B by the
 
 ## 相關研究/實作
 臺北大眾捷運股份有限公司:\
-https://web.metro.taipei/pages/tw/ticketroutetimequery \
+> https://web.metro.taipei/pages/tw/ticketroutetimequery
+
 非開源
 
 Github - wntun: (韓國) \
-https://github.com/wntun/Dijkstra-shortest-path \
+> https://github.com/wntun/Dijkstra-shortest-path
+
 使用 Adjacency Matrix + Dijkstra
 
 Academic Journal of Engineering and Technology Science (ISSN 2616-5767) \
 By Francis Academic Press, UK \
 Subway Distribution Path Optimization Issues Based on Dijkstra Algorithm \
-https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf
+> https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf
 
 
 ## 功能說明
@@ -41,10 +39,7 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 - [x] Provide the *price* from Station A to Station B
 - [x] Provide the *travel time* from Station A to Station B
 - [x] Provide a *User Interface*.
-- [] 提供站外轉乘路線
-
-輸入所出發的臺北捷運站名和需到達的臺北捷運站名，\
-輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
+- [ ] 提供站外轉乘路線
 
 ## 程式執行部署環境與步驟
 This program runs in Python3
