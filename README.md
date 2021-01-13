@@ -48,8 +48,8 @@ If you have install *'make'* on your system:
 > $ make
 
 or
-
 > $ make run_web
+
 for the Web Application.
 
 
