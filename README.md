@@ -31,7 +31,7 @@ https://github.com/wntun/Dijkstra-shortest-path \
 Academic Journal of Engineering and Technology Science (ISSN 2616-5767) \
 By Francis Academic Press, UK \
 Subway Distribution Path Optimization Issues Based on Dijkstra Algorithm \
-https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf 
+https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf
 
 
 ## 功能說明
@@ -39,6 +39,6 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
 
 ## 專題優點、好處
-  1.可以把整條捷運路線印出來\
-  2.搭乘時間可準確到單位秒\
-  3.
+>1. 可以把整條捷運路線印出來\
+>2. 搭乘時間可準確到單位秒\
+>3. 跨平台
