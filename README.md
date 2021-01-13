@@ -39,6 +39,6 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
 
 ## 優點/貢獻/好處
-> 可以把整條捷運路線印出來
-> 搭乘時間可準確到單位秒
+> 可以把整條捷運路線印出來 \
+> 搭乘時間可準確到單位秒 \
 > 跨平台
