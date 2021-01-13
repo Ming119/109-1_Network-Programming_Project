@@ -5,8 +5,8 @@
 108590050 李浩銘
 
 ## 摘要說明
-This program is going to find out the best path from the departure station A to the destination station B for the Taipei MRT system.\
-The algorithm is dependent on the travel time from A to B.\
+This program is going to find out the best path from the departure station A to the destination station B for the Taipei MRT system using the Dijkstra's Algorithm. \
+The algorithm is dependent on the travel time from station A to station B by the weighted graph. \
 該程序將為台北捷運系統找到從出發站A到目的地站B的最佳路徑，該算法取決於從A到B的時間。
 
 
