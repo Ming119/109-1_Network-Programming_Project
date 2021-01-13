@@ -83,11 +83,11 @@ step4.\
 
 ## 網頁操作畫面截圖
 step1.\
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic3.JPG)\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic3.gif)\
 step2.\
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic4.JPG)\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic4.gif)\
 step3.\
-![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic5.JPG)
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic5.gif)
 
 ## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif) \
