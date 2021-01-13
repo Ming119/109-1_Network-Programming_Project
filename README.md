@@ -41,32 +41,24 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 ## 程式執行部署環境與步驟
 This program runs in Python3
 
-For using the Web Application, you need to install **Flask**
-> $ pip install flask
-
-or
+For using the Web Application, you need to install **Flask**:
 > $ pip3 install flask
 
-
-If you have install *'make'* on your system
+If you have install *'make'* on your system:
 > $ make
 
 or
 > $ make run_web
 
-for the Web Application
+for the Web Application.
 
-If you do not have *'make'* on your system
-> \> python ./bin/main.py
 
-or
-> \> python3 ./bin/main.py
+
+If you do not have *'make'* on your system:
+> $ python3 ./bin/main.py
 
 and
-> \> python ./bin/app.py
-
-or
-> \> python3 ./bin/app.py
+> $ python3 ./bin/app.py
 
 for the Web Application.
 
