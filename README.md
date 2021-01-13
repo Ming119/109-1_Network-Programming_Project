@@ -6,7 +6,8 @@
 
 ## 摘要說明
 This program is going to find out the best path from the departure station A to the destination station B for the Taipei MRT system using the Dijkstra's Algorithm. \
-The algorithm is dependent on the travel time from station A to station B by the weighted graph. \\
+The algorithm is dependent on the travel time from station A to station B by the weighted graph. \
+
 該程序將使用Dijkstra算法為台北捷運系統找到從出發站A到目的地站B的最佳路徑。 \
 該算法取決於加權圖從站點A到站點B的旅行時間。
 
