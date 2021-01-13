@@ -68,4 +68,4 @@ If you want to run the program with the Web Application, just type the following
 
 
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)
-
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)
