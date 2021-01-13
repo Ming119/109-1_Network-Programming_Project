@@ -60,3 +60,4 @@ If you want to run the program with the Web Application, just type the following
 
 
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/%E8%B7%AF%E7%B7%9A%E5%9C%96%E4%B8%80.gif)
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)
