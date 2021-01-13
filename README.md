@@ -13,7 +13,7 @@
 
 ## 相關研究/實作
 臺北大眾捷運股份有限公司:
-https://web.metro.taipei/pages/tw/ticketroutetimequery
+https://web.metro.taipei/pages/tw/ticketroutetimequery \
 非開源
 
 Github - wntun: (韓國) \
