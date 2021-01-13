@@ -45,6 +45,7 @@ This program runs in Python3
 For using the Web Application, you need to install **Flask**:
 > $ pip3 install flask
 
+### run with make
 If you have install *'make'* on your system:
 > $ make
 
@@ -53,8 +54,7 @@ or
 
 for the Web Application.
 
-
-### make
+### run without make
 If you do not have *'make'* on your system:
 > $ python3 ./bin/main.py
 
