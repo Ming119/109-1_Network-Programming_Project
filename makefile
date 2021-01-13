@@ -3,6 +3,9 @@
 run:
 	python3 ./bin/main.py
 
+run_web:
+	python3 ./bin/app.py
+
 test_main: mkDEBUG
 	python3 ./bin/main.py > ./DEBUG/mainDEBUG.txt
 

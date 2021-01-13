@@ -12,9 +12,9 @@ app = Flask(__name__);
 stations = main.getStations();
 graph = main.constructRoute(stations);
 
-@app.route('/', methods = ['POST', 'GET'])
+@app.route('/')
 def index(result = None):
-    return render_template("index.html", stations = stations, result = result);
+    return render_template('./index.html', stations = stations, result = result);
 
 @app.route('/result', methods = ['GET', 'POST'])
 def data():
