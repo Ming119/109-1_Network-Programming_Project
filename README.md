@@ -6,7 +6,7 @@
 
 ## 摘要說明
 This program is going to find out the best path from the departure station A to the destination station B for the Taipei MRT system using the Dijkstra's Algorithm. \
-The algorithm is dependent on the travel time from station A to station B by the weighted graph.
+The algorithm is dependent on the travel time from station A to station B by the undirected weighted graph
 
 ## 動機背景
 市面上有很多除了官方出的APP都是可以搜尋臺北捷運的搭乘路線，例如臺北捷運通等APP，\
@@ -61,28 +61,18 @@ for the Web Application.
 If you do not have *'make'* on your system:
 > $ python3 ./bin/main.py
 
-and
+or
 > $ python3 ./bin/app.py
 
 for the Web Application.
 
 
 
-If you have install *'make'* on your system
-> $ make
-
-or
-> $ make run_web
-
-for the Web Application.
-
-
-
 ## 優點/貢獻/好處
-> 可以把整條捷運路線印出來 \
-> 搭乘時間可準確到單位秒 \
-> 跨平台 \
-> 可視化
+> print out the entire route \
+> Travel time can be accurate to second \
+> Cross-platform \
+> Visualization
 
 ## 執行畫面截圖
 *注意:請先下載整份檔案\
