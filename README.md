@@ -35,6 +35,12 @@ https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FD
 
 
 ## 功能說明
+- [x] Select the Departure Station A
+- [x] Select the Destination Station B
+- [x] Provide the best path from Station A to Station B
+- [x] Provide the price from Station A to Station B
+- [x] Provide the travel time from Station A to Station B
+
 輸入所出發的臺北捷運站名和需到達的臺北捷運站名，\
 輸出搭乘臺北捷運的最佳(所需時間最短)的捷運路線和所有票價供用戶參考。
 
