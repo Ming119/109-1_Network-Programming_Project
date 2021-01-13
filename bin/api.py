@@ -13,9 +13,10 @@ import platform
 
 # "https://web.metro.taipei/apis/metrostationapi/menuline"
 def getRouteAPI() -> None:
-    if platform.system() == "Windows": path = "../API/routeAPI.json";
-    elif platform.system() == "Linux": path = "./API/routeAPI.json";
-    else: path = "";
+    path = "./API/routeAPI.json";
+    # if platform.system() == "Windows": path = "./API/routeAPI.json";
+    # elif platform.system() == "Linux": path = "./API/routeAPI.json";
+    # else: path = "";
 
     if os.path.exists(path):
         if (time.time() - os.stat(path).st_mtime < 2600000):
@@ -34,9 +35,10 @@ def getRouteAPI() -> None:
 
 # "https://data.taipei/api/getDatasetInfo/downloadResource?id=513e97fe-6a98-4a0d-b7dc-11122c8638d4&rid=c32998fa-c9b2-4324-9016-e19fbe0815f1"
 def getTravelTimeAPI() -> None:
-    if platform.system() == "Windows": path = "../API/travelTimeAPI.csv";
-    elif platform.system() == "Linux": path = "./API/travelTimeAPI.csv";
-    else: path = "";
+    path = "./API/travelTimeAPI.csv";
+    # if platform.system() == "Windows": path = "../API/travelTimeAPI.csv";
+    # elif platform.system() == "Linux": path = "./API/travelTimeAPI.csv";
+    # else: path = "";
 
     if os.path.exists(path):
         if (time.time() - os.stat(path).st_mtime < 2600000):
@@ -51,9 +53,10 @@ def getTravelTimeAPI() -> None:
 
 # "https://data.taipei/api/getDatasetInfo/downloadResource?id=782c2b71-8f5a-4575-9bf2-e86999be2863&rid=14fd1af0-dc2b-4174-87d4-fcb9de783496"
 def getTransferTimeAPI() -> None:
-    if platform.system() == "Windows": path = "../API/transferTimeAPI.csv";
-    elif platform.system() == "Linux": path = "./API/transferTimeAPI.csv";
-    else: path = "";
+    path = "./API/transferTimeAPI.csv"
+    # if platform.system() == "Windows": path = "../API/transferTimeAPI.csv";
+    # elif platform.system() == "Linux": path = "./API/transferTimeAPI.csv";
+    # else: path = "";
 
     if os.path.exists(path):
         if (time.time() - os.stat(path).st_mtime < 2600000):
@@ -68,9 +71,10 @@ def getTransferTimeAPI() -> None:
 
 # "https://data.taipei/api/getDatasetInfo/downloadResource?id=4acb4911-0360-4063-808d-fcee629508b3&rid=893c2f2a-dcfd-407b-b871-394a14105532"
 def getPriceAPI() -> None:
-    if platform.system() == "Windows": path = "../API/priceAPI.csv";
-    elif platform.system() == "Linux": path = "./API/priceAPI.csv";
-    else: path = "";
+    path = "./API/priceAPI.csv";
+    # if platform.system() == "Windows": path = "../API/priceAPI.csv";
+    # elif platform.system() == "Linux": path = "./API/priceAPI.csv";
+    # else: path = "";
 
     if os.path.exists(path):
         if (time.time() - os.stat(path).st_mtime < 2600000):

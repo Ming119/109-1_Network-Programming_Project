@@ -14,7 +14,7 @@ def getStation(lineField, lines):
 
     for i, station in enumerate(lines[lineField]):
         print('-%2s\t%s\t%s' %((i+1), station.label, station.sName));
-    print('\n-Q 返回上一頁 Return previous page');
+    print('\n- Q 返回上一頁 Return previous page');
 
     while True:
         stationCode = input('\n---** 請輸入捷運站編號：');
@@ -29,16 +29,17 @@ def getStation(lineField, lines):
 
 
 def getRoute(lines):
-    if platform.system() == "Windows": path = "../API/routeAPI.json";
-    elif platform.system() == "Linux": path = "./API/routeAPI.json";
-    else: path = "";
+    path = "./API/routeAPI.json";
+    # if platform.system() == "Windows": path = "./.API/routeAPI.json";
+    # elif platform.system() == "Linux": path = "./API/routeAPI.json";
+    # else: path = "";
 
     with open(path, 'r', encoding = 'utf8') as f:
         routeData = json.load(f);
 
         for line in routeData:
             print('- %s\t%s' %(line['LineID'], line['LineName']));
-        print('\n-Q 退出 Exit');
+        print('\n- Q 退出 Exit');
 
         while True:
             lineCode = input('\n---** 請輸入捷運路線代號：');
@@ -52,9 +53,10 @@ def getRoute(lines):
 
 
 def getPrice(start, end):
-    if platform.system() == "Windows": path = "../API/priceAPI.csv";
-    elif platform.system() == "Linux": path = "./API/priceAPI.csv";
-    else: path = "";
+    path = "./API/priceAPI.csv";
+    # if platform.system() == "Windows": path = "../API/priceAPI.csv";
+    # elif platform.system() == "Linux": path = "./API/priceAPI.csv";
+    # else: path = "";
 
     with open(path, 'r', encoding='BIG5') as f:
         priceData = csv.reader(f)
