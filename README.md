@@ -48,7 +48,6 @@ If you have install *'make'* on your system:
 > $ make
 
 or
-> $ make run_web
 
 for the Web Application.
 
@@ -60,8 +59,25 @@ If you do not have *'make'* on your system:
 and
 > $ python3 ./bin/app.py
 
+for the Web Application. \
+If you have install *'make'* on your Windows system
+
+> \> make
+
+for the CMD interface, or
+
+> \> make run_web
+
 for the Web Application.
 
+
+
+### For Linux system
+If you want to run the program with the shell interface, type the following command on the top level folder
+> $ make
+
+If you want to run the program with the Web Application, type the following command on the top level folder
+> $ make run_web
 
 
 ## 優點/貢獻/好處
@@ -70,6 +86,6 @@ for the Web Application.
 > 跨平台 \
 > 可視化
 
-## 例子：
+## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)\
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)\
