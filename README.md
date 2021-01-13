@@ -85,6 +85,14 @@ step3.\
 step4.\
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/4.JPG)
 
+## 網頁操作畫面截圖
+step1.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic3.JPG)\
+step2.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic4.JPG)\
+step3.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic5.JPG)
+
 ## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif) \
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)
