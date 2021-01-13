@@ -64,8 +64,18 @@ for the Web Application.
 If you do not have *'make'* on your system:
 > $ python3 ./bin/main.py
 
-or
+and
 > $ python3 ./bin/app.py
+
+for the Web Application.
+
+
+
+If you have install *'make'* on your system
+> $ make
+
+or
+> $ make run_web
 
 for the Web Application.
 
@@ -76,6 +86,17 @@ for the Web Application.
 > 搭乘時間可準確到單位秒 \
 > 跨平台 \
 > 可視化
+
+## 執行畫面截圖
+*注意:請先下載整份檔案\
+step1.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/1.JPG)\
+step2.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/2.JPG)\
+step3.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/3.JPG)\
+step4.\
+![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/4.JPG)\
 
 ## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif)\
