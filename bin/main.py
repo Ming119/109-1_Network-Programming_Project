@@ -30,9 +30,6 @@ def getStation(lineField, lines):
 
 def getRoute(lines):
     path = "./API/routeAPI.json";
-    # if platform.system() == "Windows": path = "./.API/routeAPI.json";
-    # elif platform.system() == "Linux": path = "./API/routeAPI.json";
-    # else: path = "";
 
     with open(path, 'r', encoding = 'utf8') as f:
         routeData = json.load(f);
@@ -54,9 +51,6 @@ def getRoute(lines):
 
 def getPrice(start, end):
     path = "./API/priceAPI.csv";
-    # if platform.system() == "Windows": path = "../API/priceAPI.csv";
-    # elif platform.system() == "Linux": path = "./API/priceAPI.csv";
-    # else: path = "";
 
     with open(path, 'r', encoding='BIG5') as f:
         priceData = csv.reader(f)

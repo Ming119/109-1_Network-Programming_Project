@@ -151,10 +151,7 @@ def dijsktra(graph, start, destination):
 #
 def arrangeData():
     all_stations = {};
-
-    if platform.system() == "Windows": path = "./API/routeAPI.json";
-    elif platform.system() == "Linux": path = "./API/routeAPI.json";
-    else: path = "";
+    path = "./API/routeAPI.json";
 
     with open(path, 'r', encoding = 'utf-8') as f:
         routeData = json.load(f);
@@ -221,10 +218,7 @@ def constructRoute(route):
     # Interchange
     def transfer(fromNode):
         if fromNode.transfer:
-
-            if platform.system() == "Windows": path = "./API/transferTimeAPI.csv";
-            elif platform.system() == "Linux": path = "./API/transferTimeAPI.csv";
-            else: path = "";
+            path = "./API/transferTimeAPI.csv"
 
             with open(path, 'r', encoding='BIG5') as f:
                 timeData = list(csv.reader(f));
@@ -245,9 +239,7 @@ def constructRoute(route):
             fromNode = stations[i];
             toNode = stations[i+2] if stations[i+1].label[-1].isalpha() else stations[i+1];
 
-            if platform.system() == "Windows": path = "./API/travelTimeAPI.csv";
-            elif platform.system() == "Linux": path = "./API/travelTimeAPI.csv";
-            else: path = "";
+            path = "./API/travelTimeAPI.csv"
 
             with open(path, 'r', encoding='BIG5') as f:
                 timeData = list(csv.reader(f));
