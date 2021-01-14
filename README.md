@@ -34,8 +34,8 @@ Subway Distribution Path Optimization Issues Based on Dijkstra Algorithm
 - [x] Provide the *best path* from Station A to Station B
 - [x] Provide the *price* from Station A to Station B
 - [x] Provide the *travel time* from Station A to Station B
-- [x] Provide a *User Interface*.
-- [ ] 提供站外轉乘路線
+- [x] Provide a *User Interface*
+- [ ] Provide the route of *Out-of-Station Transfer*
 
 ## 程式執行部署環境與步驟
 This program runs in Python3
