@@ -108,5 +108,5 @@ if __name__ == '__main__':
         if i != len(path)-1: print(" -> ", end = '');
         else: print();
 
-    print('全票票價：$ %s\t \n*敬老、愛心票價：$ %s' %(price[2], price[3]))
-    print("Time: %s mins %s seconds" %(mins, seconds));
+    print('\n全票票價：$ %s\n敬老/愛心票價：$ %s\n臺北市兒童：$ %s\n新北市兒童：$ %s' %(price[2], price[3], price[3], price[4]))
+    print("所需時間：%s 分鐘 %s 秒" %(mins, seconds));
