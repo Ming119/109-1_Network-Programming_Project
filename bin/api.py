@@ -7,7 +7,6 @@ import time, os
 import json, csv
 import requests
 import urllib.request
-import platform
 
 
 

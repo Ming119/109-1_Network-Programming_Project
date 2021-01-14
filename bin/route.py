@@ -6,7 +6,6 @@
 import json, csv
 import collections
 import heapq
-import platform
 
 
 
