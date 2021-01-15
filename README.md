@@ -16,6 +16,9 @@ The algorithm is dependent on the travel time from station A to station B by the
 
 
 ## 相關研究/實作
+政府資料開放平台 
+>https://data.gov.tw/datasets/search?qs=&order=pubdate&type=dataset
+
 臺北大眾捷運股份有限公司:
 > https://web.metro.taipei/pages/tw/ticketroutetimequery
 
