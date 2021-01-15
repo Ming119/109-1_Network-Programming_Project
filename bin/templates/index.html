@@ -45,9 +45,11 @@
                         <h3>起始地車站</h3>
                     </label>
                     <select class="form-control form-control-lg" name="startStationSelect" id="startStation">
-                        <option value="null" selected hidden>
-                            {% if result != None and result != "error" %}{{result[0][0][0]}} {{result[0][0][1]}}{% else %}請選擇車站{% endif %}
-                        </option>
+                        {% if result != None and result != "error" %}
+                        <option value="{{result[0][0][0]}}" hidden>{{result[0][0][0]}} {{result[0][0][1]}}</option>
+                        {% else %}
+                        <option value="null" selected hidden>請選擇車站</option>
+                        {% endif %}
 
                         {% for key, val in stations.items() %}
                         <optgroup class="{{key}}" label="{{key}}">
@@ -63,9 +65,11 @@
                         <h3>目的地車站</h3>
                     </label>
                     <select class="form-control form-control-lg" name="endStationSelect" id="endStation">
-                        <option value="null" selected hidden>
-                            {% if result != None and result != "error" %}{{result[0][-1][0]}} {{result[0][-1][1]}}{% else %}請選擇車站{% endif %}
-                        </option>
+                        {% if result != None and result != "error" %}
+                        <option value="{{result[0][-1][0]}}" hidden>{{result[0][-1][0]}} {{result[0][-1][1]}}</option>
+                        {% else %}
+                        <option value="null" selected hidden>請選擇車站</option>
+                        {% endif %}
 
                         {% for key, val in stations.items() %}
                         <optgroup class="{{key}}" label="{{key}}">
