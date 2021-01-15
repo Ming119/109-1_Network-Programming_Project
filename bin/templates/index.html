@@ -25,53 +25,105 @@
     </nav>
     <div class="card pb-5">
         <div class="card-body">
+
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>{{ message }}</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {{ message }}
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
             <form action="/" method="POST">
                 <div class="form-group">
                     <label for="startStation">
                         <h3>起始地車站</h3>
                     </label>
-                    <select class="form-control form-control-lg" name="startStationSelect">
+                    <select class="form-control form-control-lg" name="startStationSelect" id="startStation">
+                        <option value="null" selected hidden>
+                            {% if result != None and result != "error" %}{{result[0][0][0]}} {{result[0][0][1]}}{% else %}請選擇車站{% endif %}
+                        </option>
+
                         {% for key, val in stations.items() %}
-                        <option class="{{key}}" disabled> {{key}} </option>
-                        {% for station in val %}
-                        <option class="{{key}}" value={{station.label}}> {{station.label}} {{station.sName}}</option>
-                        {% endfor %}
-                        {% endfor %}
+                        <optgroup class="{{key}}" label="{{key}}">
+                            {% for station in val %}
+                            <option class="{{key}}" value={{station.label}}> {{station.label}} {{station.sName}}</option>
+                            {% endfor %}
+                            </optgroupt>
+                            {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="endStation">
                         <h3>目的地車站</h3>
                     </label>
-                    <select class="form-control form-control-lg" name="endStationSelect">
+                    <select class="form-control form-control-lg" name="endStationSelect" id="endStation">
+                        <option value="null" selected hidden>
+                            {% if result != None and result != "error" %}{{result[0][-1][0]}} {{result[0][-1][1]}}{% else %}請選擇車站{% endif %}
+                        </option>
+
                         {% for key, val in stations.items() %}
-                        <option class="{{key}}" disabled> {{key}} </option>
-                        {% for station in val %}
-                        <option class="{{key}}" value={{station.label}}> {{station.label}} {{station.sName}}</option>
-                        {% endfor %}
-                        {% endfor %}
+                        <optgroup class="{{key}}" label="{{key}}">
+                            {% for station in val %}
+                            <option class="{{key}}" value={{station.label}}> {{station.label}} {{station.sName}}</option>
+                            {% endfor %}
+                            </optgroupt>
+                            {% endfor %}
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" onclick="validate()">Submit</button>
             </form>
         </div>
 
-        {% if result != None %}
+        {% if result != None and result != "error" %}
         <div class="container">
-            <h4>出發地：{{result[0][0][0]}} {{result[0][0][1]}} => 目的地：{{result[0][-1][0]}} {{result[0][-1][1]}}</h4>
-            <h4>全票票價：${{result[1][2]}}</h4>
-            <h4>敬老/愛心票價：${{result[1][3]}}</h4>
-            <h4>臺北市兒童：${{result[1][3]}}</h4>
-            <h4>新北市兒童：${{result[1][4]}}</h4>
-            <h4>所需時間：{{result[2][0]}} 分鐘 {{result[2][1]}} 秒</h4>
+            <table class="table text-center">
+                <thead class="thead-light">
+                    <tr class="d-flex">
+                        <th class="col-6">出發地</th>
+                        <th class="col-6">目的地</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="d-flex">
+                        <td class="{% if result[0][0][0][1].isdigit() %}{{ result[0][0][0][0] }}{% else %}{{ result[0][0][0][:2] }}{% endif %} col-6">{{result[0][0][0]}} {{result[0][0][1]}}</td>
+                        <td class="{% if result[0][-1][0][1].isdigit() %}{{ result[0][-1][0][0] }}{% else %}{{ result[0][-1][0][:2] }}{% endif %} col-6">{{result[0][-1][0]}} {{result[0][-1][1]}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table text-center">
+                <thead class="thead-light">
+                    <tr class="d-flex">
+                        <th class="col-3">全票票價</th>
+                        <th class="col-3">敬老/愛心票價</th>
+                        <th class="col-3">臺北市兒童</th>
+                        <th class="col-3">新北市兒童</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="d-flex">
+                        <td class="col-3">${{ result[1][2] }}</td>
+                        <td class="col-3">${{ result[1][3] }}</td>
+                        <td class="col-3">${{ result[1][3] }}</td>
+                        <td class="col-3">${{ result[1][4] }}</td>
+                    </tr>
+                    <tr class="d-flex">
+                        <td class="col-3"><b>所需時間</b></td>
+                        <td class="col-9">{{ result[2][0] }} 分鐘 {{ result[2][1] }} 秒</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <div class="list-group">
                 <ul class="list-group list-group-flush">
                     {% for path in result[0] %}
-                        {% if path[0][1].isdigit() %}
-                            <li class="list-group-item {{path[0][0]}}">{{path[0]}} {{path[1]}}</li>
-                        {% else %}
-                            <li class="list-group-item {{path[0][:2]}}">{{path[0]}} {{path[1]}}</li>
-                        {% endif %}
+                    <li class="list-group-item {% if path[0][1].isdigit() %}{{ path[0][0] }}{% else %}{{ path[0][:2] }}{% endif %}">{{path[0]}} {{path[1]}}</li>
                     {% endfor %}
 
                 </ul>
@@ -83,7 +135,9 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./static/javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>
