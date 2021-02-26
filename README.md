@@ -95,3 +95,8 @@ step3.\
 ## 例子：(來源:臺北捷運通.APP)
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic1.gif) \
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)
+
+## LICENSES
+[GNU General Public License v3.0](https://github.com/Ming119/109-1_Network-Programming_Project/blob/main/LICENSE)
+[Open Government Data License, version 1.0](https://data.gov.tw/license)
+
