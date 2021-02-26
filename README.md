@@ -16,19 +16,15 @@ The algorithm is dependent on the travel time from station A to station B by the
 
 
 ## 相關研究/實作
-政府資料開放平台 
->https://data.gov.tw/datasets/search?qs=&order=pubdate&type=dataset
+[政府資料開放平台](https://data.gov.tw/datasets/search?qs=&order=pubdate&type=dataset)
 
-臺北大眾捷運股份有限公司:
-> https://web.metro.taipei/pages/tw/ticketroutetimequery
+[臺北大眾捷運股份有限公司](https://web.metro.taipei/pages/tw/ticketroutetimequery)
 
-Github - wntun: (韓國)
-> https://github.com/wntun/Dijkstra-shortest-path
+[Github - Dijkstra-shortest-path by wntun](https://github.com/wntun/Dijkstra-shortest-path)
 
-Academic Journal of Engineering and Technology Science (ISSN 2616-5767) \
+[Academic Journal of Engineering and Technology Science (ISSN 2616-5767) \
 By Francis Academic Press, UK \
-Subway Distribution Path Optimization Issues Based on Dijkstra Algorithm
-> https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf
+Subway Distribution Path Optimization Issues Based on Dijkstra Algorithm](https://francis-press.com/uploads/papers/pVs76FClOYAeJn0o7wjuXH7cAM6FgzOqDu8p8FDa.pdf)
 
 
 ## 功能說明
@@ -97,6 +93,6 @@ step3.\
 ![image](https://github.com/Ming119/Network-Programming-Project/blob/main/document/pic2.gif)
 
 ## LICENSES
-[GNU General Public License v3.0](https://github.com/Ming119/109-1_Network-Programming_Project/blob/main/LICENSE)
+[GNU General Public License v3.0](https://github.com/Ming119/109-1_Network-Programming_Project/blob/main/LICENSE) \
 [Open Government Data License, version 1.0](https://data.gov.tw/license)
 
